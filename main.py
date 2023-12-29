@@ -3,6 +3,7 @@ import os
 import sys
 
 from lib.extract.data_extractor import extract_data
+from lib.extract.overpass_data_extractor import extract_overpass_data
 from lib.tracking_decorator import TrackingDecorator
 
 file_path = os.path.realpath(__file__)
@@ -41,6 +42,7 @@ def main(argv):
     #
 
     extract_data(manifest_path=manifest_path, results_path=raw_path, clean=clean, quiet=quiet)
+    extract_overpass_data(source_path=raw_path, results_path=raw_path, clean=clean, quiet=quiet)
 
 
 if __name__ == "__main__":
