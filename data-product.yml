@@ -1,0 +1,17 @@
+---
+id: berlin-lor-points-of-interest
+name: Berlin LOR Points of Interest
+metadata:
+  - ownership:
+  - schema:
+description:
+input_ports:
+output_ports:
+metrics:
+  - quality:
+  - operational:
+classification:
+tags:
+  - berlin
+  - lor
+  - places
