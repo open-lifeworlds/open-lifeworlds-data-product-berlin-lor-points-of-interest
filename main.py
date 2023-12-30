@@ -5,6 +5,7 @@ import sys
 from lib.extract.data_extractor import extract_data
 from lib.extract.overpass_data_extractor import extract_overpass_data
 from lib.tracking_decorator import TrackingDecorator
+from lib.transform.data_copier import copy_data
 
 file_path = os.path.realpath(__file__)
 script_path = os.path.dirname(file_path)
@@ -36,6 +37,7 @@ def main(argv):
 
     manifest_path = os.path.join(script_path, "data-product.yml")
     raw_path = os.path.join(script_path, "raw")
+    workspace_path = os.path.join(script_path, "workspace")
 
     #
     # Extract
@@ -43,6 +45,12 @@ def main(argv):
 
     extract_data(manifest_path=manifest_path, results_path=raw_path, clean=clean, quiet=quiet)
     extract_overpass_data(source_path=raw_path, results_path=raw_path, clean=clean, quiet=quiet)
+
+    #
+    # Transform
+    #
+
+    copy_data(source_path=raw_path, results_path=workspace_path, clean=clean, quiet=quiet)
 
 
 if __name__ == "__main__":
