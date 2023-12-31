@@ -1,3 +1,4 @@
+from datetime import datetime
 import getopt
 import os
 import sys
@@ -5,6 +6,7 @@ import sys
 from lib.extract.data_extractor import extract_data
 from lib.extract.overpass_data_extractor import extract_overpass_data
 from lib.tracking_decorator import TrackingDecorator
+from lib.transform.data_aggregator import aggregate
 from lib.transform.data_copier import copy_data
 from lib.transform.data_csv_converter import convert_data_to_csv
 from lib.transform.data_filterer import filter_data
@@ -60,6 +62,8 @@ def main(argv):
     assign_lor_area(source_path=workspace_path, results_path=workspace_path, data_path=data_path, clean=clean,
                     quiet=quiet)
     filter_data(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
+
+    aggregate(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
