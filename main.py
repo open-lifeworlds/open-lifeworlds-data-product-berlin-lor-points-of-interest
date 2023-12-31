@@ -7,6 +7,7 @@ from lib.extract.overpass_data_extractor import extract_overpass_data
 from lib.tracking_decorator import TrackingDecorator
 from lib.transform.data_copier import copy_data
 from lib.transform.data_csv_converter import convert_data_to_csv
+from lib.transform.data_lor_area_assigner import assign_lor_area
 
 file_path = os.path.realpath(__file__)
 script_path = os.path.dirname(file_path)
@@ -39,6 +40,7 @@ def main(argv):
     manifest_path = os.path.join(script_path, "data-product.yml")
     raw_path = os.path.join(script_path, "raw")
     workspace_path = os.path.join(script_path, "workspace")
+    data_path = os.path.join(script_path, "data")
 
     #
     # Extract
@@ -54,7 +56,8 @@ def main(argv):
     copy_data(source_path=raw_path, results_path=workspace_path, clean=clean, quiet=quiet)
     convert_data_to_csv(source_path=os.path.join(workspace_path, "berlin-lor-points-of-interest"),
                         results_path=workspace_path, clean=clean, quiet=quiet)
-
+    assign_lor_area(source_path=workspace_path, results_path=workspace_path, data_path=data_path, clean=clean,
+                    quiet=quiet)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
