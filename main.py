@@ -7,6 +7,7 @@ from lib.extract.overpass_data_extractor import extract_overpass_data
 from lib.tracking_decorator import TrackingDecorator
 from lib.transform.data_copier import copy_data
 from lib.transform.data_csv_converter import convert_data_to_csv
+from lib.transform.data_filterer import filter_data
 from lib.transform.data_lor_area_assigner import assign_lor_area
 
 file_path = os.path.realpath(__file__)
@@ -58,6 +59,7 @@ def main(argv):
                         results_path=workspace_path, clean=clean, quiet=quiet)
     assign_lor_area(source_path=workspace_path, results_path=workspace_path, data_path=data_path, clean=clean,
                     quiet=quiet)
+    filter_data(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
