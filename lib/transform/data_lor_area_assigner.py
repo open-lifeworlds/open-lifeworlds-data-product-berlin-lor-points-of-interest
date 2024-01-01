@@ -51,6 +51,7 @@ def assign_lor_area_id(source_file_path, planning_area_cache_file_path, geojson,
         dataframe_errors = dataframe["planning_area_id"].isnull().sum()
 
         # Write csv file
+        dataframe.assign(planning_area_id=lambda df: df["planning_area_id"].astype(int).astype(str).str.zfill(8))
         dataframe.to_csv(source_file_path, index=False)
         if not quiet:
             print(f"✓ Assign LOR area IDs to {os.path.basename(source_file_path)} with {dataframe_errors} errors")
@@ -82,6 +83,7 @@ def build_planning_area_id(lat, lon, geojson, lor_area_cache, lor_area_cache_fil
             lor_area_cache.loc[planning_area_cache_index] = {
                 "planning_area_id": planning_area_id
             }
+            lor_area_cache.assign(planning_area_id=lambda df: df["planning_area_id"].astype(int).astype(str).str.zfill(8))
             lor_area_cache.to_csv(lor_area_cache_file_path, index=True)
             return planning_area_id
         else:
@@ -96,7 +98,7 @@ def build_polygon(coordinates) -> Polygon:
 def read_csv_file(file_path):
     if os.path.exists(file_path):
         with open(file_path, "r") as csv_file:
-            return pd.read_csv(csv_file, dtype={"id": "str"})
+            return pd.read_csv(csv_file, dtype={"planning_area_id": "str"})
     else:
         return None
 
