@@ -4,6 +4,7 @@ import sys
 
 from lib.extract.data_extractor import extract_data
 from lib.extract.overpass_data_extractor import extract_overpass_data
+from lib.load.data_loader import load_data
 from lib.tracking_decorator import TrackingDecorator
 from lib.transform.data_aggregator import aggregate
 from lib.transform.data_blender import blend_data
@@ -70,6 +71,12 @@ def main(argv):
     # Details
 
     blend_data_details(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
+
+    #
+    # Load
+    #
+
+    load_data(source_path=workspace_path, results_path=data_path, clean=clean, quiet=quiet)
 
 
 if __name__ == "__main__":
