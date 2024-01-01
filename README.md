@@ -52,7 +52,10 @@ See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-pr
 
 ## License
 
-Distributed under the GPLv3 License. See [LICENSE.md](./LICENSE.md) for more information.
+Source data distributed under [Open Data Commons Open Database License ](https://opendatacommons.org/licenses/odbl/) (ODbL) by the [OpenStreetMap Foundation](https://osmfoundation.org/) (OSMF).
+
+Data product distributed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/). See [LICENSE.md](./LICENSE.md) for more information.
+
 
 ## Contact
 
