@@ -1,10 +1,11 @@
 import json
 import os
+from datetime import datetime
 
 import pandas as pd
 
 from lib.tracking_decorator import TrackingDecorator
-from datetime import datetime
+
 
 @TrackingDecorator.track_time
 def convert_data_to_csv(source_path, results_path, clean=False, quiet=False):
@@ -38,6 +39,7 @@ def convert_file_to_csv(source_file_path, clean=False, quiet=False):
                                                            row: f"{row['addr:street']} {row['addr:housenumber']}" if "addr:street" in row and "addr:housenumber" in row else None)) \
             .assign(
             zip_code=lambda df: df["tags"].apply(lambda row: row["addr:postcode"] if "addr:postcode" in row else None)) \
+            .assign(zip_code=lambda df: df["zip_code"].astype(pd.Int64Dtype(), errors="ignore")) \
             .assign(city=lambda df: df["tags"].apply(lambda row: row["addr:city"] if "addr:city" in row else None)) \
             .drop(columns=["type", "tags"])
 

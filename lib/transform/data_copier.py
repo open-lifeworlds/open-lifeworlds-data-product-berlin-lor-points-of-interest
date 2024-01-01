@@ -13,7 +13,7 @@ def copy_data(source_path, results_path, clean=False, quiet=False):
     for subdir, dirs, files in sorted(os.walk(source_path)):
         for source_file_name in sorted(files):
             subdir = subdir.replace(f"{source_path}/", "")
-            results_file_name = source_file_name
+            results_file_name = get_results_file_name(subdir, source_file_name)
 
             # Make results path
             os.makedirs(
@@ -33,3 +33,12 @@ def copy_data(source_path, results_path, clean=False, quiet=False):
                     print(f"✓ Copy {results_file_name}")
             else:
                 print(f"✓ Already exists {results_file_name}")
+
+
+def get_results_file_name(subdir, source_file_name):
+    timestamp = datetime.now().strftime("%Y-%m")
+
+    if source_file_name.endswith("-details.json"):
+        return source_file_name.replace("-details.json", f"-{timestamp}-details.json")
+    else:
+        return source_file_name
