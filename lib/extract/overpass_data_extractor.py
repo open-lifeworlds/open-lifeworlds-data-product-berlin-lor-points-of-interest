@@ -8,7 +8,8 @@ from tracking_decorator import TrackingDecorator
 
 points_of_interest_queries = [
     # Health
-    {"name": "doctors", "type": "node", "query": "amenity=doctors"}
+    {"name": "doctors", "type": "node", "query": "amenity=doctors"},
+    {"name": "pharmacies", "type": "node", "query": "amenity=pharmacy"},
 ]
 
 

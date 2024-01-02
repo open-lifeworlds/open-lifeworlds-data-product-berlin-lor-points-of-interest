@@ -9,7 +9,8 @@ from lib.tracking_decorator import TrackingDecorator
 key_figure_group = "berlin-lor-points-of-interest"
 
 statistic_properties = [
-    "count",
+    "doctors",
+    "pharmacies"
 ]
 
 statistics_paths = [
@@ -18,6 +19,7 @@ statistics_paths = [
 
 statistics_names = [
     "doctors",
+    "pharmacies"
 ]
 
 
@@ -57,31 +59,30 @@ def blend_data(source_path, results_path, clean=False, quiet=False):
             else:
                 geojson = None
 
-            for statistics_name in statistics_names:
-                # Load statistics
-                csv_statistics = read_csv_file(os.path.join(source_path, statistics_path,
-                                                            f"{key_figure_group}-{statistics_name}-{year}-{month}.csv"))
+            # Load statistics
+            csv_statistics = read_csv_file(os.path.join(source_path, statistics_path,
+                                                        f"{key_figure_group}-{year}-{month}.csv"))
 
-                # Extend geojson
-                extend(
-                    year=year,
-                    month=month,
-                    geojson=geojson,
-                    statistics_name=statistics_name,
-                    csv_statistics=csv_statistics,
-                    json_statistics=json_statistics,
-                    json_statistics_population=json_statistics_population
-                )
+            # Extend geojson
+            extend(
+                year=year,
+                month=month,
+                geojson=geojson,
+                statistics_name=statistics_path,
+                csv_statistics=csv_statistics,
+                json_statistics=json_statistics,
+                json_statistics_population=json_statistics_population
+            )
 
-                # Write geojson file
-                write_geojson_file(
-                    file_path=os.path.join(results_path, statistics_path,
-                                           f"{key_figure_group}-{statistics_name}-{year}-{month}-{lor_area_type}.geojson"),
-                    statistic_name=f"{key_figure_group}-{statistics_name}-{year}-{month}-{lor_area_type}",
-                    geojson_content=geojson,
-                    clean=clean,
-                    quiet=quiet
-                )
+            # Write geojson file
+            write_geojson_file(
+                file_path=os.path.join(results_path, statistics_path,
+                                       f"{key_figure_group}-{year}-{month}-{lor_area_type}.geojson"),
+                statistic_name=f"{key_figure_group}-{year}-{month}-{lor_area_type}",
+                geojson_content=geojson,
+                clean=clean,
+                quiet=quiet
+            )
 
     # Write json statistics file
     write_json_file(
@@ -168,17 +169,22 @@ def calculate_averages(year, half_year, year_population, geojson, csv_statistics
 
     values = {}
 
-    values |= {property_name: int(sum(csv_statistics[property_name])) for property_name in statistic_properties if
+    values_sums = {property_name: int(sum(csv_statistics[property_name])) for property_name in statistic_properties if
                property_name in csv_statistics}
+    values_averages = {}
+
     if total_sqkm is not None:
-        values |= {f"{property_name}_per_sqkm": round(float(total / total_sqkm), 2) for property_name, total in
-                   values.items()}
+        values_averages |= {f"{property_name}_per_sqkm": round(float(total / total_sqkm), 2) for property_name, total in
+                   values_sums.items()}
     if total_inhabitants is not None:
-        values |= {f"{property_name}_per_inhabitant": round(float(total / total_inhabitants), 2) for
-                   property_name, total in values.items()}
+        values_averages |= {f"{property_name}_per_inhabitant": round(float(total / total_inhabitants), 2) for
+                   property_name, total in values_sums.items()}
     if total_inhabitants is not None:
-        values |= {f"{property_name}_per_100k_inhabitant": round(float(total / (total_inhabitants / 100_000)), 2)
-                   for property_name, total in values.items()}
+        values_averages |= {f"{property_name}_per_100k_inhabitant": round(float(total / (total_inhabitants / 100_000)), 2)
+                   for property_name, total in values_sums.items()}
+
+    values |= values_sums
+    values |= values_averages
 
     json_statistics[year][half_year][0] = values
 
