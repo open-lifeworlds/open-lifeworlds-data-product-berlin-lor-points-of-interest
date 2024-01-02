@@ -11,10 +11,7 @@ key_figure_group = "berlin-lor-points-of-interest"
 
 statistics_names = [
     "doctors",
-]
-
-statistic_properties = [
-    "count"
+    "pharmacies"
 ]
 
 
@@ -25,14 +22,13 @@ class FilesTestCase(unittest.TestCase):
 for year in [2024]:
     for month in ["01"]:
         for lor_area_type in ["districts", "forecast-areas", "district-regions", "planning-areas"]:
-            for statistics_name in statistics_names:
-                file = os.path.join(data_path, f"{key_figure_group}-{year}-{month}",
-                                    f"{key_figure_group}-{statistics_name}-{year}-{month}-{lor_area_type}.geojson")
-                setattr(
-                    FilesTestCase,
-                    f"test_{key_figure_group}_{year}_{month}_{lor_area_type}".replace('-', '_'),
-                    lambda self, file=file: self.assertTrue(os.path.exists(file))
-                )
+            file = os.path.join(data_path, f"{key_figure_group}-{year}-{month}",
+                                f"{key_figure_group}-{year}-{month}-{lor_area_type}.geojson")
+            setattr(
+                FilesTestCase,
+                f"test_{key_figure_group}_{year}_{month}_{lor_area_type}".replace('-', '_'),
+                lambda self, file=file: self.assertTrue(os.path.exists(file))
+            )
 
 
 class PropertiesTestCase(unittest.TestCase):
@@ -44,7 +40,7 @@ for year in [2024]:
         for lor_area_type in ["districts", "forecast-areas", "district-regions", "planning-areas"]:
             for statistics_name in statistics_names:
                 file = os.path.join(data_path, f"{key_figure_group}-{year}-{month}",
-                                    f"{key_figure_group}-{statistics_name}-{year}-{month}-{lor_area_type}.geojson")
+                                    f"{key_figure_group}-{year}-{month}-{lor_area_type}.geojson")
                 if os.path.exists(file):
                     with open(file=file, mode="r", encoding="utf-8") as geojson_file:
                         geojson = json.load(geojson_file, strict=False)
@@ -55,7 +51,7 @@ for year in [2024]:
                             PropertiesTestCase,
                             f"test_{key_figure_group}_{year}_{month}_{lor_area_type}_{feature_id}".replace('-', '_'),
                             lambda self, feature=feature: self.assertTrue(
-                                all(property in feature["properties"] for property in statistic_properties))
+                                all(property in feature["properties"] for property in statistics_names))
                         )
 
 if __name__ == '__main__':
