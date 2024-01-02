@@ -11,10 +11,6 @@ statistics_paths = [
     f"{key_figure_group}-2024-01",
 ]
 
-statistics_names = [
-    "doctors",
-]
-
 
 @TrackingDecorator.track_time
 def blend_data_details(source_path, results_path, clean=False, quiet=False):
