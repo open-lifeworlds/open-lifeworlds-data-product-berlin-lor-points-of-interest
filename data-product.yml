@@ -38,29 +38,106 @@ output_ports:
       author: Open Lifeworlds
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data
       license: CC-BY-4.0
-      updated: 2024-01-01
+      updated: 2024-01-03
     files:
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-doctors-2024-01.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-2024-01.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-art-galleries-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-bars-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-beer-gardens-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-bicycle-rentals-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-bus-stops-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-cafes-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-car-sharing-stations-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-childcare-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-cinemas-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-clinics-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-community-centers-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-convenience-stores-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-coworking-spaces-2024-01-details.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-doctors-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-fast-food-restaurants-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-fast-foods-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-fire-stations-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-fitness-centers-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-food-courts-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-grocery-stores-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-ice-cream-parlours-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-ice_creams-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-kindergartens-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-libraries-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-marketplaces-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-museums-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-nightclubs-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-offices-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-parks-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-pharmacies-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-places-of-worship-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-police-stations-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-post-offices-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-pubs-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-restaurants-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-schools-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-sport-centers-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-supermarkets-2024-01-details.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-theaters-2024-01-details.csv
   - id: berlin-lor-points-of-interest-geojson
     metadata:
       name: Berlin LOR points-of-interest geojson
       author: Open Lifeworlds
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data
       license: CC-BY-4.0
-      updated: 2024-01-01
+      updated: 2024-01-03
     files:
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-doctors-2024-01-district-regions.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-doctors-2024-01-districts.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-doctors-2024-01-forecast-areas.geojson
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-doctors-2024-01-planning-areas.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-2024-01-district-regions.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-2024-01-districts.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-2024-01-forecast-areas.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-2024-01-planning-areas.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-art-galleries-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-bars-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-beer-gardens-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-bicycle-rentals-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-bus-stops-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-cafes-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-car-sharing-stations-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-childcare-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-cinemas-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-clinics-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-community-centers-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-convenience-stores-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-coworking-spaces-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-doctors-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-fast-food-restaurants-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-fast-foods-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-fire-stations-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-fitness-centers-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-food-courts-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-grocery-stores-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-ice-cream-parlours-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-ice_creams-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-kindergartens-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-libraries-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-marketplaces-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-museums-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-nightclubs-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-offices-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-parks-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-pharmacies-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-places-of-worship-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-police-stations-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-post-offices-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-pubs-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-restaurants-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-schools-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-sport-centers-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-supermarkets-2024-01-details.geojson
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-2024-01/berlin-lor-points-of-interest-theaters-2024-01-details.geojson
   - id: berlin-lor-points-of-interest-statistics
     metadata:
       name: Berlin LOR points-of-interest statistics
       author: Open Lifeworlds
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data
       license: CC-BY-4.0
-      updated: 2024-01-01
+      updated: 2024-01-03
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/main/data/berlin-lor-points-of-interest-statistics/berlin-lor-points-of-interest-statistics.json
 metrics:

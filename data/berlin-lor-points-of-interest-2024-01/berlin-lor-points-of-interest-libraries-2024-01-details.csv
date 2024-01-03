@@ -1,0 +1,100 @@
+id,lat,lon,name,street,zip_code,city,planning_area_id
+29071031,52.5312448,13.3475136,Bruno-Lösche-Bibliothek,Perleberger Straße 33,10559.0,Berlin,1200623
+60848456,52.5307772,13.4708382,Anton-Saefkow-Bibliothek,Anton-Saefkow-Platz 14,10369.0,Berlin,11300617
+89275152,52.5155636,13.4041356,Berliner Stadtbibliothek,Breite Straße 30-36,10178.0,Berlin,1100207
+203557001,52.5281578,13.538715,Stadtteilbibliothek Erich Weinert,Helene-Weigel-Platz 4,12681.0,Berlin,10100312
+256922190,52.5375039,13.2871861,Stadtteilbibliothek Halemweg,Halemweg 18,13627.0,Berlin,4100101
+257708789,52.5361334,13.2013864,Bezirkszentralbibliothek Spandau,Carl-Schurz-Straße 13,13597.0,Berlin,5100316
+263679066,52.54722,13.556704,Bezirkszentralbibliothek Mark Twain,Marzahner Promenade 52-54,12679.0,Berlin,10100210
+264776935,52.5068092,13.369701,Ibero-Amerikanisches Institut,Potsdamer Straße 37,10785.0,,1100102
+266540876,52.5316059,13.3986959,Bezirkszentralbibliothek Philipp Schaeffer,Brunnenstraße 181,10119.0,Berlin,1100415
+266629485,52.5055546,13.6127893,Stadtteilbibliothek Mahlsdorf,Alt-Mahlsdorf 24-26,12623.0,Berlin,10400939
+271685475,52.4518573,13.2883334,Philologische Bibliothek,Habelschwerdter Allee 45,14195.0,Berlin,6400843
+271875991,52.4538456,13.2911582,"Campusbibliothek Natur-, Kultur- und Bildungswissenschaften, Mathematik, Informatik und Psychologie",Arnimallee 3,14195.0,Berlin,6400843
+281375131,52.5477387,13.4528367,Wolfdietrich-Schnurre-Bibliothek,Bizetstraße 41,13088.0,Berlin,3500936
+293137702,52.616548,13.4917041,Stadtteilbibliothek Karow,,,,3300411
+308811018,52.5492616,13.414088,Bettina von Arnim Bibliothek,Schönhauser Allee 75,10439.0,Berlin,3601346
+323991172,52.5134373,13.4813674,Egon-Erwin-Kisch-Bibliothek,Frankfurter Allee 149,,Berlin,11300722
+333343782,52.4819616,13.4327729,Helene-Nathan-Bibliothek,Karl-Marx-Straße 66,12043.0,Berlin,8100206
+345162417,52.4577566,13.3196239,Ingeborg-Drewitz-Bibliothek,Grunewaldstraße 3,12165.0,Berlin,6100102
+439229151,52.4548013,13.6214013,Johannes-Bobrowski-Bibliothek,Peter-Hille-Straße 1,12587.0,Berlin,9501737
+444731308,52.3879007,13.3974218,Stadtteilbibliothek Lichenrade,Steinstraße 41,12307.0,Berlin,7601544
+444994924,52.5171056,13.308865,Heinrich-Schulz-Bibliothek,Otto-Suhr-Allee 96,10585.0,Berlin,4300619
+482710823,52.4310682,13.5314264,Zweigbibliothek Naturwissenschaften,Rudower Chaussee 26,12489.0,Berlin,9200715
+486517226,52.4554005,13.5247238,Bibliothek Campus Wilhelminenhof,,,,9200511
+507660382,52.5280812,13.5120545,KEH Bibliothek,,,,11300721
+529557633,52.4713483,13.313449,Eberhard-Alexander-Burgh-Bibliothek,,,,4400834
+560823423,52.4851862,13.3827588,Friedrich-von-Raumer-Bibliothek,Dudenstraße 18-20,10965.0,Berlin,2200209
+586328524,52.4571611,13.2920178,Bibliothek des John-F.-Kennedy-Instituts,Lansstraße 7-9,14195.0,Berlin,6400843
+618048288,52.6356441,13.4938846,Stadtteilbibliothek Buch,,,,3100103
+639552895,52.5164298,13.3932385,HU Berlin – Zweigbibliothek Rechtswissenschaft,Bebelplatz 1,10117.0,Berlin,1100206
+665121783,52.5261368,13.3937348,Comicbibliothek Renate,Tucholskystraße 32,10117.0,Berlin,1100309
+737212457,52.5418164,13.440864,"Stadtbibliothek Pankow, Hauptbibliothek Heinrich Böll",Greifswalder Straße 87,10409.0,Berlin,3601449
+795561505,52.4775843,13.2878878,Adolf-Reichwein-Bibliothek,Berkaer Straße 7,14199.0,Berlin,4400830
+1070809009,52.5190211,13.3928706,Zweigbibliothek Klassische Archäologie,Unter den Linden 6,10117.0,Berlin,1100206
+1070809020,52.5183016,13.386705,Zweigbibliothek Fremdsprachliche Philologien / Teilbibliothek Großbritannien-Zentrum,Dorotheenstraße 65,10117.0,Berlin,1100206
+1346361343,52.4978553,13.5209225,Bodo-Uhse-Bibliothek,Erich-Kurz-Straße 9,10319.0,Berlin,11401137
+1356847676,52.568454,13.4123577,Janusz-Korczak-Bibliothek,Berliner Straße 120,13187.0,Berlin,3400723
+1362209543,52.5145468,13.2939985,Ingeborg-Bachmann-Bibliothek,Nehringstraße 10,14059.0,Berlin,4300413
+1425169658,52.4613917,13.2947799,Bibliothek des Friedrich-Meinecke-Instituts und des Kunsthistorisches Instituts,Koserstraße 20,14195.0,Berlin,6400844
+1472976631,52.4925504,13.4362136,Else-Ury-Bibliothek (Familienbibliothek Glogauer Straße),Glogauer Straße 13,10999.0,Berlin,2300418
+1481377095,52.5121417,13.3262714,Die Bibliothek Wirtschaft und Management,Straße des 17. Juni 135,10623.0,Berlin,4300622
+1670728349,52.4690497,13.4339544,Fachbibliothek Kurdologie,Emser Straße 26,12051.0,Berlin,8100208
+1684737379,52.5286995,13.4254805,Bibliothek der Freien,Greifswalder Straße 4,10405.0,Berlin,3701660
+1685672555,52.5127362,13.3957618,Archiv für Alternativkultur,Mohrenstraße 41,10117.0,Berlin,1100206
+1818848292,52.5106578,13.2586101,Johanna-Moosdorf-Bibliothek,Westendallee 45,14052.0,Berlin,4200309
+1863570970,52.5328818,13.4321724,Kurt-Tucholsky-Bibliothek,Esmarchstraße 18,10407.0,Berlin,3701660
+1874529829,52.489441,13.3118736,Artothek,Hohenzollerndamm 176,10713.0,Berlin,4501146
+1933757018,52.449221,13.2769658,"Bibliothek für Sozialwissenschaften und Osteuropastudien, Stiller Lesesaal",Ihnestraße 21,14195.0,Berlin,6400843
+2094774970,52.5085131,13.3669367,Kunstbibliothek,Matthäikirchplatz 6,10785.0,Berlin,1100102
+2270319509,52.635613,13.3029182,Das Buddhistische Haus,,,,12400721
+2402339489,52.4900049,13.4056371,La Rayuela,Südstern 2,10961.0,Berlin,2200210
+2479053622,52.5021314,13.3248746,"Institut Français Berlin, Mediathek",Kurfürstendamm 211,10719.0,Berlin,4501041
+2571245538,52.4033811,13.5286278,Stadtteilbibliothek Altglienicke im Bürgerhaus,Ortolfstraße 182,12524.0,Berlin,9300922
+2644700001,52.4864803,13.389689,Archiv der Jugendkulturen,Fidicinstraße 3,10965.0,Berlin,2200211
+2777497901,52.5266936,13.3766679,Patientenbibliothek,Bonhoefferweg 4,,,1100308
+2802477601,52.5499724,13.1780019,Stadtteilbibliothek,,,,5100209
+2807527330,52.5010562,13.4207705,Museum der Dinge,Oranienstraße 25,10999.0,Berlin,2300314
+3203713887,52.4952361,13.4307312,kalabal!k,Reichenberger Straße 63a,10999.0,Berlin,2300418
+3428467245,52.4260423,13.3587376,Universitätsarchiv,Malteserstraße 74-100,12249.0,Berlin,6200316
+3478842465,52.4943297,13.3578235,Schulbiblothek,,,,7100204
+3518345658,52.4327843,13.1656465,Joseph Wulf Bibliothek,Am Großen Wannsee 58,14109.0,Berlin,6400735
+3806550974,52.5202388,13.3772992,Bibliothek des Deutschen Bundestages,,,,1100308
+3837620248,52.5037597,13.3634291,Bibliothek Tiergarten-Süd,Lützowstraße 27,10785.0,Berlin,1100103
+3952396497,52.4921781,13.2826514,Umweltbibliothek,Bismarckplatz 1,14193.0,Berlin,4400726
+3981795844,52.5649762,13.5061185,Anna-Seghers-Bibliothek,Prerower Platz 2,13051.0,Berlin,11100307
+4114649179,52.5067416,13.383896,Bibliothek der Stiftung Topographie des Terrors,Niederkirchnerstraße 8,10963.0,Berlin,2100101
+4221527005,52.5305537,13.3859469,Zweigbibliothek Asien-/Afrikawissenschaften und Islamische Theologie,Invalidenstraße 118,10115.0,Berlin,1100415
+4271022996,52.453258,13.1429895,Stadtteilbibliothek Kladow,Sakrower Landstraße 2,14089.0,Berlin,5400943
+4432723694,52.5331584,13.419505,Bibliothek Am Wasserturm,Prenzlauer Allee 227-228,10405.0,Berlin,3701556
+4706616647,52.4525785,13.5189284,Bibliothek,Britzer Straße 5,12439.0,Berlin,9200613
+4740208623,52.418094,13.4894854,Stadtteilbibliothek Rudow,,,,8401242
+4805428213,52.5222118,13.3308065,Medienforum Berlin,Levetzowstraße 1-2,10555.0,Berlin,1200522
+4806499594,52.5170943,13.3427522,Hansabibliothek,Altonaer Straße 15,10557.0,Berlin,1200629
+5062614778,52.521758,13.3638336,,,,,1200628
+5245440325,52.5203781,13.395109,Zweigbibliothek Musikwissenschaft,Am Kupfergraben 5,10117.0,Berlin,1100206
+5275440213,52.5416071,13.6068282,Peter-Weiss-Bibliothek,Hellersdorfer Promenade 24,12627.0,Berlin,10200422
+5318467222,52.5976675,13.3523189,Bibliothek im Märkischen Viertel,Wilhelmsruher Damm 142c,13439.0,Berlin,12601134
+5533888846,52.5261622,13.3801597,Charité Medizinische Bibliothek Campus Mitte,Philippstraße 11/12,10115.0,Berlin,1100308
+5643477411,52.63544,13.295141,Stadtteilbibliothek Frohnau,Fuchssteinerweg 17,13465.0,Berlin,12400721
+5735063971,52.531583,13.3262022,Kurt-Tucholsky-Bibliothek,Rostocker Straße 32b,10553.0,Berlin,1200518
+5798364681,52.5429259,13.2390484,Stadtteilbibliothek Haselhorst,Gartenfelder Straße 104,13599.0,Berlin,5300737
+5838369566,52.4602755,13.347826,Patientenbibliothek,,,,7300619
+5977960159,52.4769397,13.4273818,Bücherstube,Briesestraße 79,12053.0,Berlin,8100207
+6046124564,52.520016,13.3927337,Zweigbibliothek Germanistik,Dorotheenstraße 24,10117.0,Berlin,1100206
+6275993185,52.5140827,13.3251316,Mathematische Fachbibliothek,Straße des 17. Juni 136,10623.0,Berlin,4300622
+6508696687,52.5242453,13.2890223,ESCP Bibliothek am Campus Berlin,Heubnerweg 8-10,14059.0,,4300412
+6720863485,52.4478314,13.2813366,Bibliothek Rechtswissenschaft,Vant-Hoff-Straße 8,14195.0,Berlin,6400843
+6880841994,52.5321836,13.4107782,ICI Berlin,Christinenstraße 18-19,10119.0,Berlin,3701554
+6976235391,52.5128877,13.4103123,"Bildagentur für Kunst, Kultur und Geschichte",Märkisches Ufer 16;18,10179.0,Berlin,1100312
+7232178641,52.5246239,13.3920937,Teilbibliothek Japanologie,Johannisstraße 10,10117.0,Berlin,1100309
+7798570856,52.5043465,13.3283687,Bibliothek der Jüdischen Gemeinde,,,,4501042
+8097837782,52.3859756,13.3980521,Katholische öffentliche Bücherei,,,,7601544
+8151138614,52.5293637,13.5928919,Stadtteilbibliothek Kaulsdorf,Neue Grottkauer Straße 5,12619.0,Berlin,10200628
+8435515108,52.5224043,13.1654101,Stadtteilbibliothek Heerstraße,Obstallee 22F,13593.0,Berlin,5200527
+9077951933,52.425675,13.4620726,Gertrud-Junge-Bibliothek,Bat-Yam-Platz 1,12353.0,Berlin,8300935
+9347421347,52.4189356,13.4943156,Gertrud-Haß-Bibliothek,Alt-Rudow 45,12357.0,Berlin,8401243
+9780942686,52.5037159,13.4230798,Kollektivbibliothek,Mariannenplatz 2B,10997.0,Berlin,2300314
+10197004045,52.5133684,13.3240024,Bereichsbibliothek Architektur und Kunstwissenschaft,Straße des 17. Juni 152,10623.0,,4300622
+11309948213,52.5109671,13.3240187,Bereichsbibliothek Physik,,,,4300622
+11446515471,52.5104545,13.3212359,BIbliothek des Schiller-Gymnasiums,Schillerstraße 125,10625.0,,4300624

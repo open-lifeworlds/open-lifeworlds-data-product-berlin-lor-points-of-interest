@@ -1,0 +1,108 @@
+id,lat,lon,name,street,zip_code,city,planning_area_id
+669088712,52.4396916,13.5001666,Ärztehaus Johannisthal,Sterndamm 152,12487.0,Berlin,9100407
+694302689,52.5151416,13.4909414,Ärztehaus am Roedeliusplatz,Schottstraße 4,10365.0,Berlin,11300724
+872223518,52.4988453,13.4198597,Ärztehaus,,,,2300417
+874357625,52.5027923,13.4132967,MVZ am Moritzplatz,Oranienstraße 158,10969.0,Berlin,2100104
+911925361,52.5721447,13.4169764,Ärztehaus Damerowstraße,Damerowstraße 7,13187.0,Berlin,3400723
+933513566,52.4392932,13.2152977,Ärztehaus am Schlachtensee,Breisgauer Straße 1-3,14129.0,Berlin,6400838
+1168212013,52.4227868,13.4352588,MVZ-Vitalis,Alt-Buckow 9-11,12349.0,Berlin,8200832
+1217659471,52.4441457,13.2385141,Nierenzentrum Zehlendorf,Fischerhüttenstraße 111,14163.0,Berlin,6400838
+1272472319,52.5151646,13.4511418,DTZ Berlin - Ärztehaus Kadiner Straße,Kadiner Straße 23,10243.0,Berlin,2400624
+1336685638,52.5369549,13.2044575,Ärztehaus,,,,5100316
+1618861746,52.4472814,13.5758681,Ärzte Zentrum Köpenick,,,,9401534
+1724523076,52.4444506,13.2912619,Tagesklinik unter den Eichen,Unter den Eichen 93,12205.0,Berlin,6300629
+1732901969,52.5466232,13.3581741,Medico Leopoldplatz,Müllerstraße 151,13353.0,Berlin,1400942
+1734428743,52.5809556,13.402658,Ärztehaus,Hermann-Hesse-Straße 4,13156.0,Berlin,3200206
+2021436781,52.527514,13.5419927,"Sana Gesundheitszentrum Marzahn ""Ernst Ludwig Heim""",Helene-Weigel-Platz 10,12681.0,Berlin,10100312
+2105895889,52.4555574,13.3860897,Ärztehaus am Tempelhofer Hafen,Tempelhofer Damm 227,12099.0,Berlin,7400927
+2126141390,52.5913935,13.2837171,Ärztehaus,Schloßstraße 5,13507.0,Berlin,12200515
+2335086445,52.5122055,13.4551298,Sana Gesundheitszentrum Friedrichshain,Grünberger Straße 43-45,10245.0,Berlin,2500833
+2435045640,52.506748,13.3946085,Rückenzentrum am Markgrafenpark,Markgrafenstraße 19,10969.0,Berlin,2100102
+2509419045,52.4644914,13.4332296,Ärztehaus Neubritzer Tor,Hermannstraße 147,12051.0,Berlin,8100209
+2557712726,52.5250616,13.3441342,Magnet MVZ Berlin,Alt-Moabit 90,10559.0,Berlin,1200626
+2821025302,52.5076863,13.3060017,Nierenzentrum Charlottenburg,Wilmersdorfer Straße 57,10627.0,Berlin,4300623
+2851155103,52.4766498,13.3133427,Zahnklinik/Zahnärztlicher Notfalldienst,Aßmannshauser Straße 4-6,14197.0,Berlin,4400834
+2935287105,52.583891,13.288331,Gesundheitszentrum,,,,12200515
+3310721906,52.580674,13.4238384,Ärztehaus Galenusstraße,Galenusstraße 59,13187.0,Berlin,3400725
+3371705079,52.431545,13.7156322,Ärztehaus Rahnsdorf,Fürstenwalder Allee 318,12589.0,Berlin,9501838
+3374664253,52.5425166,13.343078,Frauenheilkunde und Geburtsmedizin,,,,1400938
+3374664287,52.5414754,13.3441244,Klinik für Anästhesiologie und operative Intensivmedizin,,,,1400938
+3374664288,52.5414126,13.3425037,Klinik für Augenheilkunde,,,,1400938
+3374664289,52.5417163,13.3452139,Klinik für Neurologie,,,,1400938
+3374664291,52.5411876,13.3412877,"Klinik für Psychiatrie, Psychosomatik und Psychotherapie des Kindes- und Jugendalters",,,,1400938
+3374665793,52.5424245,13.3418703,Kliniken für Kinderheilkunde und Kinderchirurgie,,,,1400938
+3374665794,52.5398016,13.3452252,Institut für Tropenmedizin und Internationale Gesundheit,,,,1400938
+3442710834,52.6116633,13.4739664,Ärztehaus Karow,,,,3300412
+3566078016,52.4825509,13.5263205,Ärztehaus Karlshorst,Ehrenfelsstraße 47,10318.0,Berlin,11501340
+3676000336,52.5007524,13.3306476,,Joachimsthaler Straße 21,10719.0,Berlin,4501042
+3772788958,52.5416884,13.3456098,"Hals-, Nasen-, Ohrenheilkunde",,,,1400938
+3772788960,52.5401501,13.3443105,Strahlentherapie Ambulantes Gesundheitszentrum,,,,1400938
+3772788961,52.5402208,13.3444199,Nuklearmedizin Funktionsdiagnostik,,,,1400938
+3772788962,52.5397442,13.3452304,Pharmakovigilanz- und Beratungszentrum für Embryonaltoxikologie,,,,1400938
+3772789057,52.5407789,13.3442093,Klinik für Nuklearmedizin,,,,1400938
+3772789058,52.5402731,13.3452272,Medizinische Klinik m.S. Infektiologie,,,,1400938
+3772789059,52.5426569,13.3451095,Medizinische Kliniken,,,,1400938
+3772789060,52.5415223,13.3452938,"Mund, Kiefer, Gesichtschirurgie",,,,1400938
+3772789061,52.541304,13.3440723,Unfall- und Wiederherstellungschirurgie,,,,1400938
+3772804457,52.5407931,13.3444675,Klinik für Strahlenheilkunde,,,,1400938
+3869328066,52.5115837,13.3109098,MVZ Dr. Kaleth & Kollegen,"Bismarckstraße 95,96",10625.0,Berlin,4300623
+3923385926,52.4986743,13.306612,Avicenna Klinik,Paulsborner Straße 2,10709.0,Berlin,4500938
+4136419292,52.5121683,13.3802666,Ärztehaus Mitte Medizinisches Versorgungszentrum,In den Ministergärten 1,10117.0,Berlin,1100205
+4180948090,52.5143227,13.4652878,Ärztehaus,Frankfurter Allee 54,10247.0,Berlin,2500831
+4317979052,52.4517261,13.2630571,MVZ Zehlendorf,Am Waldfriedhof 23,14169.0,Berlin,6400842
+4436482371,52.5529651,13.3802138,MVZ Gesundbrunnen,Badstraße 32,13357.0,Berlin,1401045
+4448386321,52.5674668,13.3149552,Gesundheitszentrum,General-Woyna-Straße 1,13403.0,Berlin,12200309
+4450678325,52.431273,13.3365873,copv.berlin,Kaiser-Wilhelm-Straße 24-26,12247.0,Berlin,6200314
+4553683090,52.5415844,13.3688768,Medio Berlin Ärztehaus Mitte,Fennstraße 3,13347.0,Berlin,1300836
+4773307930,52.5112958,13.4570707,Covid19 Center,Simon-Dach-Straße 40,10245.0,Berlin,2500833
+4834609482,52.5697088,13.4061683,MVZ Pankow Innere Medizin,Breite Straße 33,13187.0,Berlin,3400723
+5030326571,52.5358521,13.1952319,MVZ am Bahnhof Spandau,Galenstraße 3,13597.0,Berlin,5100316
+5037228530,52.450855,13.6238856,Ärzte Zentrum am Markt,Bölschestraße 113,12587.0,Berlin,9501737
+5049915761,52.4862047,13.3324816,B18 Gesundheitszentrum,Badensche Straße 18,10715.0,Berlin,4501153
+5056974011,52.4565402,13.3197406,Privatklinik Schlossstraße - Fachklinik für Brustvergrößerung und Brustformung,,,,6100101
+5186166876,52.5056232,13.2992922,MVZ Windscheidstraße,Windscheidstraße 18,10627.0,Berlin,4300416
+5223291551,52.5410308,13.413617,Ärztehaus Danziger Tor,,,,3601347
+5318240550,52.427323,13.3262841,Ärztehaus am Kranoldplatz,Oberhofer Weg 2,12209.0,Berlin,6200422
+5325121987,52.511099,13.6121077,Ärztehaus Mahlsdorf,Treskowstraße 73,,,10400939
+5337915341,52.4969763,13.3316596,OP-Zentrum Spichernstraße,Spichernstraße 11,10777.0,Berlin,4501045
+5418942204,52.5238219,13.4800578,Nierenzentrum Lichtenberg,Möllendorffstraße 45,10367.0,Berlin,11300620
+5451412274,52.5492046,13.4128467,Ärzte Schönhauser,Schönhauser Allee 118,10437.0,Berlin,3601142
+5779019383,52.4978999,13.1806609,Biberburg Med-Service GmbH,Gatower Straße 241,,,5400942
+5849666900,52.5370464,13.6032937,Klinik Helle Mitte,Alice-Salomon-Platz 2,12627.0,Berlin,10200421
+5890341827,52.5619433,13.3321631,Hausärztlich-Internistisches Versorgungszentrum,Scharnweberstraße 1,13405.0,Berlin,12100204
+5903202921,52.5503338,13.4591399,HELIOS Medical Center Berlin-Weißensee,Berliner Allee 105,13088.0,Berlin,3500933
+6347320701,52.5270136,13.4787739,CPC,Weißenseer Weg 111,10369.0,Berlin,11300617
+6441944584,52.507043,13.3062719,Ärztehaus,Wilmersdorfer Straße 62,10627.0,Berlin,4300623
+6513517778,52.5263283,13.3757999,Psychiatrische Institutsambulanz,Bonhoefferweg 3,,,1100308
+6710135969,52.5520135,13.4662422,Medizinisches Versorgungszentrum am Alexianer St. Joseph-​Krankenhaus Berlin-​Weißensee,Berliner Allee 158,13088.0,Berlin,3501038
+7232410182,52.6269511,13.5071286,Hochschulambulanz Charité Buch,,,,3100103
+7613394448,52.488605,13.3012964,Ärztehaus Hohenzollerndamm,Hohenzollerndamm 47a,10713.0,Berlin,4500939
+7640755741,52.4767301,13.3422716,Ästhetikwelt-Berlin,Hauptstraße 93,12159.0,Berlin,7300618
+7680987922,52.4793847,13.3276218,MVZ psychische Gesundheit,Bundesplatz 4,10715.0,Berlin,4501151
+7831880615,52.5292555,13.3930716,ZAR Berlin,Gartenstraße 5,10115.0,Berlin,1100415
+7994883600,52.497613,13.2958406,Ärztehaus,,,,4500938
+8000598805,52.4867077,13.3215078,Ärztehaus,Berliner Straße 37,10715.0,Berlin,4501147
+8245997146,52.4862355,13.3323975,Panomarana Klinik,Badensche Straße 18,10715.0,Berlin,4501153
+8358306416,52.5043567,13.3410049,Ärztehaus am Europacenter,Nürnberger Straße 67,10787.0,Berlin,7100101
+8378417924,52.4977918,13.50974,Ärztehaus,Balatonstraße 20,10319.0,Berlin,11401136
+8435708025,52.4971645,13.3066377,Zentrales Schlaflabor,Paderborner Straße 2/2A,10709.0,Berlin,4500939
+8491450219,52.533436,13.4768042,Ärztehaus,Landsberger Allee 201,13055.0,Berlin,11200514
+8662563074,52.5116602,13.448904,Perspektive Daheim,Gubener Straße 44,10243.0,Berlin,2400624
+9178079418,52.5105869,13.2863591,Ärztehaus,,,,4300414
+9257846271,52.5493363,13.3534183,MVZ Wedding,Müllerstraße 139,13353.0,Berlin,1400942
+9292210614,52.4282314,13.5379663,MVZ Adlershof Vivantes Kardiologie,,,,9200715
+9523939998,52.5266285,13.3519124,MVZ Medizin der Mitte,Turmstraße 9,,,1200625
+9581653784,52.5115869,13.311026,KfH-Nierenzentrum,Bismarckstraße 95-96,10625.0,Berlin,4300623
+9971870799,52.513277,13.389756,Meoclinic,Friedrichstraße 71,10117.0,Berlin,1100206
+10116298591,52.4243716,13.3506944,Hausärztlich-internistische Praxis Lankwitz,Gallwitzallee 131,12249.0,Berlin,6200315
+10231199971,52.5278444,13.3747037,Charité Comprehensive Cancer Center,Invalidenstraße 80,10115.0,Berlin,1100308
+10292325696,52.5067455,13.3285989,MRT-Akademie,Fasanenstraße 85,10623.0,Berlin,4300622
+10680229526,52.4930758,13.3884974,Lasermed Augenarzt Kreuzberg,Gneisenaustraße 115,10961.0,Berlin,2200210
+10829070905,52.540939,13.4391681,Spreemedizin Berlin MVZ,Storkower Straße 2,10409.0,,3601449
+10975186174,52.5076578,13.3948073,Ärztezentrum Axel-Springer-Passage,,,,2100102
+11021391904,52.5093177,13.5006735,open.med Berlin-Lichtenberg,Irenenstraße 20,10317.0,,11400929
+11034214308,52.514121,13.3894666,Endokrinologie Berlin,Friedrichstraße 76,10117.0,,1100206
+11098046274,52.4469507,13.3851923,MVZ Mariendorf,,,,7501030
+11148198130,52.5368243,13.6033947,Ärztezentrum Haus A,,,,10200421
+11148267382,52.537904,13.6021753,Ärztezentrum Haus B,,,,10200421
+11160773805,52.6356366,13.4939833,Schlaf-Atem-Zentrum,Wiltbergstraße 19-23,13125.0,,3100103

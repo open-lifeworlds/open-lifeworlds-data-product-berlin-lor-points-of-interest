@@ -1,0 +1,186 @@
+id,lat,lon,name,street,zip_code,city,planning_area_id
+29040731,52.5347753,13.3587758,Sultan Ahmed Camii,,,,1200624
+29209127,52.495182,13.390379,,,,,2200210
+248702772,52.6010205,13.2966171,Martin-Luther-Kapelle,,,,12500824
+289795838,52.5225069,13.1954192,St. Wilhelm,Weißenburger Straße 9-11,13595.0,Berlin,5200630
+292201931,52.4475005,13.623567,Stadtmission Gemeinde Friedrichshagen,Bölschestraße 135,12587.0,Berlin,9501737
+332997622,52.5471682,13.2371169,Evangelische Weihnachtskirche,Haselhorster Damm 54-58,13599.0,Berlin,5300737
+333459517,52.4889329,13.3936149,Evangelisch Freikirchliche Gemeinde Kreuzberg,Bergmannstraße 22,10961.0,Berlin,2200211
+336571772,52.4441803,13.2410362,Adventgemeinde Waldfriede,Argentinische Allee 40,14163.0,Berlin,6400838
+355960992,52.5165081,13.3779152,Raum der Stille,Pariser Platz 8,10117.0,Berlin,1100206
+395708753,52.5645585,13.3963359,Evangelische Kirchengemeinde Martin Luther,Pradelstraße 11,13187.0,Berlin,3400721
+441734644,52.4759311,13.44285,Freie evangelische Bibel-Baptisten-Gemeinde,Richardstraße 28,12043.0,Berlin,8100416
+474359499,52.4567902,13.5821835,Adventgemeinde Köpenick,,,,9501940
+494093353,52.5177789,13.4563223,Galiläa-Kirche,,,,2500727
+535628093,52.4981271,13.4012798,Inssan-Moschee,,,,2100106
+540969924,52.520803,13.3899554,Quaker Meeting,Planckstraße 20,10117.0,Berlin,1100206
+601062306,52.6417777,13.4965275,Mater Dolorosa Kirche,Röbellweg 61,13125.0,Berlin,3100101
+676083788,52.5397508,13.3820567,Foguang-Shan Tempel,Ackerstraße 86,13355.0,Berlin,1300835
+701838306,52.5751911,13.3499542,Evangelisch-Freikirchliche Gemeinde K.d.ö.R.,Alt-Reinickendorf 32,13407.0,Berlin,12100205
+945925159,52.4867779,13.4207705,Sri Ganesha Hindu Tempel,Hasenheide 106,10967.0,Berlin,8100101
+948654862,52.4085446,13.4812755,Gemeindezentrum ev. Kirchengemeinde Rudow,Geflügelsteig 22-28,12355.0,Berlin,8401242
+977654857,52.6185361,13.48765,,,,,3300411
+1026420272,52.5504382,13.2696435,,,,,12200414
+1135452610,52.5618242,13.1990851,Katholische Gemeinde St. Lambertus,Cautiusstraße 6,13587.0,Berlin,5100105
+1232194996,52.4585319,13.3277379,Thomas Gemeinde,Bergstraße 92,12169.0,Berlin,6100208
+1256840401,52.5363614,13.3995255,ChristusKirche Berlin-Mitte,Anklamer Straße 31,10115.0,Berlin,1100416
+1274338417,52.6175317,13.3110728,Ev. Kirchengem. Hermsdorf,Wachsmuthstraße 24,13467.0,Berlin,12400723
+1309021897,52.5122972,13.4654696,Buddhistisches Zentrum Bodhicharya Deutschland e.V.,Kinzigstraße 25,10247.0,Berlin,2500831
+1313117575,52.5263666,13.3634646,Stadtmission Gemeinde im Zentrum am Hauptbahnhof,Lehrter Straße 68,10557.0,Berlin,1200627
+1370499165,52.4552861,13.3160909,Kirche des Nazareners,,,,6100101
+1392943281,52.4716845,13.3275731,Evangelische Gemeinschaft Friedenau,Friedrich-Wilhelm-Platz 7,12161.0,Berlin,7300515
+1404465171,52.5235611,13.2012548,Königreichssaal Jehovas Zeugen,Weißenburger Straße 35,13595.0,Berlin,5200631
+1404484782,52.5276681,13.1824095,Königreichssaal Jehovas Zeugen,Seeburger Straße 32E,13581.0,Berlin,5200629
+1505231652,52.4436435,13.5739658,Schloßkirche,,,,9401534
+1556403863,52.5527163,13.4403343,Baptisten-Gemeinde,,,,3500934
+1602071051,52.5659379,13.3945595,Franziskanerkloster,,13187.0,Berlin,3400721
+1813041607,52.5059403,13.3457893,St. Franziskus - Kapelle,,,,1100101
+1891429795,52.5751024,13.2752084,Stadtmission Gemeinde Tegel,Billerbecker Weg 112-114,13507.0,Berlin,12200412
+1895341034,52.5324743,13.3515831,Apostolische Gemeinde Berlin,,,,1200623
+1903040914,52.5860016,13.3990095,Adventgemeinde Pankow,Eichenstraße 61,13156.0,Berlin,3200205
+1976696605,52.4718577,13.445666,Gazi Osman Pasa Moschee eV,Schöneweider Straße 11,12055.0,Berlin,8100417
+2145256562,52.4925385,13.4125654,Buddhistisches Tor Berlin,,10967.0,,2200213
+2281044959,52.4767583,13.4419312,Evangelische Reformierte Bethlehemsgemeinde,Richardstraße 97,12043.0,Berlin,8100416
+2299953817,52.551148,13.3564321,Sultan Abdulhamid Han Moschee,Amsterdamer Straße 17A,13347.0,Berlin,1401048
+2303055234,52.548976,13.3658262,International Christian Revival Church,,,,1401043
+2412265590,52.5008249,13.4216124,International Zen Temple,,,,2300314
+2439362666,52.5134409,13.4723349,Stadtmission Gemeinde Frankfurter Allee,Frankfurter Allee 96,10247.0,Berlin,2500832
+2478866162,52.5265817,13.1838279,Markaz Rasulallah e.V.,Seeburger Straße 65,13581.0,Berlin,5200630
+2501779747,52.5539109,13.386745,Stadtmission Gemeinde Wedding,Stettiner Straße 45,13357.0,Berlin,1300733
+2529484537,52.5329001,13.3519377,Indonesisches Weisheits- & Kulturzentrum,Feldzeugmeisterstraße 1,10557.0,Berlin,1200623
+2625794374,52.5653374,13.4068043,Paulus-Gemeinde Berlin-Pankow e.V.,Florastraße 35,13187.0,Berlin,3400723
+2699488273,52.5958406,13.3601004,Evangelisch Apostolische Johannes Gemeinde,,,,12601235
+2759261083,52.4860503,13.4273767,Hamidiye Camii,Sonnenallee 18,12047.0,Berlin,8100314
+2822957669,52.4784894,13.4388682,Alevitischer Kulturverein Berlin e.V. Oniki Imam Yolu/Weg der Zwölf Imame,Richardstraße 110,12043.0,Berlin,8100415
+2848134843,52.4247877,13.4025532,Islamisches Imam Hassan Werk e.V.,Im Lesachtal 24,12107.0,Berlin,7501134
+2865873505,52.4283802,13.4554551,Martin Luther King Kirche,Martin-Luther-King-Weg 8,12351.0,Berlin,8300934
+2867830690,52.5604095,13.2090936,,Chamissostraße 4,13587.0,Berlin,5100104
+2876493701,52.395433,13.159289,Weidenkirche,Kremnitzufer 9,14109.0,Berlin,6400735
+3039050111,52.5568446,13.4666789,Jagannatha Tempel Berlin,Berliner Allee 209,13088.0,Berlin,3500933
+3039050989,52.5486002,13.4568597,Stadtmission Gemeinde Bizetstraße,Bizetstraße 75,13088.0,Berlin,3500936
+3145126656,52.4716001,13.3368317,Valide Sultan Camii,,,,7300618
+3167606461,52.4616075,13.4177462,Serbisch-orthodoxe Christi-Auferstehungs-Kirche,Schwanheimer Straße 11,,,7400928
+3332061408,52.5587606,13.3746465,Interkulturelles Zentrum für Dialog und Bildung e.V.,Drontheimer Straße 32A,13359.0,Berlin,1300730
+3401492942,52.4829515,13.3494207,Alt-Katholische Gemeinde Berlin,Hauptstraße 48,10827.0,Berlin,7200409
+3410334471,52.5116982,13.4110167,Gereja Bethel Indonesia Jemaat Bethany,Wallstraße 32,10179.0,Berlin,1100312
+3411032742,52.4095908,13.405787,Evangelisch-Freikirchliche Gemeinde,,,,7601443
+3411055106,52.4278755,13.3211132,Bethel-Gemeinde,,,,6200421
+3411066489,52.435351,13.3850013,Evangelisch-Freikirchliche Gemeinde,,,,7501133
+3411082818,52.5455401,13.5656101,Evangelisch-Freikirchliche Gemeinde,,,,10100209
+3411168898,52.4670315,13.5105961,Evangelisch-Freikirchliche Gemeinde,,,,9200510
+3411207173,52.4667373,13.5098933,Friedenskirche,,,,9200510
+3411265895,52.4633355,13.52337,Evangelisch-Freikirchliche Neues Leben Gemeinde,,,,9200511
+3411369680,52.5445845,13.4114087,"Evangelisch-Freikirchliche Gemeinde ""Zoar""",Cantianstraße 9,10437.0,Berlin,3601142
+3411476712,52.4941039,13.3510938,Evangelisch-Freikirchliche Gemeinde,,,,7100204
+3411527446,52.54734,13.2053108,Evangelisch-Freikirchliche Gemeinde Berlin-Spandau,,,,5100314
+3411616993,52.5872326,13.2874309,Evangelisch-Freikirchliche Bethel-Gemeinde,,,,12200515
+3411706623,52.551225,13.3773848,Evangelisch-Freikirchliche Gemeinde,Buttmannstraße 10,13357.0,Berlin,1401044
+3411726933,52.4810184,13.3225114,Evangelisch-Freikirchliche Gemeinde,Hildegardstraße 20a,10715.0,Berlin,4501151
+3448408580,52.4789102,13.3471464,Greater Grace Evangelische Freikirche,,,,7200308
+3667655313,52.5276476,13.2071089,Adventgemeinde Spandau,Tiefwerderweg 5,13597.0,Berlin,5200632
+3737533306,52.5594755,13.3772248,Bilal Moschee,Drontheimer Straße 16,13359.0,Berlin,1300730
+3786111363,52.4974645,13.3310637,Shaolin Tempel,,,,4501045
+3834064759,52.5160494,13.2942714,Osman Gazi Camii,Nehringstraße 27,14059.0,Berlin,4300413
+3838822221,52.4899073,13.4251285,Kreuzbergprojekt,Lenaustraße 4,12047.0,Berlin,8100311
+4009581509,52.551925,13.3828026,Al-Iman-Moschee,Badstraße 21,13357.0,Berlin,1300733
+4033002786,52.5129872,13.5231746,Stadtmission Gemeinde Friedrichsfelde Ost,Seddiner Straße 1,10315.0,Berlin,11401033
+4033039485,52.5606059,13.4123837,Stadtmission Gemeinde Pankow,Berliner Straße 44,13189.0,Berlin,3400826
+4033046356,52.4971471,13.2957393,Stadtmission Gemeinde Wilmersdorf,Joachim-Friedrich-Straße 46,10711.0,Berlin,4500938
+4033054438,52.5265782,13.5029394,Junge Kirche Berlin - Lichtenberg,Herzbergstraße 84,10365.0,Berlin,11300721
+4040784008,52.5008178,13.4183984,Islamisches Kulturzentrum der Bosniaken in Berlin,,,,2300314
+4061948098,52.5590748,13.3786406,Haci Bayram Moschee e.V.,Koloniestraße 129,13359.0,Berlin,1300730
+4134243271,52.5255887,13.3130524,Studien- und Arbeitsgruppe Joanna de Angelis,,,,4300518
+4134251486,52.534466,13.3985341,Studienkreis Allan Kardec,,,,1100416
+4139472262,52.554119,13.3855593,Akşemseddin Camii,Bellermannstraße 90,13357.0,Berlin,1300733
+4207499766,52.5142393,13.301847,UMC English Language International Congregation Berlin,Kaiser-Friedrich-Straße 87,10585.0,Berlin,4300621
+4207985891,52.5142654,13.3018953,Evangelisch-methodistische Kirchengemeinde Berlin-Charlottenburg,Kaiser-Friedrich-Straße 87,10585.0,Berlin,4300621
+4252410793,52.432953,13.322537,Berliner Mennoniten-Gemeinde,Promenadenstraße 15b,12207.0,Berlin,6200421
+4278114891,52.4310706,13.3655904,Friedensheim,,,,6200317
+4317329215,52.5424565,13.2058287,Hoca Ahmet Yesevi Camii,,,,5100315
+4331571609,52.5020615,13.4799712,Wat Sacca,Nöldnerstraße 19,10317.0,Berlin,11400928
+4362191535,52.593826,13.447549,Friedhof von ehem. Insassen des NS-Zwangsarbeiterlagers Blankenburg,,,,3300514
+4381394730,52.5436199,13.3663176,Eyüp Sultan Moschee,,,,1300836
+4419026895,52.4975351,13.3665182,Lutherkirchengemeinde,,,,7100205
+4486714441,52.4857586,13.3544782,Kabbalah Center Berlin,Hauptstraße 27,10827.0,Berlin,7200409
+4777467917,52.5488708,13.3693086,Yunus Emre Moschee,Reinickendorfer Straße 38-39,13347.0,Berlin,1401044
+4817551642,52.5279959,13.3415596,LIFE e.V.,Wilhelmshavener Straße 4,10551.0,Berlin,1200520
+4879970440,52.4983623,13.4283306,Zentralmoschee,,,,2300417
+4899779632,52.5534058,13.3804495,,,,,1401045
+4926337191,52.4885844,13.2775636,Johannische Kirche,,,,4400726
+5034289021,52.5521145,13.412401,Christliche Wissenschaft,Paul-Robeson-Straße 45,10439.0,Berlin,3601141
+5057966521,52.4940136,13.3895642,Neuapostolische Kirche,Baruther Straße 4,,,2200210
+5102322080,52.4829894,13.452399,Al-Torath e.V.,Harzer Straße 51-52,12059.0,Berlin,8100419
+5102337476,52.5000169,13.4434141,Deutsch-libanesische Al-Balagh e.V.,Falckensteinstraße 4,10997.0,Berlin,2300419
+5354908060,52.5499382,13.4056115,Evangelische Gemeinschaft,,,,3601141
+5355879057,52.4562173,13.3155658,International Baptist Church,Rothenburgstraße 12a,,,6100101
+5359144778,52.5036843,13.2868454,Synagoge Herbartstraße,Herbartstraße 26,14057.0,Berlin,4300415
+5749586419,52.591834,13.3020519,Erlöserkirche,Gorkistraße 127,13509.0,Berlin,12500824
+5760441944,52.4879805,13.3587829,Emir Sultan,,,,7200411
+5969944136,52.4742836,13.4405261,Tekke-i Kadiriyye Mescidi,Karl-Marx-Straße 179,,,8100416
+5969958074,52.5489283,13.3601581,Mehmed Zahid Kotku Tekkesi,Turiner Straße 6,,,1401048
+5969997512,52.5154304,13.2873143,Seituna Moschee,Sophie-Charlotten-Straße 31,,,4300413
+5970017362,52.4917345,13.3691149,Ditib Anadolu Camii,Katzlerstraße 15,,,7100206
+5970060886,52.5391431,13.3887078,Ashab-i Kehf Camii,Jasmunder Straße 3,,,1300835
+5970082401,52.4787946,13.4211838,Baitul Mukarram Masjid e.V.,Selchower Straße 12,12049.0,Berlin,8100102
+5976073569,52.4827352,13.4317356,Xhamia Isa Beuy Moschee,Karl-Marx-Straße 58,12043.0,Berlin,8100206
+5976087510,52.5487201,13.2023837,Spandau Yeni Camii,Lynarstraße 17,13585.0,Berlin,5100314
+5976092238,52.5004818,13.3608288,Semerkant Moschee,Kurfürstenstraße 37,,,1100103
+5976101318,52.4965099,13.3850921,Orhan Gazi Camii,Obentrautstraße 35,10963.0,Berlin,2200208
+5976130396,52.4715918,13.4293871,Neukölln Camii,Hermannstraße 177,12051.0,Berlin,8100208
+5980150601,52.4905131,13.4240271,Muradiye Camii - Türkisch-Islamischer Kulturverein e.V.,,,,8100311
+5980162241,52.5247106,13.3132266,Moschee Al-Salam,Goslarer Platz 5,,,4300518
+5980184803,52.4656222,13.4321418,Mimar Sinan Camii,Hermannstraße 120,,,8100105
+5988221849,52.4575259,13.3950503,Ibrahim-al-Khalil-Moschee,,,,7400927
+6147582386,52.5525475,13.4452454,Buddhistisches Zentrum Berlin,Charlottenburger Straße 28,13086.0,Berlin,3500935
+6168035493,52.5623258,13.3636495,Ditib Koca Sinan Camii,Holländerstraße 128,,,12100204
+6181021263,52.5286225,13.3837938,Kapelle,,,,1100308
+6288821537,52.546539,13.3495215,Al Firdaus Moschee,Brüsseler Straße 39,13353.0,Berlin,1400942
+6451805759,52.5170517,13.2791877,Dharma Mati,Soorstraße 85,14050.0,Berlin,4200311
+6479789902,52.4967907,13.3664292,American Church in Berlin,Bülowstraße 71-72,10783.0,Berlin,7100205
+6501792288,52.5675373,13.3310917,Sikh tempel,,,,12100205
+6573713854,52.5136549,13.2589531,Kirche Mariae Verkündigung,,,,4200309
+6587735838,52.5693535,13.4460908,Wat Buddhavihara Berlin,,,,3300516
+6609901764,52.5498509,13.3698805,Zen Zentrum Berlin,Gottschedstraße 4,13357.0,Berlin,1401044
+6666493460,52.4817242,13.4290588,Imam Riza Moschee,Reuterstraße 93,12053.0,Berlin,8100206
+6813621285,52.4341427,13.3623924,Äthiopisch-Orthodoxe Gemeinde Berlin,,,,6200316
+7105141868,52.5351382,13.4277849,Philippus-Gemeinde,Christburger Straße 13,10405.0,Berlin,3701658
+7239671339,52.4727133,13.4413119,Evangelische Kirchengemeinde Rixdorf,Karl-Marx-Straße 197,,,8100416
+7245424102,52.4759459,13.4427478,Berlin Mesihin Kilisesi,Richardstraße 28,12043.0,Berlin,8100416
+7305754087,52.5596656,13.3821255,Mescidi Aksa Camii,Soldiner Straße 72,13359.0,Berlin,1300730
+7330188834,52.4956849,13.2978011,Reset Charlottenburg,,,,4500938
+7548667986,52.5620819,13.3813897,İmam Cafer Sadık Camii,Koloniestraße 106,13359.0,Berlin,1300731
+7548668191,52.5643593,13.3702349,Turgut Alp Camii,,,,12100101
+7554137778,52.4706483,13.3347061,Happy Science,Rheinstraße 63,12159.0,Berlin,7300618
+7598149820,52.4755949,13.3288299,Reset Berlin,Bundesallee 137,12161.0,Berlin,7300517
+7601365299,52.554464,13.3444459,Sülemaniye Camii,Müllerstraße 119,13349.0,Berlin,1400937
+7695790045,52.4749464,13.3204476,Zentrum für Meditation und tibetischen Yoga,Laubacher Straße 21,14197.0,Berlin,7300515
+7747350429,52.4714072,13.344014,The Chapel of Prayer Christian Ministry,,,,7300619
+8042869045,52.4621584,13.3435488,Apostelamt Jesu Christi,,,,6100210
+8044529220,52.5090458,13.32215,Shiva-Ganesha-Tempel,,,,4300624
+8345888598,52.4293515,13.3362114,Kreuzkirche Lankwitz,Zietenstraße 11,12249.0,Berlin,6200314
+8384940144,52.4680699,13.3912348,ICF Berlin Tempelhof,Ringbahnstraße 32-34,12099.0,Berlin,7400927
+8435917976,52.5223755,13.1659198,Evangelische Kirchengemeinde Staaken,Obstallee 22E,13593.0,Berlin,5200527
+8458615128,52.4789941,13.439441,Ditib Berlin Yeni Cami,Richardstraße 112,12043.0,Berlin,8100415
+8570055807,52.5985999,13.3433569,Al-Khayr Moschee,Eichhorster Weg 25,13435.0,Berlin,12601134
+8594871395,52.5142334,13.3023897,Gemeinde Gierkezeile,Gierkezeile 13,10585.0,Berlin,4300621
+8739849517,52.5869801,13.2934894,Tegel Selimiye Camii,Trettachzeile 7,13509.0,Berlin,12500825
+8786525286,52.3894866,13.3934854,Evangelische Salem-Gemeinde,Wünsdorfer Straße 88,12307.0,Berlin,7601546
+8976623075,52.5091947,13.4313468,Andreas-Kirchsaal,,,,2400623
+9354973732,52.5047514,13.5818309,Evangelische Freikirche Leuchtturm,,12621.0,Berlin,10400837
+9592974541,52.5394635,13.5779309,,,,,10100316
+9592974542,52.5394723,13.5777427,,,,,10100316
+9610861154,52.5680221,13.3671997,,,,,12100102
+9689643017,52.4801734,13.4324713,Buddhismus in Berlin e.V.,Neckarstraße 12,12053.0,,8100206
+9794512245,52.465579,13.3107756,Gemeinde Christi Breitenbachplatz,Forststraße 24,12163.0,Berlin,6100101
+10027402644,52.56015,13.2084891,Miao Fa Zentrum,Streitstraße 23,13587.0,Berlin,5100104
+10599872965,52.5192755,13.2907681,Ensar Camii,,,,4300412
+10863033623,52.5809262,13.3360945,Berlin Full Gospel Church,Blunckstraße 14,13437.0,Berlin,12500930
+10863195254,52.5131113,13.2847589,Centre Chrétien Agape e.V.,Knobelsdorffstraße 72,14059.0,Berlin,4200311
+11072479451,52.422699,13.3968698,,Mariendorfer Damm 347,12107.0,Berlin,7501134
+11078106301,52.437351,13.5714853,Königreichssaal Jehovas Zeugen,Grünauer Straße 104,12557.0,Berlin,9200819
+11078119221,52.5498591,13.3839192,Königreichsaal Jehovas Zeugen,Hochstraße 3,13357.0,Berlin,1300836
+11078121906,52.608821,13.4746032,Königreichssaal Jehovas Zeugen,Straße 34 3,13125.0,Berlin,3300412
+11214170388,52.5640554,13.4612618,diekreative,An der Industriebahn 12,13088.0,Berlin,3501037
+11258323951,52.5260433,13.3357611,Ibn Rushd-Goethe Moschee,,,,1200521
+11379293585,52.6012255,13.3394516,Ev. Felsen-Kirchengemeinde,Eichhorster Weg 58,,,12601031
+11379989012,52.4285195,13.4557435,Ev.Kirchengemeinde in der Gropiusstadt Standort Martin Luther King,Martin-Luther-King-Weg 6,12351.0,Berlin,8300934
