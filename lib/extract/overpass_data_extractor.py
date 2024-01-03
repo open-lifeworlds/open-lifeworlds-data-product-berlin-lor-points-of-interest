@@ -8,17 +8,17 @@ from tracking_decorator import TrackingDecorator
 
 points_of_interest_queries = [
     # Residential Areas
-    # {"name": "housing-complexes", "type": "node", "query": "building=residential"},
-    # {"name": "apartment-buildings", "type": "node", "query": "building=apartments"},
+    # {"name": "housing_complexes", "type": "node", "query": "building=residential"},
+    # {"name": "apartment_buildings", "type": "node", "query": "building=apartments"},
 
     # Workplaces
     {"name": "offices", "type": "nwr", "query": "office"},
-    {"name": "coworking-spaces", "type": "node", "query": "amenity=coworking_space"},
+    {"name": "coworking_spaces", "type": "node", "query": "amenity=coworking_space"},
 
     # Commercial Services
     {"name": "supermarkets", "type": "node", "query": "shop=supermarket"},
-    {"name": "grocery-stores", "type": "node", "query": "shop=grocery"},
-    {"name": "convenience-stores", "type": "node", "query": "shop=convenience"},
+    {"name": "grocery_stores", "type": "node", "query": "shop=grocery"},
+    {"name": "convenience_stores", "type": "node", "query": "shop=convenience"},
     # {"name": "markets", "type": "nwr", "query": "shop=market"},
 
     # Education
@@ -33,11 +33,11 @@ points_of_interest_queries = [
     {"name": "clinics", "type": "node", "query": "amenity=clinic"},
 
     # Recreation and Leisure
-    {"name": "sport-centers", "type": "node", "query": "leisure=sports_centre"},
-    {"name": "fitness-centers", "type": "node", "query": "leisure=fitness_centre"},
+    {"name": "sport_centers", "type": "node", "query": "leisure=sports_centre"},
+    {"name": "fitness_centers", "type": "node", "query": "leisure=fitness_centre"},
 
     # Cultural Spaces
-    {"name": "art-galleries", "type": "node", "query": "tourism=artwork"},
+    {"name": "art_galleries", "type": "node", "query": "tourism=artwork"},
     {"name": "theaters", "type": "node", "query": "amenity=theatre"},
     {"name": "museums", "type": "node", "query": "tourism=museum"},
     {"name": "cinemas", "type": "node", "query": "amenity=cinema"},
@@ -48,29 +48,32 @@ points_of_interest_queries = [
     {"name": "marketplaces", "type": "node", "query": "amenity=marketplace"},
     {"name": "bars", "type": "node", "query": "amenity=bar"},
     {"name": "pubs", "type": "node", "query": "amenity=pub"},
-    {"name": "beer-gardens", "type": "node", "query": "amenity=biergarten"},
-    {"name": "fast-food-restaurants", "type": "node", "query": "amenity=fast_food"},
-    {"name": "food-courts", "type": "node", "query": "amenity=food_court"},
-    {"name": "ice-cream-parlours", "type": "node", "query": "amenity=ice_cream"},
+    {"name": "beer_gardens", "type": "node", "query": "amenity=biergarten"},
+    {"name": "fast_food_restaurants", "type": "node", "query": "amenity=fast_food"},
+    {"name": "food_courts", "type": "node", "query": "amenity=food_court"},
+    {"name": "ice_cream_parlours", "type": "node", "query": "amenity=ice_cream"},
     {"name": "nightclubs", "type": "node", "query": "amenity=nightclub"},
 
     # Public Services
-    {"name": "post-offices", "type": "node", "query": "amenity=post_office"},
-    {"name": "police-stations", "type": "node", "query": "amenity=police"},
-    {"name": "fire-stations", "type": "node", "query": "amenity=fire_station"},
+    {"name": "post_offices", "type": "node", "query": "amenity=post_office"},
+    {"name": "police_stations", "type": "node", "query": "amenity=police"},
+    {"name": "fire_stations", "type": "node", "query": "amenity=fire_station"},
 
     # Transportation
-    {"name": "bus-stops", "type": "node", "query": "amenity=bus_station"},
-    {"name": "bicycle-rentals", "type": "node", "query": "amenity=bicycle_rental"},
-    {"name": "car-sharing-stations", "type": "node", "query": "amenity=car_sharing"},
+    {"name": "bus_stops", "type": "node", "query": "highway=bus_stop"},
+    {"name": "ubahn_stops", "type": "node", "query": "railway=station][subway=yes"},
+    {"name": "sbahn_stops", "type": "node", "query": "railway=station][light_rail=yes"},
+    {"name": "tram_stops", "type": "node", "query": "railway=tram_stop"},
+    {"name": "bicycle_rentals", "type": "node", "query": "amenity=bicycle_rental"},
+    {"name": "car_sharing_stations", "type": "node", "query": "amenity=car_sharing"},
 
     # Community Spaces
-    {"name": "community-centers", "type": "node", "query": "amenity=community_centre"},
-    {"name": "places-of-worship", "type": "node", "query": "amenity=place_of_worship"},
+    {"name": "community_centers", "type": "node", "query": "amenity=community_centre"},
+    {"name": "places_of_worship", "type": "node", "query": "amenity=place_of_worship"},
 
     # Green Spaces
-    {"name": "parks", "type": "node", "query": "leisure=park"},
-    # {"name": "urban-gardens", "type": "node", "query": "landuse=allotments"},
+    # {"name": "parks", "type": "nwr", "query": "leisure=park"}, # TODO Find a way to count parks
+    # {"name": "urban_gardens", "type": "node", "query": "landuse=allotments"},
     # {"name": "greenfield", "type": "node", "query": "landuse=greenfield"},
     # {"name": "grass", "type": "node", "query": "landuse=grass"},
 ]
@@ -97,7 +100,7 @@ def extract_overpass_data(source_path, results_path, clean=False, quiet=False):
         # Write json file
         write_json_file(
             file_path=os.path.join(results_path, "berlin-lor-points-of-interest",
-                                   f"berlin-lor-points-of-interest-{name}-details.json"),
+                                   f"berlin-lor-points-of-interest-{name.replace('_', '-')}-details.json"),
             query_name=name,
             json_content=overpass_json,
             clean=clean,
@@ -141,6 +144,6 @@ def write_json_file(file_path, query_name, json_content, clean, quiet):
             json.dump(json_content, json_file, ensure_ascii=False)
 
             if not quiet:
-                print(f"✓ Extract data for {query_name} into {os.path.basename(file_path)}")
+                print(f"✓ Extract data for {query_name.replace('_', '-')} into {os.path.basename(file_path)}")
     else:
         print(f"✓ Already exists {os.path.basename(file_path)}")

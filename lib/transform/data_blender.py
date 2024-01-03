@@ -67,6 +67,9 @@ statistic_properties = [
 
     # Transportation
     "bus_stops",
+    "ubahn_stops",
+    "sbahn_stops",
+    "tram_stops",
     "bicycle_rentals",
     "car_sharing_stations",
 
@@ -75,7 +78,7 @@ statistic_properties = [
     "places_of_worship",
 
     # Green Spaces
-    "parks",
+    # "parks", # TODO Find a way to count parks
     # "urban_gardens",
     # "greenfield",
     # "grass",

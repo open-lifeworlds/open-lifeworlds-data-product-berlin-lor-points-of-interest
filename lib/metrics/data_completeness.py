@@ -64,6 +64,9 @@ statistics_names = [
 
     # Transportation
     "bus_stops",
+    "ubahn_stops",
+    "sbahn_stops",
+    "tram_stops",
     "bicycle_rentals",
     "car_sharing_stations",
 
@@ -72,7 +75,7 @@ statistics_names = [
     "places_of_worships",
 
     # Green Spaces
-    "parks",
+    # "parks", # TODO Find a way to count parks
     # "urban_gardens",
     # "greenfield",
     # "grass",
