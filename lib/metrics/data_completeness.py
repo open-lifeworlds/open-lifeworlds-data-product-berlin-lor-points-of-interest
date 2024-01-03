@@ -10,8 +10,72 @@ data_path = os.path.join(script_path, "..", "..", "data")
 key_figure_group = "berlin-lor-points-of-interest"
 
 statistics_names = [
+    # Residential Areas
+    # "housing_complexes",
+    # "apartment_buildings",
+
+    # Workplaces
+    "offices",
+    "coworking_spaces",
+
+    # Commercial Services
+    "supermarkets",
+    "grocery_stores",
+    "convenience_stores",
+    # "markets",
+
+    # Education
+    "schools",
+    "kindergartens",
+    "childcare",
+    "libraries",
+
+    # Healthcare
     "doctors",
-    "pharmacies"
+    "pharmacies",
+    "clinics",
+
+    # Recreation and Leisure
+    "sport_centers",
+    "fitness_centers",
+
+    # Cultural Spaces
+    "art_galleries",
+    "theaters",
+    "museums",
+    "cinemas",
+
+    # Food and Dining
+    "cafes",
+    "restaurants",
+    "marketplaces",
+    "bars",
+    "pubs",
+    "beer_gardens",
+    "fast_food_restaurants",
+    "food_courts",
+    "ice_cream_parlours",
+    "nightclubs",
+
+    # Public Services
+    "post_offices",
+    "police_stations",
+    "fire_stations",
+
+    # Transportation
+    "bus_stops",
+    "bicycle_rentals",
+    "car_sharing_stations",
+
+    # Community Spaces
+    "community_centers",
+    "places_of_worships",
+
+    # Green Spaces
+    "parks",
+    # "urban_gardens",
+    # "greenfield",
+    # "grass",
 ]
 
 

@@ -8,18 +8,77 @@ from lib.tracking_decorator import TrackingDecorator
 
 key_figure_group = "berlin-lor-points-of-interest"
 
-statistic_properties = [
-    "doctors",
-    "pharmacies"
-]
-
 statistics_paths = [
     f"{key_figure_group}-2024-01",
 ]
 
-statistics_names = [
+statistic_properties = [
+    # Residential Areas
+    # "housing_complexes",
+    # "apartment_buildings",
+
+    # Workplaces
+    "offices",
+    "coworking_spaces",
+
+    # Commercial Services
+    "supermarkets",
+    "grocery_stores",
+    "convenience_stores",
+    # "markets",
+
+    # Education
+    "schools",
+    "kindergartens",
+    "childcare",
+    "libraries",
+
+    # Healthcare
     "doctors",
-    "pharmacies"
+    "pharmacies",
+    "clinics",
+
+    # Recreation and Leisure
+    "sport_centers",
+    "fitness_centers",
+
+    # Cultural Spaces
+    "art_galleries",
+    "theaters",
+    "museums",
+    "cinemas",
+
+    # Food and Dining
+    "cafes",
+    "restaurants",
+    "marketplaces",
+    "bars",
+    "pubs",
+    "beer_gardens",
+    "fast_food_restaurants",
+    "food_courts",
+    "ice_cream_parlours",
+    "nightclubs",
+
+    # Public Services
+    "post_offices",
+    "police_stations",
+    "fire_stations",
+
+    # Transportation
+    "bus_stops",
+    "bicycle_rentals",
+    "car_sharing_stations",
+
+    # Community Spaces
+    "community_centers",
+    "places_of_worship",
+
+    # Green Spaces
+    "parks",
+    # "urban_gardens",
+    # "greenfield",
+    # "grass",
 ]
 
 
@@ -170,18 +229,16 @@ def calculate_averages(year, half_year, year_population, geojson, csv_statistics
     values = {}
 
     values_sums = {property_name: int(sum(csv_statistics[property_name])) for property_name in statistic_properties if
-               property_name in csv_statistics}
+                   property_name in csv_statistics}
     values_averages = {}
 
     if total_sqkm is not None:
         values_averages |= {f"{property_name}_per_sqkm": round(float(total / total_sqkm), 2) for property_name, total in
-                   values_sums.items()}
+                            values_sums.items()}
     if total_inhabitants is not None:
-        values_averages |= {f"{property_name}_per_inhabitant": round(float(total / total_inhabitants), 2) for
-                   property_name, total in values_sums.items()}
-    if total_inhabitants is not None:
-        values_averages |= {f"{property_name}_per_100k_inhabitant": round(float(total / (total_inhabitants / 100_000)), 2)
-                   for property_name, total in values_sums.items()}
+        values_averages |= {
+            f"{property_name}_per_100k_inhabitant": round(float(total / (total_inhabitants / 100_000)), 2)
+            for property_name, total in values_sums.items()}
 
     values |= values_sums
     values |= values_averages
@@ -205,9 +262,6 @@ def add_property_with_modifiers(feature, statistics, property_name, total_area_s
                 feature["properties"][f"{property_name}_per_sqkm"] = round(
                     float(statistics[property_name].sum()) / total_area_sqkm, 2)
             if inhabitants is not None:
-                feature["properties"][f"{property_name}_per_inhabitant"] = round(
-                    float(statistics[property_name].sum()) / inhabitants, 2)
-            if inhabitants is not None:
                 feature["properties"][f"{property_name}_per_100k_inhabitant"] = round(
                     float(statistics[property_name].sum()) / (inhabitants / 100_000), 2)
         except ValueError:
@@ -216,16 +270,12 @@ def add_property_with_modifiers(feature, statistics, property_name, total_area_s
             if total_area_sqkm is not None:
                 feature["properties"][f"{property_name}_per_sqkm"] = 0
             if inhabitants is not None:
-                feature["properties"][f"{property_name}_per_inhabitant"] = 0
-            if inhabitants is not None:
                 feature["properties"][f"{property_name}_per_100k_inhabitant"] = 0
         except TypeError:
             feature["properties"][f"{property_name}"] = 0
 
             if total_area_sqkm is not None:
                 feature["properties"][f"{property_name}_per_sqkm"] = 0
-            if inhabitants is not None:
-                feature["properties"][f"{property_name}_per_inhabitant"] = 0
             if inhabitants is not None:
                 feature["properties"][f"{property_name}_per_100k_inhabitant"] = 0
 

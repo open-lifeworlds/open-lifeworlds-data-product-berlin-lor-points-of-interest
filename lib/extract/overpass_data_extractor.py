@@ -7,9 +7,72 @@ import requests
 from tracking_decorator import TrackingDecorator
 
 points_of_interest_queries = [
-    # Health
+    # Residential Areas
+    # {"name": "housing-complexes", "type": "node", "query": "building=residential"},
+    # {"name": "apartment-buildings", "type": "node", "query": "building=apartments"},
+
+    # Workplaces
+    {"name": "offices", "type": "nwr", "query": "office"},
+    {"name": "coworking-spaces", "type": "node", "query": "amenity=coworking_space"},
+
+    # Commercial Services
+    {"name": "supermarkets", "type": "node", "query": "shop=supermarket"},
+    {"name": "grocery-stores", "type": "node", "query": "shop=grocery"},
+    {"name": "convenience-stores", "type": "node", "query": "shop=convenience"},
+    # {"name": "markets", "type": "nwr", "query": "shop=market"},
+
+    # Education
+    {"name": "schools", "type": "node", "query": "amenity=school"},
+    {"name": "kindergartens", "type": "node", "query": "amenity=kindergarten"},
+    {"name": "childcare", "type": "node", "query": "amenity=childcare"},
+    {"name": "libraries", "type": "node", "query": "amenity=library"},
+
+    # Healthcare
     {"name": "doctors", "type": "node", "query": "amenity=doctors"},
     {"name": "pharmacies", "type": "node", "query": "amenity=pharmacy"},
+    {"name": "clinics", "type": "node", "query": "amenity=clinic"},
+
+    # Recreation and Leisure
+    {"name": "sport-centers", "type": "node", "query": "leisure=sports_centre"},
+    {"name": "fitness-centers", "type": "node", "query": "leisure=fitness_centre"},
+
+    # Cultural Spaces
+    {"name": "art-galleries", "type": "node", "query": "tourism=artwork"},
+    {"name": "theaters", "type": "node", "query": "amenity=theatre"},
+    {"name": "museums", "type": "node", "query": "tourism=museum"},
+    {"name": "cinemas", "type": "node", "query": "amenity=cinema"},
+
+    # Food and Dining
+    {"name": "cafes", "type": "node", "query": "amenity=cafe"},
+    {"name": "restaurants", "type": "node", "query": "amenity=restaurant"},
+    {"name": "marketplaces", "type": "node", "query": "amenity=marketplace"},
+    {"name": "bars", "type": "node", "query": "amenity=bar"},
+    {"name": "pubs", "type": "node", "query": "amenity=pub"},
+    {"name": "beer-gardens", "type": "node", "query": "amenity=biergarten"},
+    {"name": "fast-food-restaurants", "type": "node", "query": "amenity=fast_food"},
+    {"name": "food-courts", "type": "node", "query": "amenity=food_court"},
+    {"name": "ice-cream-parlours", "type": "node", "query": "amenity=ice_cream"},
+    {"name": "nightclubs", "type": "node", "query": "amenity=nightclub"},
+
+    # Public Services
+    {"name": "post-offices", "type": "node", "query": "amenity=post_office"},
+    {"name": "police-stations", "type": "node", "query": "amenity=police"},
+    {"name": "fire-stations", "type": "node", "query": "amenity=fire_station"},
+
+    # Transportation
+    {"name": "bus-stops", "type": "node", "query": "amenity=bus_station"},
+    {"name": "bicycle-rentals", "type": "node", "query": "amenity=bicycle_rental"},
+    {"name": "car-sharing-stations", "type": "node", "query": "amenity=car_sharing"},
+
+    # Community Spaces
+    {"name": "community-centers", "type": "node", "query": "amenity=community_centre"},
+    {"name": "places-of-worship", "type": "node", "query": "amenity=place_of_worship"},
+
+    # Green Spaces
+    {"name": "parks", "type": "node", "query": "leisure=park"},
+    # {"name": "urban-gardens", "type": "node", "query": "landuse=allotments"},
+    # {"name": "greenfield", "type": "node", "query": "landuse=greenfield"},
+    # {"name": "grass", "type": "node", "query": "landuse=grass"},
 ]
 
 
