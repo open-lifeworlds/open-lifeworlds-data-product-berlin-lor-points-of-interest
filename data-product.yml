@@ -2,9 +2,9 @@
 id: berlin-lor-points-of-interest
 name: Berlin LOR Points of Interest
 metadata:
-  - ownership: Open Lifeworlds
-  - domain: geodata
-  - schema:
+  ownership: Open Lifeworlds
+  domain: geodata
+  schema:
 description: This data product provides Berlin points-of-interest data on different LOR hierarchy levels
 input_ports:
   - id: berlin-lor-geodata-geojson
