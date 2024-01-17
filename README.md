@@ -9,7 +9,7 @@
   <h1 align="center">Open Lifeworlds Data Product - Berlin LOR points of interest</h1>
 
   <p align="center">
-    Data product providing Berlin LOR points-of-interest data</a>
+    Consumer-aligned product combining Berlin LOR points-of-interest data and geodata</a>
   </p>
 </p>
 
@@ -47,15 +47,17 @@ Examples:
 
 ## Roadmap
 
-See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/issues) for a list of proposed features (and
- known issues).
+See
+the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/issues)
+for a list of proposed features (and known issues).
 
 ## License
 
-Source data distributed under [Open Data Commons Open Database License ](https://opendatacommons.org/licenses/odbl/) (ODbL) by the [OpenStreetMap Foundation](https://osmfoundation.org/) (OSMF).
+Source data distributed under [Open Data Commons Open Database License ](https://opendatacommons.org/licenses/odbl/) (
+ODbL) by the [OpenStreetMap Foundation](https://osmfoundation.org/) (OSMF).
 
-Data product distributed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/). See [LICENSE.md](./LICENSE.md) for more information.
-
+Data product distributed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+See [LICENSE.md](./LICENSE.md) for more information.
 
 ## Contact
 

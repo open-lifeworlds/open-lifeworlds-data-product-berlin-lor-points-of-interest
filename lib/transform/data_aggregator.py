@@ -119,13 +119,13 @@ def aggregate(source_path, results_path, clean=False, quiet=False):
         if dataframe.shape[0] > 0:
             dataframe.to_csv(target_file_path, index=False)
         if not quiet:
-            print(f"✓ Summarize into {os.path.basename(target_file_path)}")
+            print(f"✓ Aggregate into {os.path.basename(target_file_path)}")
         else:
             if not quiet:
                 print(dataframe.head())
                 print(f"✗️ Empty {os.path.basename(target_file_path)}")
     else:
-        print(f"✓ Already summarized into {os.path.basename(target_file_path)}")
+        print(f"✓ Already aggregate into {os.path.basename(target_file_path)}")
 
 
 def read_csv_file(file_path):

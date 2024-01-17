@@ -7,10 +7,6 @@ from lib.tracking_decorator import TrackingDecorator
 
 key_figure_group = "berlin-lor-points-of-interest"
 
-statistics_paths = [
-    f"{key_figure_group}-2024-01",
-]
-
 
 @TrackingDecorator.track_time
 def blend_data_details(source_path, results_path, clean=False, quiet=False):

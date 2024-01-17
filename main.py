@@ -3,13 +3,11 @@ import os
 import sys
 
 from lib.extract.data_extractor import extract_data
-from lib.extract.overpass_data_extractor import extract_overpass_data
 from lib.load.data_loader import load_data
 from lib.tracking_decorator import TrackingDecorator
 from lib.transform.data_aggregator import aggregate
 from lib.transform.data_blender import blend_data
 from lib.transform.data_copier import copy_data
-from lib.transform.data_csv_converter import convert_data_to_csv
 from lib.transform.data_details_blender import blend_data_details
 from lib.transform.data_filterer import filter_data
 from lib.transform.data_lor_area_assigner import assign_lor_area
@@ -52,24 +50,18 @@ def main(argv):
     #
 
     extract_data(manifest_path=manifest_path, results_path=raw_path, clean=clean, quiet=quiet)
-    extract_overpass_data(source_path=raw_path, results_path=raw_path, clean=clean, quiet=quiet)
 
     #
     # Transform
     #
 
     copy_data(source_path=raw_path, results_path=workspace_path, clean=clean, quiet=quiet)
-    convert_data_to_csv(source_path=os.path.join(workspace_path, "berlin-lor-points-of-interest"),
-                        results_path=workspace_path, clean=clean, quiet=quiet)
     assign_lor_area(source_path=workspace_path, results_path=workspace_path, data_path=data_path, clean=clean,
                     quiet=quiet)
     filter_data(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
 
     aggregate(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
     blend_data(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
-
-    # Details
-
     blend_data_details(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
 
     #

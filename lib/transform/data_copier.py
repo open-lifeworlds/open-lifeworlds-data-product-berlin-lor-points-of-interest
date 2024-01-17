@@ -13,16 +13,18 @@ def copy_data(source_path, results_path, clean=False, quiet=False):
     for subdir, dirs, files in sorted(os.walk(source_path)):
         for source_file_name in sorted(files):
             subdir = subdir.replace(f"{source_path}/", "")
-            results_file_name = get_results_file_name(subdir, source_file_name)
+            results_file_name = source_file_name
 
             # Make results path
             os.makedirs(
-                os.path.join(results_path, subdir + (f"-{timestamp}" if "points-of-interest" in subdir else "")),
+                os.path.join(results_path,
+                             subdir.replace("-csv", "") + (f"-{timestamp}" if "points-of-interest" in subdir else "")),
                 exist_ok=True)
 
             source_file_path = os.path.join(source_path, subdir, source_file_name)
             results_file_path = os.path.join(results_path,
-                                             subdir + (f"-{timestamp}" if "points-of-interest" in subdir else ""),
+                                             subdir.replace("-csv", "") + (
+                                                 f"-{timestamp}" if "points-of-interest" in subdir else ""),
                                              results_file_name)
 
             # Check if file needs to be copied
@@ -33,12 +35,3 @@ def copy_data(source_path, results_path, clean=False, quiet=False):
                     print(f"✓ Copy {results_file_name}")
             else:
                 print(f"✓ Already exists {results_file_name}")
-
-
-def get_results_file_name(subdir, source_file_name):
-    timestamp = datetime.now().strftime("%Y-%m")
-
-    if source_file_name.endswith("-details.json"):
-        return source_file_name.replace("-details.json", f"-{timestamp}-details.json")
-    else:
-        return source_file_name

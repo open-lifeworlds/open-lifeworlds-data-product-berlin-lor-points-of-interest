@@ -9,7 +9,7 @@ data_path = os.path.join(script_path, "..", "..", "data")
 
 key_figure_group = "berlin-lor-points-of-interest"
 
-statistics_names = [
+statistic_properties = [
     # Residential Areas
     # "housing_complexes",
     # "apartment_buildings",
@@ -72,7 +72,7 @@ statistics_names = [
 
     # Community Spaces
     "community_centers",
-    "places_of_worships",
+    "places_of_worship",
 
     # Green Spaces
     # "parks", # TODO Find a way to count parks
@@ -91,12 +91,12 @@ for year in [2024]:
         for lor_area_type in ["districts", "forecast-areas", "district-regions", "planning-areas"]:
             file = os.path.join(data_path, f"{key_figure_group}-{year}-{month}",
                                 f"{key_figure_group}-{year}-{month}-{lor_area_type}.geojson")
+            print(file)
             setattr(
                 FilesTestCase,
                 f"test_{key_figure_group}_{year}_{month}_{lor_area_type}".replace('-', '_'),
                 lambda self, file=file: self.assertTrue(os.path.exists(file))
             )
-
 
 class PropertiesTestCase(unittest.TestCase):
     pass
@@ -105,21 +105,20 @@ class PropertiesTestCase(unittest.TestCase):
 for year in [2024]:
     for month in ["01"]:
         for lor_area_type in ["districts", "forecast-areas", "district-regions", "planning-areas"]:
-            for statistics_name in statistics_names:
-                file = os.path.join(data_path, f"{key_figure_group}-{year}-{month}",
-                                    f"{key_figure_group}-{year}-{month}-{lor_area_type}.geojson")
-                if os.path.exists(file):
-                    with open(file=file, mode="r", encoding="utf-8") as geojson_file:
-                        geojson = json.load(geojson_file, strict=False)
+            file = os.path.join(data_path, f"{key_figure_group}-{year}-{month}",
+                                f"{key_figure_group}-{year}-{month}-{lor_area_type}.geojson")
+            if os.path.exists(file):
+                with open(file=file, mode="r", encoding="utf-8") as geojson_file:
+                    geojson = json.load(geojson_file, strict=False)
 
-                    for feature in geojson["features"]:
-                        feature_id = feature["properties"]["id"]
-                        setattr(
-                            PropertiesTestCase,
-                            f"test_{key_figure_group}_{year}_{month}_{lor_area_type}_{feature_id}".replace('-', '_'),
-                            lambda self, feature=feature: self.assertTrue(
-                                all(property in feature["properties"] for property in statistics_names))
-                        )
+                for feature in geojson["features"]:
+                    feature_id = feature["properties"]["id"]
+                    setattr(
+                        PropertiesTestCase,
+                        f"test_{key_figure_group}_{year}_{month}_{lor_area_type}_{feature_id}".replace('-', '_'),
+                        lambda self, feature=feature: self.assertTrue(
+                            all(property in feature["properties"] for property in statistic_properties))
+                    )
 
 if __name__ == '__main__':
     unittest.main()

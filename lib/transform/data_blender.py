@@ -8,10 +8,6 @@ from lib.tracking_decorator import TrackingDecorator
 
 key_figure_group = "berlin-lor-points-of-interest"
 
-statistics_paths = [
-    f"{key_figure_group}-2024-01",
-]
-
 statistic_properties = [
     # Residential Areas
     # "housing_complexes",
@@ -98,53 +94,57 @@ def blend_data(source_path, results_path, clean=False, quiet=False):
     # Initialize statistics
     json_statistics = {}
 
-    # Iterate over LOR area types
-    for lor_area_type in ["districts", "forecast-areas", "district-regions", "planning-areas"]:
+    # Iterate over files
+    for subdir, dirs, files in sorted(os.walk(source_path)):
 
-        # Iterate over statistics
-        for statistics_path in sorted(statistics_paths):
-            year = re.search(r"\b\d{4}\b", statistics_path).group()
-            month = re.search(r"\b\d{2}(?<!\d{4})\b", statistics_path).group()
+        statistics_name = subdir.replace(f"{source_path}/", "")
 
-            # Load geojson
-            if lor_area_type == "districts":
-                geojson = read_geojson_file(
-                    os.path.join(source_path, "berlin-lor-geodata-geojson", f"berlin-lor-{lor_area_type}.geojson"))
-            elif int(year) <= 2020:
-                geojson = read_geojson_file(
-                    os.path.join(source_path, "berlin-lor-geodata-geojson",
-                                 f"berlin-lor-{lor_area_type}-until-2020.geojson"))
-            elif int(year) >= 2021:
-                geojson = read_geojson_file(
-                    os.path.join(source_path, "berlin-lor-geodata-geojson",
-                                 f"berlin-lor-{lor_area_type}-from-2021.geojson"))
-            else:
-                geojson = None
+        if statistics_name.startswith("berlin-lor-points-of-interest-2"):
 
             # Load statistics
-            csv_statistics = read_csv_file(os.path.join(source_path, statistics_path,
-                                                        f"{key_figure_group}-{year}-{month}.csv"))
+            csv_statistics = read_csv_file(os.path.join(source_path, statistics_name, f"{statistics_name}.csv"))
 
-            # Extend geojson
-            extend(
-                year=year,
-                month=month,
-                geojson=geojson,
-                statistics_name=statistics_path,
-                csv_statistics=csv_statistics,
-                json_statistics=json_statistics,
-                json_statistics_population=json_statistics_population
-            )
+            year = re.search(r"\b\d{4}\b", statistics_name).group()
+            month = re.search(r"\b\d{2}(?<!\d{4})\b", statistics_name).group()
 
-            # Write geojson file
-            write_geojson_file(
-                file_path=os.path.join(results_path, statistics_path,
-                                       f"{key_figure_group}-{year}-{month}-{lor_area_type}.geojson"),
-                statistic_name=f"{key_figure_group}-{year}-{month}-{lor_area_type}",
-                geojson_content=geojson,
-                clean=clean,
-                quiet=quiet
-            )
+            # Iterate over LOR area types
+            for lor_area_type in ["districts", "forecast-areas", "district-regions", "planning-areas"]:
+
+                # Load geojson
+                if lor_area_type == "districts":
+                    geojson = read_geojson_file(
+                        os.path.join(source_path, "berlin-lor-geodata-geojson", f"berlin-lor-{lor_area_type}.geojson"))
+                elif int(year) <= 2020:
+                    geojson = read_geojson_file(
+                        os.path.join(source_path, "berlin-lor-geodata-geojson",
+                                     f"berlin-lor-{lor_area_type}-until-2020.geojson"))
+                elif int(year) >= 2021:
+                    geojson = read_geojson_file(
+                        os.path.join(source_path, "berlin-lor-geodata-geojson",
+                                     f"berlin-lor-{lor_area_type}-from-2021.geojson"))
+                else:
+                    geojson = None
+
+                # Extend geojson
+                extend(
+                    year=year,
+                    month=month,
+                    geojson=geojson,
+                    statistics_name=statistics_name,
+                    csv_statistics=csv_statistics,
+                    json_statistics=json_statistics,
+                    json_statistics_population=json_statistics_population
+                )
+
+                # Write geojson file
+                write_geojson_file(
+                    file_path=os.path.join(results_path, statistics_name,
+                                           f"{key_figure_group}-{year}-{month}-{lor_area_type}.geojson"),
+                    statistic_name=f"{key_figure_group}-{year}-{month}-{lor_area_type}",
+                    geojson_content=geojson,
+                    clean=clean,
+                    quiet=quiet
+                )
 
     # Write json statistics file
     write_json_file(
