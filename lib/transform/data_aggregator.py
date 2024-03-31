@@ -9,7 +9,7 @@ from lib.tracking_decorator import TrackingDecorator
 
 key_figure_group = "berlin-lor-points-of-interest"
 
-statistics_names = [
+statistic_properties = [
     # Residential Areas
     # "housing_complexes",
     # "apartment_buildings",
@@ -29,11 +29,13 @@ statistics_names = [
     "kindergartens",
     "childcare",
     "libraries",
+    "universities",
 
     # Healthcare
     "doctors",
     "pharmacies",
     "clinics",
+    "hospitals",
 
     # Recreation and Leisure
     "sport_centers",
@@ -76,6 +78,7 @@ statistics_names = [
 
     # Green Spaces
     # "parks", # TODO Find a way to count parks
+    # "recreation_ground",
     # "urban_gardens",
     # "greenfield",
     # "grass",
