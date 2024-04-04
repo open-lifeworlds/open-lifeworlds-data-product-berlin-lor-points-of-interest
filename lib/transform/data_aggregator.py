@@ -96,7 +96,7 @@ def aggregate(source_path, results_path, clean=False, quiet=False):
 
         dataframes_grouped = []
 
-        for statistic_name in statistics_names:
+        for statistic_name in statistic_properties:
             # Read source file
             source_file_path = os.path.join(source_path, f"{key_figure_group}-{timestamp}",
                                             f"{key_figure_group}-{statistic_name.replace('_', '-')}-{timestamp}-details.csv")
