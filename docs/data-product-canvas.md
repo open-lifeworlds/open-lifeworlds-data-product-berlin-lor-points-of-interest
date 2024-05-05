@@ -1,4 +1,4 @@
-# Data Product Canvas - Berlin LOR daycare centers
+# Data Product Canvas - Berlin LOR Points of Interest
 
 ## Input Ports
 
