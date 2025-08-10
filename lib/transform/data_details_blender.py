@@ -1,85 +1,97 @@
 import json
+import math
 import os
+import re
 
 import pandas as pd
+from openlifeworlds.config.data_transformation_loader import DataTransformation
 
 from lib.tracking_decorator import TrackingDecorator
 
-key_figure_group = "berlin-lor-points-of-interest"
-
 
 @TrackingDecorator.track_time
-def blend_data_details(source_path, results_path, clean=False, quiet=False):
-    # Iterate over files
+def blend_data_details(
+    data_transformation: DataTransformation,
+    source_path,
+    results_path,
+    clean=False,
+    quiet=False,
+):
     for subdir, dirs, files in sorted(os.walk(source_path)):
+        if bool(re.search(r"berlin-points-of-interest-\d{4}-\d{2}$", subdir)):
+            for f in [
+                file_name
+                for file_name in sorted(files)
+                if file_name.endswith(".csv")
+                and not file_name.endswith("-city.csv")
+                and not file_name.endswith("-districts.csv")
+                and not file_name.endswith("-forecast-areas.csv")
+                and not file_name.endswith("-district-regions.csv")
+                and not file_name.endswith("-planning-areas.csv")
+            ]:
+                file_name, file_extension = os.path.splitext(f)
 
-        # Make results path
-        subdir = subdir.replace(f"{source_path}/", "")
-        os.makedirs(os.path.join(results_path, subdir), exist_ok=True)
+                source_file_path = os.path.join(
+                    source_path,
+                    subdir.split(os.sep)[-1],
+                    f"{file_name}{file_extension}",
+                )
+                results_file_path = os.path.join(
+                    results_path,
+                    "berlin-lor-points-of-interest-details-geojson",
+                    f"{file_name}.geojson",
+                )
 
-        for file_name in [file_name for file_name in sorted(files) if file_name.endswith("-details.csv")]:
-            source_file_path = os.path.join(source_path, subdir, file_name)
-            blend_details_into_geojson(source_file_path, clean=clean, quiet=quiet)
+                with open(source_file_path, "r") as csv_file:
+                    dataframe_details = pd.read_csv(csv_file, dtype=str)
 
+                    geojson = {"type": "FeatureCollection", "features": []}
 
-def blend_details_into_geojson(source_file_path, clean, quiet):
-    source_file_name, source_file_extension = os.path.splitext(source_file_path)
-    target_file_path = f"{source_file_name}.geojson"
+                    for _, detail in dataframe_details.iterrows():
+                        if not math.isnan(float(detail["planning_area_id"])):
+                            properties = {
+                                "id": detail["id"],
+                                "name": detail["name"],
+                                "street": detail["street"],
+                                "zip-code": int(float(detail["zip_code"]))
+                                if not math.isnan(float(detail["zip_code"]))
+                                else math.nan,
+                                "lat": float(detail["lat"]),
+                                "lon": float(detail["lon"]),
+                                "planning-area-id": int(detail["planning_area_id"]),
+                            }
+                            properties_filtered = {
+                                key: value
+                                for key, value in properties.items()
+                                if not (isinstance(value, float) and math.isnan(value))
+                            }
 
-    geojson = {
-        "type": "FeatureCollection",
-        "features": []
-    }
+                            geojson["features"].append(
+                                {
+                                    "type": "Feature",
+                                    "geometry": {
+                                        "type": "Point",
+                                        "coordinates": [
+                                            float(detail["lon"]),
+                                            float(detail["lat"]),
+                                        ],
+                                    },
+                                    "properties": properties_filtered,
+                                }
+                            )
 
-    if clean or not os.path.exists(target_file_path):
-        dataframe_details = read_csv_file(source_file_path)
+                    # Save geojson
+                    if clean or not os.path.exists(results_file_path):
+                        os.makedirs(os.path.dirname(results_file_path), exist_ok=True)
+                        with open(
+                            results_file_path, "w", encoding="utf-8"
+                        ) as geojson_file:
+                            json.dump(geojson, geojson_file, ensure_ascii=False)
 
-        for _, detail in dataframe_details.iterrows():
-            geojson["features"].append({
-                "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [float(detail["lon"]), float(detail["lat"])]
-                },
-                "properties": {
-                    "id": detail["id"],
-                    "name": detail["name"],
-                    "street": detail["street"],
-                    "zip-code": detail["zip_code"],
-                    "city": detail["city"],
-                    "planning-area-id": int(detail["planning_area_id"])
-                }
-            })
-
-        # Write geojson file
-        write_geojson_file(
-            file_path=os.path.join(target_file_path),
-            statistic_name=f"{os.path.basename(target_file_path)}",
-            geojson_content=geojson,
-            clean=clean,
-            quiet=quiet
-        )
-
-
-def read_csv_file(file_path):
-    if os.path.exists(file_path):
-        with open(file_path, "r") as csv_file:
-            return pd.read_csv(csv_file, dtype={"id": "str"}, header=0, index_col=False).fillna("")
-    else:
-        return None
-
-
-def write_geojson_file(file_path, statistic_name, geojson_content, clean, quiet):
-    if not os.path.exists(file_path) or clean:
-
-        # Make results path
-        path_name = os.path.dirname(file_path)
-        os.makedirs(os.path.join(path_name), exist_ok=True)
-
-        with open(file_path, "w", encoding="utf-8") as geojson_file:
-            json.dump(geojson_content, geojson_file, ensure_ascii=False)
-
-            if not quiet:
-                print(f"✓ Blend data from {statistic_name} into {os.path.basename(file_path)}")
-    else:
-        print(f"✓ Already exists {os.path.basename(file_path)}")
+                            not quiet and print(
+                                f"✓ Convert {os.path.basename(results_file_path)}"
+                            )
+                    else:
+                        not quiet and print(
+                            f"✓ Already exists {os.path.basename(results_file_path)}"
+                        )

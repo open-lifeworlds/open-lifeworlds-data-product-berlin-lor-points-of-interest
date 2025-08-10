@@ -1,0 +1,41 @@
+id,lat,lon,name,street,zip_code,city,planning_area_id
+98896966,52.48745,13.32068,Berufsfeuerwache Wilmersdorf,Gasteiner Straße 19-20,10717.0,Berlin,04501147
+253618460,52.51182,13.44454,Berufsfeuerwache Friedrichshain,Rüdersdorfer Straße 56,10243.0,Berlin,02400624
+254089285,52.36893,13.70207,Freiwillige Feuerwehr Wernsdorf,,,,
+262960560,52.41242,13.75353,Freiwillige Feuerwehr Erkner,Am Kurpark 16,15537.0,Erkner,
+270905719,52.43671,13.71615,Freiwillige Feuerwehr Wilhelmshagen,,,,09501838
+309402997,52.37330,13.26058,Freiwillige Feuerwehr Ruhlsdorf,,,,
+330880463,52.52655,13.38919,Freiwillige Feuerwehr Mitte,,,,01100309
+339387524,52.61110,13.48309,Freiwillige Feuerwehr Karow,,,,03300413
+343472804,52.48401,13.52067,Berufsfeuerwache Karlshorst,,,,11501339
+365075276,52.35882,13.59120,Freiwillige Feuerwehr Schulzendorf,,,,
+450174418,52.48383,13.52022,Freiwillige Feuerwehr Karlshorst,,,,11501339
+566445383,52.34092,13.10176,Freiwillige Feuerwehr Nuthetal,,,,
+577355077,52.54070,13.36712,,Fennstraße 9,13353.0,Berlin,01300836
+674086104,52.54484,13.21035,Freiwillige Feuerwehr Spandau-Nord,,,,05100313
+845722378,52.50004,13.74035,Feuerwehr Vogelsdorf,Frankfurter Chaussee 76,15370.0,Fredersdorf-Vogelsdorf,
+944868560,52.62704,13.48455,GZS,,,,03100103
+1003091301,52.60035,13.75479,Freiwillige Feuerwehr Altlandsberg - Löschgruppe Wegendorf,Alte Schulstraße 7,15345.0,Altlandsberg,
+1271558626,52.62892,13.67369,Freiwillige Feuerwehr Löhme,Löhmer Dorfstraße 41a,16356.0,Werneuchen,
+1271558629,52.62202,13.67860,Freiwillige Feuerwehr Seefeld,,,,
+1383496499,52.39244,13.50571,Freiwillige Feuerwehr Schönefeld,Hans-Grade-Allee 23,12529.0,Schönefeld,
+1450877655,52.62539,13.54210,Freiwillige Feuerwehr Schwanebeck,,,,
+2472635508,52.65483,13.44660,,,,,
+3354419269,52.50172,13.33257,Berufsfeuerwache Ranke,Rankestraße 10-12,10789.0,Berlin,04501042
+3431432018,52.65720,13.33881,Freiwillige Feuerwehr Schönfließ,Am Anger 1,16567.0,Mühlenbecker Land,
+4314579068,52.46897,13.43841,Freiwillige Feuerwehr Neukölln,,,,08100208
+4706714959,52.50955,13.55648,Freiwillige Feuerwehr Biesdorf,Alt-Biesdorf 58,12683.0,Berlin,10300733
+5523199172,52.56828,13.10356,Feuerwache Falkensee,,,,
+5764101263,52.49552,13.40322,Freiwillige Feuerwehr Urban,,,,02200210
+5764101264,52.49554,13.40296,Berufsfeuerwache Urban,,,,02200210
+6621423513,52.58753,13.34104,Freiwillige Feuerwehr Wittenau,Roedernallee 55,13437.0,Berlin,12100205
+6621423514,52.42965,13.38028,Freiwillige Feuerwehr Marienfelde,Wilhelm-von-Siemens-Straße 15,12277.0,Berlin,07501133
+6621423515,52.58666,13.28609,Freiwillige Feuerwehr Tegel,Berliner Straße 16,13507.0,Berlin,12200515
+6621423516,52.50911,13.29603,Freiwillige Feuerwehr Suarez,Suarezstraße 9-10,14057.0,Berlin,04300416
+6621423517,52.51174,13.44460,Freiwillige Feuerwehr Friedrichshain,Rüdersdorfer Straße 57,10243.0,Berlin,02400624
+8895164256,52.57142,13.61730,Freiwillige Feuerwehr Mehrow,Krummenseer Weg 1,16356.0,Ahrensfelde,
+10039426205,52.55643,13.45983,Freiwillige Feuerwehr Weißensee,,,,03500933
+10589571568,52.34082,13.61526,,,,,
+11208742256,52.52245,13.33305,Freiwillige Feuerwehr Berlin-Moabit,,,,01200522
+11208742257,52.52263,13.33309,Berufsfeuerwache Berlin-Moabit,,,,01200522
+12643808080,52.43722,13.26478,Freiwillige Feuerwehr Zehlendorf,,,,06400841

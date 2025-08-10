@@ -1,0 +1,387 @@
+---
+id: berlin-lor-points-of-interest
+metadata:
+  name: Berlin LOR Points of Interest
+  owner: Open Lifeworlds
+  description: Data product providing Berlin points-of-interest data on different LOR hierarchy levels
+  url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest
+  license: CC-BY 4.0
+  updated: 2025-09-09
+  schema:
+input_ports:
+  - id: berlin-lor-city
+    metadata:
+      name: Berlin Lor City
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-city
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-city/berlin-lor-city.geojson
+  - id: berlin-lor-district-regions-from-2021
+    metadata:
+      name: Berlin Lor District Regions From 2021
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-district-regions-from-2021
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+  - id: berlin-lor-district-regions-until-2020
+    metadata:
+      name: Berlin Lor District Regions Until 2020
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-district-regions-until-2020
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+  - id: berlin-lor-districts
+    metadata:
+      name: Berlin Lor Districts
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-districts
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-districts/berlin-lor-districts.geojson
+  - id: berlin-lor-forecast-areas-from-2021
+    metadata:
+      name: Berlin Lor Forecast Areas From 2021
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-forecast-areas-from-2021
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+  - id: berlin-lor-forecast-areas-until-2020
+    metadata:
+      name: Berlin Lor Forecast Areas Until 2020
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-forecast-areas-until-2020
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+  - id: berlin-lor-planning-areas-from-2021
+    metadata:
+      name: Berlin Lor Planning Areas From 2021
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-planning-areas-from-2021
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+  - id: berlin-lor-planning-areas-until-2020
+    metadata:
+      name: Berlin Lor Planning Areas Until 2020
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/02-silver/berlin-lor-planning-areas-until-2020
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/02-silver/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+  - id: berlin-lor-matches
+    metadata:
+      name: Berlin Lor Matches
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-geodata/tree/main/data/03-gold/berlin-lor-matches
+      license: CC-BY 4.0
+      updated: 2025-06-21
+      schema: []
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/03-gold/berlin-lor-matches/berlin-lor-matches.json
+  - id: berlin-points-of-interest-2025-09
+    metadata:
+      name: Berlin Points Of Interest 2025 09
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/tree/main/data/02-silver/berlin-points-of-interest-2025-09
+      license:
+      updated: 2025-09-01
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-art-galleries-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-bars-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-beer-gardens-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-bicycle-rentals-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-bus-stops-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-cafes-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-car-sharing-stations-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-childcare-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-cinemas-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-clinics-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-community-centers-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-convenience-stores-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-coworking-spaces-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-doctors-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-fast-food-restaurants-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-fire-stations-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-fitness-centers-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-food-courts-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-grocery-stores-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-hospitals-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-ice-cream-parlours-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-kindergartens-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-libraries-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-marketplaces-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-museums-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-nightclubs-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-offices-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-parks-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-pharmacies-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-places-of-worship-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-playgrounds-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-police-stations-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-post-offices-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-pubs-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-restaurants-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-sbahn-stops-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-schools-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-sport-centers-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-supermarkets-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-theaters-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-tram-stops-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-ubahn-stops-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-universities-details.csv
+  - id: berlin-lor-population-2024-02
+    metadata:
+      name: Berlin Lor Population 2024 02
+      owner: Open Data product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/tree/main/data/03-gold/berlin-lor-population-2024-02
+      license: CC-BY 4.0
+      updated: 2025-07-20
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t1-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t1-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t1-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t1-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t1-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t3-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t3-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t3-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t3-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t3-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t4-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t4-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t4-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t4-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t4-planning-areas.csv
+transformation_steps:
+output_ports:
+  - id: berlin-lor-city
+    metadata:
+      name: Berlin Lor City
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/02-silver/berlin-lor-city
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/02-silver/berlin-lor-city/berlin-lor-city.geojson
+  - id: berlin-lor-district-regions-from-2021
+    metadata:
+      name: Berlin Lor District Regions From 2021
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/02-silver/berlin-lor-district-regions-from-2021
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/02-silver/berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
+  - id: berlin-lor-district-regions-until-2020
+    metadata:
+      name: Berlin Lor District Regions Until 2020
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/02-silver/berlin-lor-district-regions-until-2020
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/02-silver/berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+  - id: berlin-lor-districts
+    metadata:
+      name: Berlin Lor Districts
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/02-silver/berlin-lor-districts
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/02-silver/berlin-lor-districts/berlin-lor-districts.geojson
+  - id: berlin-lor-forecast-areas-from-2021
+    metadata:
+      name: Berlin Lor Forecast Areas From 2021
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/02-silver/berlin-lor-forecast-areas-from-2021
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/02-silver/berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
+  - id: berlin-lor-forecast-areas-until-2020
+    metadata:
+      name: Berlin Lor Forecast Areas Until 2020
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/02-silver/berlin-lor-forecast-areas-until-2020
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/02-silver/berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+  - id: berlin-lor-planning-areas-from-2021
+    metadata:
+      name: Berlin Lor Planning Areas From 2021
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/02-silver/berlin-lor-planning-areas-from-2021
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/02-silver/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
+  - id: berlin-lor-planning-areas-until-2020
+    metadata:
+      name: Berlin Lor Planning Areas Until 2020
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/02-silver/berlin-lor-planning-areas-until-2020
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/02-silver/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
+  - id: berlin-lor-points-of-interest-details-geojson
+    metadata:
+      name: Berlin Lor Points Of Interest Details Geojson
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-details-geojson
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-art-galleries-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-bars-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-beer-gardens-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-bicycle-rentals-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-bus-stops-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-cafes-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-car-sharing-stations-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-childcare-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-cinemas-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-clinics-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-community-centers-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-convenience-stores-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-coworking-spaces-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-doctors-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-fast-food-restaurants-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-fire-stations-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-fitness-centers-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-food-courts-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-grocery-stores-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-hospitals-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-ice-cream-parlours-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-kindergartens-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-libraries-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-marketplaces-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-museums-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-nightclubs-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-offices-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-parks-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-pharmacies-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-places-of-worship-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-playgrounds-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-police-stations-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-post-offices-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-pubs-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-restaurants-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-sbahn-stops-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-schools-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-sport-centers-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-supermarkets-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-theaters-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-tram-stops-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-ubahn-stops-details.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-universities-details.geojson
+  - id: berlin-lor-points-of-interest-geojson
+    metadata:
+      name: Berlin Lor Points Of Interest Geojson
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-geojson
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-city.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-district-regions.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-districts.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-forecast-areas.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-planning-areas.geojson
+  - id: berlin-lor-points-of-interest-statistics
+    metadata:
+      name: Berlin Lor Points Of Interest Statistics
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-statistics
+      license: CC-BY 4.0
+      updated: 2025-09-09
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-statistics/berlin-lor-points-of-interest-statistics.json
+observability:
+  quality:
+    - name: geojson_property_completeness
+      description: The percentage of geojson features that have all necessary properties
+      files:
+        - name: berlin-lor-points-of-interest-2025-09-city.geojson
+          value: 100
+        - name: berlin-lor-points-of-interest-2025-09-districts.geojson
+          value: 100
+        - name: berlin-lor-points-of-interest-2025-09-forecast-areas.geojson
+          value: 100
+        - name: berlin-lor-points-of-interest-2025-09-district-regions.geojson
+          value: 100
+        - name: berlin-lor-points-of-interest-2025-09-planning-areas.geojson
+          value: 100
+  operational:
+  slas:
+  security:
+consumers:
+use_cases:
+classification: consumer-aligned
+ubiquitous_language: []
+tags:
+  - berlin
+  - points-of-interest

@@ -8,5 +8,5 @@
 **/__pycache__/
 **/*.zip
 
-/raw
-/workspace
+/data/01-bronze/
+/data/02-silver/**/*.xlsx
