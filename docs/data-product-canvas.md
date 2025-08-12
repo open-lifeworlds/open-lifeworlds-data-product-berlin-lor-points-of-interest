@@ -7,7 +7,7 @@
 * description: Data product providing Berlin points-of-interest data on different LOR hierarchy levels
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest
 * license: CC-BY 4.0
-* updated: 2025-10-04
+* updated: 2025-10-05
 
 ## Input Ports
 
@@ -199,7 +199,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-details-geojson
 * license: CC-BY 4.0
-* updated: 2025-10-04
+* updated: 2025-10-05
 
 **Files**
 
@@ -252,7 +252,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-geojson
 * license: CC-BY 4.0
-* updated: 2025-10-04
+* updated: 2025-10-05
 
 **Files**
 
@@ -267,7 +267,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-statistics
 * license: CC-BY 4.0
-* updated: 2025-10-04
+* updated: 2025-10-05
 
 **Files**
 

@@ -6,7 +6,7 @@ metadata:
   description: Data product providing Berlin points-of-interest data on different LOR hierarchy levels
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest
   license: CC-BY 4.0
-  updated: 2025-10-04
+  updated: 2025-10-05
   schema:
 input_ports:
   - id: berlin-lor-city
@@ -200,7 +200,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-details-geojson
       license: CC-BY 4.0
-      updated: 2025-10-04
+      updated: 2025-10-05
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-art-galleries-details.geojson
@@ -253,7 +253,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-geojson
       license: CC-BY 4.0
-      updated: 2025-10-04
+      updated: 2025-10-05
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-city.geojson
@@ -268,7 +268,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-statistics
       license: CC-BY 4.0
-      updated: 2025-10-04
+      updated: 2025-10-05
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-statistics/berlin-lor-points-of-interest-statistics.json
