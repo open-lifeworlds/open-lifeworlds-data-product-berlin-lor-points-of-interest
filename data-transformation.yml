@@ -2,133 +2,176 @@
 attribute_groups:
   art-galleries: &art-galleries
     - { name: points, rename: art-galleries }
-    - { name: art-galleries_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: art-galleries_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: art-galleries_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   bars: &bars
     - { name: points, rename: bars }
-    - { name: bars_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: bars_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: bars_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   beer-gardens: &beer-gardens
     - { name: points, rename: beer-gardens }
-    - { name: beer-gardens_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: beer-gardens_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: beer-gardens_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   bicycle-rentals: &bicycle-rentals
     - { name: points, rename: bicycle-rentals }
-    - { name: bicycle-rentals_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: bicycle-rentals_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: bicycle-rentals_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   bus-stops: &bus-stops
     - { name: points, rename: bus-stops }
-    - { name: bus-stops_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: bus-stops_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: bus-stops_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   cafes: &cafes
     - { name: points, rename: cafes }
-    - { name: cafes_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: cafes_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: cafes_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   car-sharing-stations: &car-sharing-stations
     - { name: points, rename: car-sharing-stations }
-    - { name: car-sharing-stations_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: car-sharing-stations_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: car-sharing-stations_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   childcare: &childcare
     - { name: points, rename: childcare }
-    - { name: childcare_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: childcare_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: childcare_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   cinemas: &cinemas
     - { name: points, rename: cinemas }
-    - { name: cinemas_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: cinemas_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: cinemas_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   clinics: &clinics
     - { name: points, rename: clinics }
-    - { name: clinics_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: clinics_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: clinics_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   community-centers: &community-centers
     - { name: points, rename: community-centers }
-    - { name: community-centers_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: community-centers_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: community-centers_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   convenience-stores: &convenience-stores
     - { name: points, rename: convenience-stores }
-    - { name: convenience-stores_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: convenience-stores_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: convenience-stores_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   coworking-spaces: &coworking-spaces
     - { name: points, rename: coworking-spaces }
-    - { name: coworking-spaces_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: coworking-spaces_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: coworking-spaces_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   doctors: &doctors
     - { name: points, rename: doctors }
-    - { name: doctors_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: doctors_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: doctors_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   fast-food-restaurants: &fast-food-restaurants
     - { name: points, rename: fast-food-restaurants }
-    - { name: fast-food-restaurants_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: fast-food-restaurants_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: fast-food-restaurants_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   fire-stations: &fire-stations
     - { name: points, rename: fire-stations }
-    - { name: fire-stations_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: fire-stations_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: fire-stations_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   fitness-centers: &fitness-centers
     - { name: points, rename: fitness-centers }
-    - { name: fitness-centers_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: fitness-centers_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: fitness-centers_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   food-courts: &food-courts
     - { name: points, rename: food-courts }
-    - { name: food-courts_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: food-courts_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: food-courts_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   grocery-stores: &grocery-stores
     - { name: points, rename: grocery-stores }
-    - { name: grocery-stores_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: grocery-stores_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: grocery-stores_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   hospitals: &hospitals
     - { name: points, rename: hospitals }
-    - { name: hospitals_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: hospitals_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: hospitals_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   ice-cream-parlours: &ice-cream-parlours
     - { name: points, rename: ice-cream-parlours }
-    - { name: ice-cream-parlours_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: ice-cream-parlours_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: ice-cream-parlours_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   kindergartens: &kindergartens
     - { name: points, rename: kindergartens }
-    - { name: kindergartens_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: kindergartens_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: kindergartens_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   libraries: &libraries
     - { name: points, rename: libraries }
-    - { name: libraries_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: libraries_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: libraries_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   marketplaces: &marketplaces
     - { name: points, rename: marketplaces }
-    - { name: marketplaces_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: marketplaces_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: marketplaces_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   museums: &museums
     - { name: points, rename: museums }
-    - { name: museums_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: museums_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: museums_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   nightclubs: &nightclubs
     - { name: points, rename: nightclubs }
-    - { name: nightclubs_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: nightclubs_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: nightclubs_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   offices: &offices
     - { name: points, rename: offices }
-    - { name: offices_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: offices_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: offices_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   parks: &parks
     - { name: points, rename: parks }
-    - { name: parks_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: parks_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: parks_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   pharmacies: &pharmacies
     - { name: points, rename: pharmacies }
-    - { name: pharmacies_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: pharmacies_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: pharmacies_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   places-of-worship: &places-of-worship
     - { name: points, rename: places-of-worship }
-    - { name: places-of-worship_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: places-of-worship_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: places-of-worship_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   playgrounds: &playgrounds
     - { name: points, rename: playgrounds }
-    - { name: playgrounds_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: playgrounds_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: playgrounds_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   police-stations: &police-stations
     - { name: points, rename: police-stations }
-    - { name: police-stations_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: police-stations_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: police-stations_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   post-offices: &post-offices
     - { name: points, rename: post-offices }
-    - { name: post-offices_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: post-offices_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: post-offices_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   pubs: &pubs
     - { name: points, rename: pubs }
-    - { name: pubs_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: pubs_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: pubs_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   restaurants: &restaurants
     - { name: points, rename: restaurants }
-    - { name: restaurants_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: restaurants_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: restaurants_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   sbahn-stops: &sbahn-stops
     - { name: points, rename: sbahn-stops }
-    - { name: sbahn-stops_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: sbahn-stops_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: sbahn-stops_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   schools: &schools
     - { name: points, rename: schools }
-    - { name: schools_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: schools_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: schools_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   sport-centers: &sport-centers
     - { name: points, rename: sport-centers }
-    - { name: sport-centers_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: sport-centers_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: sport-centers_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   supermarkets: &supermarkets
     - { name: points, rename: supermarkets }
-    - { name: supermarkets_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: supermarkets_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: supermarkets_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   theaters: &theaters
     - { name: points, rename: theaters }
-    - { name: theaters_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: theaters_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: theaters_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   tram-stops: &tram-stops
     - { name: points, rename: tram-stops }
-    - { name: tram-stops_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: tram-stops_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: tram-stops_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   ubahn-stops: &ubahn-stops
     - { name: points, rename: ubahn-stops }
-    - { name: ubahn-stops_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: ubahn-stops_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: ubahn-stops_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
   universities: &universities
     - { name: points, rename: universities }
-    - { name: universities_per_100k_inhabitant, numerator: points, denominator: _100k_inhabitants }
+    - { name: universities_per_sqkm, numerator: points, denominator_area_sqkm: true }
+    - { name: universities_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
 input_port_groups:
   - id: berlin-lor-points-of-interest
     input_ports:
