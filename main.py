@@ -1,3 +1,16 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "click>=8.2.1",
+#     "open-lifeworlds-python-lib",
+#     "rich>=14.1.0",
+#     "shapely>=2.1.1",
+# ]
+#
+# [tool.uv.sources]
+# open-lifeworlds-python-lib = { git = "https://github.com/open-lifeworlds/open-lifeworlds-python-lib.git" }
+# ///
+
 import os
 import sys
 
@@ -89,6 +102,7 @@ def main(clean, quiet):
     )
 
     blend_data(
+        data_product_manifest=data_product_manifest,
         data_transformation=data_transformation,
         source_path=silver_path,
         results_path=gold_path,
