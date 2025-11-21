@@ -1,20 +1,20 @@
 
-# Open Data Product Specification (ODPS) Canvas - Berlin Points-of-Interest
+# Open Data Product Specification (ODPS) Canvas - Berlin LOR Points of Interest
 
 * schema version: 3.1
 ## Product
 
 ### Basic Information
 
-* output file formats: geojson
+* output file formats: geojson, .json
 * categories: timeseries
-* description: Data product combining Berlin point-of-interest data and geodata
-* logo URL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-berlin-points-of-interest/refs/heads/main/logo-with-text.png
-* product ID: berlin-points-of-interest
+* description: Data product providing Berlin points-of-interest data on different LOR hierarchy levels
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
+* product ID: berlin-lor-points-of-interest
 * product series: Berlin Timeseries Series
 * status: active
-* tags: Berlin, points-of-interest
-* type: consumer-aligned
+* tags: berlin, points-of-interest
+* type: source-aligned
 * value proposition: Combining Berlin point-of-interest data and geodata
 * version: 1.0
 * visibility: public

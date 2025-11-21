@@ -6,7 +6,7 @@ metadata:
   description: Data product providing Berlin points-of-interest data on different LOR hierarchy levels
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest
   license: CC-BY 4.0
-  updated: 2025-10-28
+  updated: 2025-11-03
   schema:
 input_ports:
   - id: berlin-lor-city
@@ -117,60 +117,6 @@ input_ports:
     files:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/main/data/03-gold/berlin-lor-matches/berlin-lor-matches.json
     manifest_url:
-  - id: berlin-points-of-interest-2025-09
-    metadata:
-      name: Berlin Points Of Interest 2025 09
-      owner: Open Data Product
-      description:
-      url: https://github.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/tree/main/data/02-silver/berlin-points-of-interest-2025-09
-      license:
-      updated: 2025-09-01
-      schema:
-    files:
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-art-galleries-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-bars-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-beer-gardens-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-bicycle-rentals-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-bus-stops-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-cafes-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-car-sharing-stations-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-childcare-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-cinemas-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-clinics-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-community-centers-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-convenience-stores-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-coworking-spaces-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-doctors-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-fast-food-restaurants-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-fire-stations-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-fitness-centers-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-food-courts-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-grocery-stores-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-hospitals-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-ice-cream-parlours-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-kindergartens-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-libraries-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-marketplaces-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-museums-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-nightclubs-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-offices-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-parks-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-pharmacies-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-places-of-worship-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-playgrounds-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-police-stations-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-post-offices-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-pubs-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-restaurants-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-sbahn-stops-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-schools-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-sport-centers-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-supermarkets-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-theaters-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-tram-stops-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-ubahn-stops-details.csv
-      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/02-silver/berlin-points-of-interest-2025-09/berlin-points-of-interest-universities-details.csv
-    manifest_url:
   - id: berlin-lor-population-2024-02
     metadata:
       name: Berlin Lor Population 2024 02
@@ -202,62 +148,277 @@ input_ports:
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t4-forecast-areas.csv
       - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/main/data/03-gold/berlin-lor-population-2024-02/berlin-lor-population-2024-02-t4-planning-areas.csv
     manifest_url:
-transformation_steps:
-output_ports:
-  - id: berlin-lor-points-of-interest-details-geojson
+  - id: berlin-points-of-interest-2025-11-csv
     metadata:
-      name: Berlin Lor Points Of Interest Details Geojson
-      owner: Open Lifeworlds
+      name: Berlin Points Of Interest 2025 11 Csv
+      owner: Open Data Product
       description:
-      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-details-geojson
-      license: CC-BY 4.0
-      updated: 2025-10-28
+      url: https://github.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/tree/main/data/03-gold/berlin-points-of-interest-2025-11-csv
+      license:
+      updated: 2025-11-03
       schema:
     files:
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-art-galleries-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-bars-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-beer-gardens-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-bicycle-rentals-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-bus-stops-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-cafes-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-car-sharing-stations-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-childcare-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-cinemas-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-clinics-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-community-centers-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-convenience-stores-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-coworking-spaces-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-doctors-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-fast-food-restaurants-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-fire-stations-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-fitness-centers-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-food-courts-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-grocery-stores-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-hospitals-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-ice-cream-parlours-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-kindergartens-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-libraries-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-marketplaces-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-museums-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-nightclubs-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-offices-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-parks-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-pharmacies-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-places-of-worship-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-playgrounds-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-police-stations-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-post-offices-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-pubs-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-restaurants-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-sbahn-stops-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-schools-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-sport-centers-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-supermarkets-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-theaters-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-tram-stops-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-ubahn-stops-details.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-details-geojson/berlin-points-of-interest-universities-details.geojson
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-art-galleries-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-art-galleries-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-art-galleries-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-art-galleries-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-art-galleries-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-art-galleries-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bars-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bars-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bars-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bars-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bars-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bars-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-beer-gardens-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-beer-gardens-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-beer-gardens-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-beer-gardens-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-beer-gardens-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-beer-gardens-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bicycle-rentals-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bicycle-rentals-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bicycle-rentals-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bicycle-rentals-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bicycle-rentals-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bicycle-rentals-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bus-stops-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bus-stops-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bus-stops-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bus-stops-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bus-stops-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-bus-stops-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cafes-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cafes-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cafes-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cafes-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cafes-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cafes-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-car-sharing-stations-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-car-sharing-stations-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-car-sharing-stations-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-car-sharing-stations-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-car-sharing-stations-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-car-sharing-stations-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-childcare-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-childcare-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-childcare-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-childcare-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-childcare-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-childcare-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cinemas-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cinemas-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cinemas-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cinemas-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cinemas-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-cinemas-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-clinics-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-clinics-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-clinics-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-clinics-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-clinics-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-clinics-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-community-centers-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-community-centers-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-community-centers-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-community-centers-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-community-centers-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-community-centers-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-convenience-stores-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-convenience-stores-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-convenience-stores-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-convenience-stores-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-convenience-stores-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-convenience-stores-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-coworking-spaces-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-coworking-spaces-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-coworking-spaces-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-coworking-spaces-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-coworking-spaces-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-coworking-spaces-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-doctors-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-doctors-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-doctors-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-doctors-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-doctors-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-doctors-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fast-food-restaurants-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fast-food-restaurants-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fast-food-restaurants-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fast-food-restaurants-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fast-food-restaurants-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fast-food-restaurants-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fire-stations-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fire-stations-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fire-stations-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fire-stations-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fire-stations-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fire-stations-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fitness-centers-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fitness-centers-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fitness-centers-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fitness-centers-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fitness-centers-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-fitness-centers-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-food-courts-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-food-courts-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-food-courts-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-food-courts-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-food-courts-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-food-courts-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-grocery-stores-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-grocery-stores-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-grocery-stores-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-grocery-stores-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-grocery-stores-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-grocery-stores-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-hospitals-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-hospitals-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-hospitals-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-hospitals-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-hospitals-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-hospitals-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ice-cream-parlours-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ice-cream-parlours-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ice-cream-parlours-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ice-cream-parlours-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ice-cream-parlours-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ice-cream-parlours-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-kindergartens-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-kindergartens-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-kindergartens-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-kindergartens-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-kindergartens-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-kindergartens-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-libraries-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-libraries-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-libraries-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-libraries-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-libraries-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-libraries-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-marketplaces-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-marketplaces-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-marketplaces-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-marketplaces-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-marketplaces-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-marketplaces-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-museums-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-museums-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-museums-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-museums-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-museums-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-museums-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-nightclubs-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-nightclubs-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-nightclubs-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-nightclubs-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-nightclubs-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-nightclubs-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-offices-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-offices-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-offices-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-offices-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-offices-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-offices-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-parks-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-parks-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-parks-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-parks-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-parks-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-parks-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pharmacies-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pharmacies-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pharmacies-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pharmacies-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pharmacies-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pharmacies-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-places-of-worship-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-places-of-worship-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-places-of-worship-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-places-of-worship-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-places-of-worship-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-places-of-worship-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-playgrounds-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-playgrounds-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-playgrounds-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-playgrounds-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-playgrounds-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-playgrounds-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-police-stations-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-police-stations-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-police-stations-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-police-stations-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-police-stations-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-police-stations-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-post-offices-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-post-offices-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-post-offices-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-post-offices-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-post-offices-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-post-offices-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pubs-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pubs-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pubs-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pubs-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pubs-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-pubs-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-restaurants-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-restaurants-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-restaurants-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-restaurants-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-restaurants-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-restaurants-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sbahn-stops-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sbahn-stops-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sbahn-stops-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sbahn-stops-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sbahn-stops-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sbahn-stops-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-schools-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-schools-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-schools-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-schools-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-schools-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-schools-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sport-centers-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sport-centers-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sport-centers-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sport-centers-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sport-centers-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-sport-centers-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-supermarkets-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-supermarkets-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-supermarkets-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-supermarkets-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-supermarkets-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-supermarkets-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-theaters-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-theaters-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-theaters-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-theaters-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-theaters-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-theaters-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-tram-stops-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-tram-stops-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-tram-stops-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-tram-stops-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-tram-stops-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-tram-stops-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ubahn-stops-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ubahn-stops-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ubahn-stops-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ubahn-stops-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ubahn-stops-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-ubahn-stops-planning-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-universities-city.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-universities-details.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-universities-district-regions.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-universities-districts.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-universities-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-points-of-interest-source-aligned/main/data/03-gold/berlin-points-of-interest-2025-11-csv/berlin-points-of-interest-universities-planning-areas.csv
     manifest_url:
+transformation_steps:
+output_ports:
   - id: berlin-lor-points-of-interest-geojson
     metadata:
       name: Berlin Lor Points Of Interest Geojson
@@ -265,14 +426,14 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-geojson
       license: CC-BY 4.0
-      updated: 2025-10-28
+      updated: 2025-11-03
       schema:
     files:
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-city.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-district-regions.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-districts.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-forecast-areas.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-09-planning-areas.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-11-city.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-11-district-regions.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-11-districts.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-11-forecast-areas.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-geojson/berlin-lor-points-of-interest-2025-11-planning-areas.geojson
     manifest_url:
   - id: berlin-lor-points-of-interest-statistics
     metadata:
@@ -281,7 +442,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/tree/main/data/03-gold/berlin-lor-points-of-interest-statistics
       license: CC-BY 4.0
-      updated: 2025-10-28
+      updated: 2025-11-03
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-points-of-interest/refs/heads/main/data/03-gold/berlin-lor-points-of-interest-statistics/berlin-lor-points-of-interest-statistics.json
@@ -291,15 +452,15 @@ observability:
     - name: geojson_property_completeness
       description: The percentage of geojson features that have all necessary properties
       files:
-        - name: berlin-lor-points-of-interest-2025-09-city.geojson
+        - name: berlin-lor-points-of-interest-2025-11-city.geojson
           value: 100
-        - name: berlin-lor-points-of-interest-2025-09-districts.geojson
+        - name: berlin-lor-points-of-interest-2025-11-districts.geojson
           value: 100
-        - name: berlin-lor-points-of-interest-2025-09-forecast-areas.geojson
+        - name: berlin-lor-points-of-interest-2025-11-forecast-areas.geojson
           value: 100
-        - name: berlin-lor-points-of-interest-2025-09-district-regions.geojson
+        - name: berlin-lor-points-of-interest-2025-11-district-regions.geojson
           value: 100
-        - name: berlin-lor-points-of-interest-2025-09-planning-areas.geojson
+        - name: berlin-lor-points-of-interest-2025-11-planning-areas.geojson
           value: 100
   operational:
   slas:

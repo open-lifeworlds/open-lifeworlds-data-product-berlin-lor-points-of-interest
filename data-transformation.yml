@@ -1,414 +1,414 @@
 ---
 attribute_groups:
   art-galleries: &art-galleries
-    - { name: points, rename: art-galleries }
-    - { name: art-galleries_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: art-galleries_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: art-galleries }
+    - { name: art-galleries_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: art-galleries_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   bars: &bars
-    - { name: points, rename: bars }
-    - { name: bars_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: bars_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: bars }
+    - { name: bars_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: bars_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   beer-gardens: &beer-gardens
-    - { name: points, rename: beer-gardens }
-    - { name: beer-gardens_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: beer-gardens_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: beer-gardens }
+    - { name: beer-gardens_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: beer-gardens_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   bicycle-rentals: &bicycle-rentals
-    - { name: points, rename: bicycle-rentals }
-    - { name: bicycle-rentals_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: bicycle-rentals_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: bicycle-rentals }
+    - { name: bicycle-rentals_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: bicycle-rentals_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   bus-stops: &bus-stops
-    - { name: points, rename: bus-stops }
-    - { name: bus-stops_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: bus-stops_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: bus-stops }
+    - { name: bus-stops_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: bus-stops_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   cafes: &cafes
-    - { name: points, rename: cafes }
-    - { name: cafes_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: cafes_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: cafes }
+    - { name: cafes_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: cafes_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   car-sharing-stations: &car-sharing-stations
-    - { name: points, rename: car-sharing-stations }
-    - { name: car-sharing-stations_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: car-sharing-stations_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: car-sharing-stations }
+    - { name: car-sharing-stations_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: car-sharing-stations_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   childcare: &childcare
-    - { name: points, rename: childcare }
-    - { name: childcare_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: childcare_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: childcare }
+    - { name: childcare_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: childcare_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   cinemas: &cinemas
-    - { name: points, rename: cinemas }
-    - { name: cinemas_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: cinemas_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: cinemas }
+    - { name: cinemas_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: cinemas_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   clinics: &clinics
-    - { name: points, rename: clinics }
-    - { name: clinics_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: clinics_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: clinics }
+    - { name: clinics_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: clinics_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   community-centers: &community-centers
-    - { name: points, rename: community-centers }
-    - { name: community-centers_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: community-centers_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: community-centers }
+    - { name: community-centers_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: community-centers_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   convenience-stores: &convenience-stores
-    - { name: points, rename: convenience-stores }
-    - { name: convenience-stores_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: convenience-stores_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: convenience-stores }
+    - { name: convenience-stores_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: convenience-stores_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   coworking-spaces: &coworking-spaces
-    - { name: points, rename: coworking-spaces }
-    - { name: coworking-spaces_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: coworking-spaces_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: coworking-spaces }
+    - { name: coworking-spaces_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: coworking-spaces_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   doctors: &doctors
-    - { name: points, rename: doctors }
-    - { name: doctors_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: doctors_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: doctors }
+    - { name: doctors_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: doctors_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   fast-food-restaurants: &fast-food-restaurants
-    - { name: points, rename: fast-food-restaurants }
-    - { name: fast-food-restaurants_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: fast-food-restaurants_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: fast-food-restaurants }
+    - { name: fast-food-restaurants_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: fast-food-restaurants_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   fire-stations: &fire-stations
-    - { name: points, rename: fire-stations }
-    - { name: fire-stations_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: fire-stations_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: fire-stations }
+    - { name: fire-stations_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: fire-stations_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   fitness-centers: &fitness-centers
-    - { name: points, rename: fitness-centers }
-    - { name: fitness-centers_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: fitness-centers_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: fitness-centers }
+    - { name: fitness-centers_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: fitness-centers_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   food-courts: &food-courts
-    - { name: points, rename: food-courts }
-    - { name: food-courts_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: food-courts_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: food-courts }
+    - { name: food-courts_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: food-courts_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   grocery-stores: &grocery-stores
-    - { name: points, rename: grocery-stores }
-    - { name: grocery-stores_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: grocery-stores_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: grocery-stores }
+    - { name: grocery-stores_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: grocery-stores_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   hospitals: &hospitals
-    - { name: points, rename: hospitals }
-    - { name: hospitals_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: hospitals_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: hospitals }
+    - { name: hospitals_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: hospitals_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   ice-cream-parlours: &ice-cream-parlours
-    - { name: points, rename: ice-cream-parlours }
-    - { name: ice-cream-parlours_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: ice-cream-parlours_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: ice-cream-parlours }
+    - { name: ice-cream-parlours_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: ice-cream-parlours_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   kindergartens: &kindergartens
-    - { name: points, rename: kindergartens }
-    - { name: kindergartens_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: kindergartens_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: kindergartens }
+    - { name: kindergartens_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: kindergartens_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   libraries: &libraries
-    - { name: points, rename: libraries }
-    - { name: libraries_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: libraries_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: libraries }
+    - { name: libraries_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: libraries_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   marketplaces: &marketplaces
-    - { name: points, rename: marketplaces }
-    - { name: marketplaces_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: marketplaces_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: marketplaces }
+    - { name: marketplaces_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: marketplaces_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   museums: &museums
-    - { name: points, rename: museums }
-    - { name: museums_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: museums_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: museums }
+    - { name: museums_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: museums_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   nightclubs: &nightclubs
-    - { name: points, rename: nightclubs }
-    - { name: nightclubs_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: nightclubs_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: nightclubs }
+    - { name: nightclubs_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: nightclubs_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   offices: &offices
-    - { name: points, rename: offices }
-    - { name: offices_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: offices_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: offices }
+    - { name: offices_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: offices_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   parks: &parks
-    - { name: points, rename: parks }
-    - { name: parks_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: parks_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: parks }
+    - { name: parks_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: parks_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   pharmacies: &pharmacies
-    - { name: points, rename: pharmacies }
-    - { name: pharmacies_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: pharmacies_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: pharmacies }
+    - { name: pharmacies_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: pharmacies_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   places-of-worship: &places-of-worship
-    - { name: points, rename: places-of-worship }
-    - { name: places-of-worship_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: places-of-worship_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: places-of-worship }
+    - { name: places-of-worship_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: places-of-worship_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   playgrounds: &playgrounds
-    - { name: points, rename: playgrounds }
-    - { name: playgrounds_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: playgrounds_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: playgrounds }
+    - { name: playgrounds_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: playgrounds_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   police-stations: &police-stations
-    - { name: points, rename: police-stations }
-    - { name: police-stations_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: police-stations_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: police-stations }
+    - { name: police-stations_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: police-stations_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   post-offices: &post-offices
-    - { name: points, rename: post-offices }
-    - { name: post-offices_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: post-offices_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: post-offices }
+    - { name: post-offices_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: post-offices_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   pubs: &pubs
-    - { name: points, rename: pubs }
-    - { name: pubs_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: pubs_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: pubs }
+    - { name: pubs_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: pubs_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   restaurants: &restaurants
-    - { name: points, rename: restaurants }
-    - { name: restaurants_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: restaurants_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: restaurants }
+    - { name: restaurants_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: restaurants_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   sbahn-stops: &sbahn-stops
-    - { name: points, rename: sbahn-stops }
-    - { name: sbahn-stops_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: sbahn-stops_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: sbahn-stops }
+    - { name: sbahn-stops_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: sbahn-stops_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   schools: &schools
-    - { name: points, rename: schools }
-    - { name: schools_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: schools_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: schools }
+    - { name: schools_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: schools_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   sport-centers: &sport-centers
-    - { name: points, rename: sport-centers }
-    - { name: sport-centers_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: sport-centers_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: sport-centers }
+    - { name: sport-centers_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: sport-centers_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   supermarkets: &supermarkets
-    - { name: points, rename: supermarkets }
-    - { name: supermarkets_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: supermarkets_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: supermarkets }
+    - { name: supermarkets_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: supermarkets_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   theaters: &theaters
-    - { name: points, rename: theaters }
-    - { name: theaters_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: theaters_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: theaters }
+    - { name: theaters_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: theaters_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   tram-stops: &tram-stops
-    - { name: points, rename: tram-stops }
-    - { name: tram-stops_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: tram-stops_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: tram-stops }
+    - { name: tram-stops_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: tram-stops_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   ubahn-stops: &ubahn-stops
-    - { name: points, rename: ubahn-stops }
-    - { name: ubahn-stops_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: ubahn-stops_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: ubahn-stops }
+    - { name: ubahn-stops_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: ubahn-stops_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
   universities: &universities
-    - { name: points, rename: universities }
-    - { name: universities_per_sqkm, numerator: points, denominator_area_sqkm: true }
-    - { name: universities_per_100k_inhabitant, numerator: points, denominator_100k_inhabitants: True }
+    - { name: points_of_interest, rename: universities }
+    - { name: universities_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
+    - { name: universities_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
 input_port_groups:
   - id: berlin-lor-points-of-interest
     input_ports:
-      - id: berlin-points-of-interest-2025-09
+      - id: berlin-points-of-interest-2025-11-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-09-city.geojson
+            target_file_name: berlin-lor-points-of-interest-2025-11-city.geojson
             population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-city.csv
             source_files:
-              - { source_file_name: berlin-points-of-interest-art-galleries-details-city.csv, attributes: *art-galleries }
-              - { source_file_name: berlin-points-of-interest-bars-details-city.csv, attributes: *bars }
-              - { source_file_name: berlin-points-of-interest-beer-gardens-details-city.csv, attributes: *beer-gardens }
-              - { source_file_name: berlin-points-of-interest-bicycle-rentals-details-city.csv, attributes: *bicycle-rentals }
-              - { source_file_name: berlin-points-of-interest-bus-stops-details-city.csv, attributes: *bus-stops }
-              - { source_file_name: berlin-points-of-interest-cafes-details-city.csv, attributes: *cafes }
-              - { source_file_name: berlin-points-of-interest-car-sharing-stations-details-city.csv, attributes: *car-sharing-stations }
-              - { source_file_name: berlin-points-of-interest-childcare-details-city.csv, attributes: *childcare }
-              - { source_file_name: berlin-points-of-interest-cinemas-details-city.csv, attributes: *cinemas }
-              - { source_file_name: berlin-points-of-interest-clinics-details-city.csv, attributes: *clinics }
-              - { source_file_name: berlin-points-of-interest-community-centers-details-city.csv, attributes: *community-centers }
-              - { source_file_name: berlin-points-of-interest-convenience-stores-details-city.csv, attributes: *convenience-stores }
-              - { source_file_name: berlin-points-of-interest-coworking-spaces-details-city.csv, attributes: *coworking-spaces }
-              - { source_file_name: berlin-points-of-interest-doctors-details-city.csv, attributes: *doctors }
-              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-details-city.csv, attributes: *fast-food-restaurants }
-              - { source_file_name: berlin-points-of-interest-fire-stations-details-city.csv, attributes: *fire-stations }
-              - { source_file_name: berlin-points-of-interest-fitness-centers-details-city.csv, attributes: *fitness-centers }
-              - { source_file_name: berlin-points-of-interest-food-courts-details-city.csv, attributes: *food-courts }
-              - { source_file_name: berlin-points-of-interest-grocery-stores-details-city.csv, attributes: *grocery-stores }
-              - { source_file_name: berlin-points-of-interest-hospitals-details-city.csv, attributes: *hospitals }
-              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-details-city.csv, attributes: *ice-cream-parlours }
-              - { source_file_name: berlin-points-of-interest-kindergartens-details-city.csv, attributes: *kindergartens }
-              - { source_file_name: berlin-points-of-interest-libraries-details-city.csv, attributes: *libraries }
-              - { source_file_name: berlin-points-of-interest-marketplaces-details-city.csv, attributes: *marketplaces }
-              - { source_file_name: berlin-points-of-interest-museums-details-city.csv, attributes: *museums }
-              - { source_file_name: berlin-points-of-interest-nightclubs-details-city.csv, attributes: *nightclubs }
-              - { source_file_name: berlin-points-of-interest-offices-details-city.csv, attributes: *offices }
-              - { source_file_name: berlin-points-of-interest-parks-details-city.csv, attributes: *parks }
-              - { source_file_name: berlin-points-of-interest-pharmacies-details-city.csv, attributes: *pharmacies }
-              - { source_file_name: berlin-points-of-interest-places-of-worship-details-city.csv, attributes: *places-of-worship }
-              - { source_file_name: berlin-points-of-interest-playgrounds-details-city.csv, attributes: *playgrounds }
-              - { source_file_name: berlin-points-of-interest-police-stations-details-city.csv, attributes: *police-stations }
-              - { source_file_name: berlin-points-of-interest-post-offices-details-city.csv, attributes: *post-offices }
-              - { source_file_name: berlin-points-of-interest-pubs-details-city.csv, attributes: *pubs }
-              - { source_file_name: berlin-points-of-interest-restaurants-details-city.csv, attributes: *restaurants }
-              - { source_file_name: berlin-points-of-interest-sbahn-stops-details-city.csv, attributes: *sbahn-stops }
-              - { source_file_name: berlin-points-of-interest-schools-details-city.csv, attributes: *schools }
-              - { source_file_name: berlin-points-of-interest-sport-centers-details-city.csv, attributes: *sport-centers }
-              - { source_file_name: berlin-points-of-interest-supermarkets-details-city.csv, attributes: *supermarkets }
-              - { source_file_name: berlin-points-of-interest-theaters-details-city.csv, attributes: *theaters }
-              - { source_file_name: berlin-points-of-interest-tram-stops-details-city.csv, attributes: *tram-stops }
-              - { source_file_name: berlin-points-of-interest-ubahn-stops-details-city.csv, attributes: *ubahn-stops }
-              - { source_file_name: berlin-points-of-interest-universities-details-city.csv, attributes: *universities }
+              - { source_file_name: berlin-points-of-interest-art-galleries-city.csv, attributes: *art-galleries }
+              - { source_file_name: berlin-points-of-interest-bars-city.csv, attributes: *bars }
+              - { source_file_name: berlin-points-of-interest-beer-gardens-city.csv, attributes: *beer-gardens }
+              - { source_file_name: berlin-points-of-interest-bicycle-rentals-city.csv, attributes: *bicycle-rentals }
+              - { source_file_name: berlin-points-of-interest-bus-stops-city.csv, attributes: *bus-stops }
+              - { source_file_name: berlin-points-of-interest-cafes-city.csv, attributes: *cafes }
+              - { source_file_name: berlin-points-of-interest-car-sharing-stations-city.csv, attributes: *car-sharing-stations }
+              - { source_file_name: berlin-points-of-interest-childcare-city.csv, attributes: *childcare }
+              - { source_file_name: berlin-points-of-interest-cinemas-city.csv, attributes: *cinemas }
+              - { source_file_name: berlin-points-of-interest-clinics-city.csv, attributes: *clinics }
+              - { source_file_name: berlin-points-of-interest-community-centers-city.csv, attributes: *community-centers }
+              - { source_file_name: berlin-points-of-interest-convenience-stores-city.csv, attributes: *convenience-stores }
+              - { source_file_name: berlin-points-of-interest-coworking-spaces-city.csv, attributes: *coworking-spaces }
+              - { source_file_name: berlin-points-of-interest-doctors-city.csv, attributes: *doctors }
+              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-city.csv, attributes: *fast-food-restaurants }
+              - { source_file_name: berlin-points-of-interest-fire-stations-city.csv, attributes: *fire-stations }
+              - { source_file_name: berlin-points-of-interest-fitness-centers-city.csv, attributes: *fitness-centers }
+              - { source_file_name: berlin-points-of-interest-food-courts-city.csv, attributes: *food-courts }
+              - { source_file_name: berlin-points-of-interest-grocery-stores-city.csv, attributes: *grocery-stores }
+              - { source_file_name: berlin-points-of-interest-hospitals-city.csv, attributes: *hospitals }
+              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-city.csv, attributes: *ice-cream-parlours }
+              - { source_file_name: berlin-points-of-interest-kindergartens-city.csv, attributes: *kindergartens }
+              - { source_file_name: berlin-points-of-interest-libraries-city.csv, attributes: *libraries }
+              - { source_file_name: berlin-points-of-interest-marketplaces-city.csv, attributes: *marketplaces }
+              - { source_file_name: berlin-points-of-interest-museums-city.csv, attributes: *museums }
+              - { source_file_name: berlin-points-of-interest-nightclubs-city.csv, attributes: *nightclubs }
+              - { source_file_name: berlin-points-of-interest-offices-city.csv, attributes: *offices }
+              - { source_file_name: berlin-points-of-interest-parks-city.csv, attributes: *parks }
+              - { source_file_name: berlin-points-of-interest-pharmacies-city.csv, attributes: *pharmacies }
+              - { source_file_name: berlin-points-of-interest-places-of-worship-city.csv, attributes: *places-of-worship }
+              - { source_file_name: berlin-points-of-interest-playgrounds-city.csv, attributes: *playgrounds }
+              - { source_file_name: berlin-points-of-interest-police-stations-city.csv, attributes: *police-stations }
+              - { source_file_name: berlin-points-of-interest-post-offices-city.csv, attributes: *post-offices }
+              - { source_file_name: berlin-points-of-interest-pubs-city.csv, attributes: *pubs }
+              - { source_file_name: berlin-points-of-interest-restaurants-city.csv, attributes: *restaurants }
+              - { source_file_name: berlin-points-of-interest-sbahn-stops-city.csv, attributes: *sbahn-stops }
+              - { source_file_name: berlin-points-of-interest-schools-city.csv, attributes: *schools }
+              - { source_file_name: berlin-points-of-interest-sport-centers-city.csv, attributes: *sport-centers }
+              - { source_file_name: berlin-points-of-interest-supermarkets-city.csv, attributes: *supermarkets }
+              - { source_file_name: berlin-points-of-interest-theaters-city.csv, attributes: *theaters }
+              - { source_file_name: berlin-points-of-interest-tram-stops-city.csv, attributes: *tram-stops }
+              - { source_file_name: berlin-points-of-interest-ubahn-stops-city.csv, attributes: *ubahn-stops }
+              - { source_file_name: berlin-points-of-interest-universities-city.csv, attributes: *universities }
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-09-districts.geojson
+            target_file_name: berlin-lor-points-of-interest-2025-11-districts.geojson
             population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-districts.csv
             source_files:
-              - { source_file_name: berlin-points-of-interest-art-galleries-details-districts.csv, attributes: *art-galleries }
-              - { source_file_name: berlin-points-of-interest-bars-details-districts.csv, attributes: *bars }
-              - { source_file_name: berlin-points-of-interest-beer-gardens-details-districts.csv, attributes: *beer-gardens }
-              - { source_file_name: berlin-points-of-interest-bicycle-rentals-details-districts.csv, attributes: *bicycle-rentals }
-              - { source_file_name: berlin-points-of-interest-bus-stops-details-districts.csv, attributes: *bus-stops }
-              - { source_file_name: berlin-points-of-interest-cafes-details-districts.csv, attributes: *cafes }
-              - { source_file_name: berlin-points-of-interest-car-sharing-stations-details-districts.csv, attributes: *car-sharing-stations }
-              - { source_file_name: berlin-points-of-interest-childcare-details-districts.csv, attributes: *childcare }
-              - { source_file_name: berlin-points-of-interest-cinemas-details-districts.csv, attributes: *cinemas }
-              - { source_file_name: berlin-points-of-interest-clinics-details-districts.csv, attributes: *clinics }
-              - { source_file_name: berlin-points-of-interest-community-centers-details-districts.csv, attributes: *community-centers }
-              - { source_file_name: berlin-points-of-interest-convenience-stores-details-districts.csv, attributes: *convenience-stores }
-              - { source_file_name: berlin-points-of-interest-coworking-spaces-details-districts.csv, attributes: *coworking-spaces }
-              - { source_file_name: berlin-points-of-interest-doctors-details-districts.csv, attributes: *doctors }
-              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-details-districts.csv, attributes: *fast-food-restaurants }
-              - { source_file_name: berlin-points-of-interest-fire-stations-details-districts.csv, attributes: *fire-stations }
-              - { source_file_name: berlin-points-of-interest-fitness-centers-details-districts.csv, attributes: *fitness-centers }
-              - { source_file_name: berlin-points-of-interest-food-courts-details-districts.csv, attributes: *food-courts }
-              - { source_file_name: berlin-points-of-interest-grocery-stores-details-districts.csv, attributes: *grocery-stores }
-              - { source_file_name: berlin-points-of-interest-hospitals-details-districts.csv, attributes: *hospitals }
-              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-details-districts.csv, attributes: *ice-cream-parlours }
-              - { source_file_name: berlin-points-of-interest-kindergartens-details-districts.csv, attributes: *kindergartens }
-              - { source_file_name: berlin-points-of-interest-libraries-details-districts.csv, attributes: *libraries }
-              - { source_file_name: berlin-points-of-interest-marketplaces-details-districts.csv, attributes: *marketplaces }
-              - { source_file_name: berlin-points-of-interest-museums-details-districts.csv, attributes: *museums }
-              - { source_file_name: berlin-points-of-interest-nightclubs-details-districts.csv, attributes: *nightclubs }
-              - { source_file_name: berlin-points-of-interest-offices-details-districts.csv, attributes: *offices }
-              - { source_file_name: berlin-points-of-interest-parks-details-districts.csv, attributes: *parks }
-              - { source_file_name: berlin-points-of-interest-pharmacies-details-districts.csv, attributes: *pharmacies }
-              - { source_file_name: berlin-points-of-interest-places-of-worship-details-districts.csv, attributes: *places-of-worship }
-              - { source_file_name: berlin-points-of-interest-playgrounds-details-districts.csv, attributes: *playgrounds }
-              - { source_file_name: berlin-points-of-interest-police-stations-details-districts.csv, attributes: *police-stations }
-              - { source_file_name: berlin-points-of-interest-post-offices-details-districts.csv, attributes: *post-offices }
-              - { source_file_name: berlin-points-of-interest-pubs-details-districts.csv, attributes: *pubs }
-              - { source_file_name: berlin-points-of-interest-restaurants-details-districts.csv, attributes: *restaurants }
-              - { source_file_name: berlin-points-of-interest-sbahn-stops-details-districts.csv, attributes: *sbahn-stops }
-              - { source_file_name: berlin-points-of-interest-schools-details-districts.csv, attributes: *schools }
-              - { source_file_name: berlin-points-of-interest-sport-centers-details-districts.csv, attributes: *sport-centers }
-              - { source_file_name: berlin-points-of-interest-supermarkets-details-districts.csv, attributes: *supermarkets }
-              - { source_file_name: berlin-points-of-interest-theaters-details-districts.csv, attributes: *theaters }
-              - { source_file_name: berlin-points-of-interest-tram-stops-details-districts.csv, attributes: *tram-stops }
-              - { source_file_name: berlin-points-of-interest-ubahn-stops-details-districts.csv, attributes: *ubahn-stops }
-              - { source_file_name: berlin-points-of-interest-universities-details-districts.csv, attributes: *universities }
+              - { source_file_name: berlin-points-of-interest-art-galleries-districts.csv, attributes: *art-galleries }
+              - { source_file_name: berlin-points-of-interest-bars-districts.csv, attributes: *bars }
+              - { source_file_name: berlin-points-of-interest-beer-gardens-districts.csv, attributes: *beer-gardens }
+              - { source_file_name: berlin-points-of-interest-bicycle-rentals-districts.csv, attributes: *bicycle-rentals }
+              - { source_file_name: berlin-points-of-interest-bus-stops-districts.csv, attributes: *bus-stops }
+              - { source_file_name: berlin-points-of-interest-cafes-districts.csv, attributes: *cafes }
+              - { source_file_name: berlin-points-of-interest-car-sharing-stations-districts.csv, attributes: *car-sharing-stations }
+              - { source_file_name: berlin-points-of-interest-childcare-districts.csv, attributes: *childcare }
+              - { source_file_name: berlin-points-of-interest-cinemas-districts.csv, attributes: *cinemas }
+              - { source_file_name: berlin-points-of-interest-clinics-districts.csv, attributes: *clinics }
+              - { source_file_name: berlin-points-of-interest-community-centers-districts.csv, attributes: *community-centers }
+              - { source_file_name: berlin-points-of-interest-convenience-stores-districts.csv, attributes: *convenience-stores }
+              - { source_file_name: berlin-points-of-interest-coworking-spaces-districts.csv, attributes: *coworking-spaces }
+              - { source_file_name: berlin-points-of-interest-doctors-districts.csv, attributes: *doctors }
+              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-districts.csv, attributes: *fast-food-restaurants }
+              - { source_file_name: berlin-points-of-interest-fire-stations-districts.csv, attributes: *fire-stations }
+              - { source_file_name: berlin-points-of-interest-fitness-centers-districts.csv, attributes: *fitness-centers }
+              - { source_file_name: berlin-points-of-interest-food-courts-districts.csv, attributes: *food-courts }
+              - { source_file_name: berlin-points-of-interest-grocery-stores-districts.csv, attributes: *grocery-stores }
+              - { source_file_name: berlin-points-of-interest-hospitals-districts.csv, attributes: *hospitals }
+              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-districts.csv, attributes: *ice-cream-parlours }
+              - { source_file_name: berlin-points-of-interest-kindergartens-districts.csv, attributes: *kindergartens }
+              - { source_file_name: berlin-points-of-interest-libraries-districts.csv, attributes: *libraries }
+              - { source_file_name: berlin-points-of-interest-marketplaces-districts.csv, attributes: *marketplaces }
+              - { source_file_name: berlin-points-of-interest-museums-districts.csv, attributes: *museums }
+              - { source_file_name: berlin-points-of-interest-nightclubs-districts.csv, attributes: *nightclubs }
+              - { source_file_name: berlin-points-of-interest-offices-districts.csv, attributes: *offices }
+              - { source_file_name: berlin-points-of-interest-parks-districts.csv, attributes: *parks }
+              - { source_file_name: berlin-points-of-interest-pharmacies-districts.csv, attributes: *pharmacies }
+              - { source_file_name: berlin-points-of-interest-places-of-worship-districts.csv, attributes: *places-of-worship }
+              - { source_file_name: berlin-points-of-interest-playgrounds-districts.csv, attributes: *playgrounds }
+              - { source_file_name: berlin-points-of-interest-police-stations-districts.csv, attributes: *police-stations }
+              - { source_file_name: berlin-points-of-interest-post-offices-districts.csv, attributes: *post-offices }
+              - { source_file_name: berlin-points-of-interest-pubs-districts.csv, attributes: *pubs }
+              - { source_file_name: berlin-points-of-interest-restaurants-districts.csv, attributes: *restaurants }
+              - { source_file_name: berlin-points-of-interest-sbahn-stops-districts.csv, attributes: *sbahn-stops }
+              - { source_file_name: berlin-points-of-interest-schools-districts.csv, attributes: *schools }
+              - { source_file_name: berlin-points-of-interest-sport-centers-districts.csv, attributes: *sport-centers }
+              - { source_file_name: berlin-points-of-interest-supermarkets-districts.csv, attributes: *supermarkets }
+              - { source_file_name: berlin-points-of-interest-theaters-districts.csv, attributes: *theaters }
+              - { source_file_name: berlin-points-of-interest-tram-stops-districts.csv, attributes: *tram-stops }
+              - { source_file_name: berlin-points-of-interest-ubahn-stops-districts.csv, attributes: *ubahn-stops }
+              - { source_file_name: berlin-points-of-interest-universities-districts.csv, attributes: *universities }
           - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-09-forecast-areas.geojson
+            target_file_name: berlin-lor-points-of-interest-2025-11-forecast-areas.geojson
             population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-forecast-areas.csv
             source_files:
-              - { source_file_name: berlin-points-of-interest-art-galleries-details-forecast-areas.csv, attributes: *art-galleries }
-              - { source_file_name: berlin-points-of-interest-bars-details-forecast-areas.csv, attributes: *bars }
-              - { source_file_name: berlin-points-of-interest-beer-gardens-details-forecast-areas.csv, attributes: *beer-gardens }
-              - { source_file_name: berlin-points-of-interest-bicycle-rentals-details-forecast-areas.csv, attributes: *bicycle-rentals }
-              - { source_file_name: berlin-points-of-interest-bus-stops-details-forecast-areas.csv, attributes: *bus-stops }
-              - { source_file_name: berlin-points-of-interest-cafes-details-forecast-areas.csv, attributes: *cafes }
-              - { source_file_name: berlin-points-of-interest-car-sharing-stations-details-forecast-areas.csv, attributes: *car-sharing-stations }
-              - { source_file_name: berlin-points-of-interest-childcare-details-forecast-areas.csv, attributes: *childcare }
-              - { source_file_name: berlin-points-of-interest-cinemas-details-forecast-areas.csv, attributes: *cinemas }
-              - { source_file_name: berlin-points-of-interest-clinics-details-forecast-areas.csv, attributes: *clinics }
-              - { source_file_name: berlin-points-of-interest-community-centers-details-forecast-areas.csv, attributes: *community-centers }
-              - { source_file_name: berlin-points-of-interest-convenience-stores-details-forecast-areas.csv, attributes: *convenience-stores }
-              - { source_file_name: berlin-points-of-interest-coworking-spaces-details-forecast-areas.csv, attributes: *coworking-spaces }
-              - { source_file_name: berlin-points-of-interest-doctors-details-forecast-areas.csv, attributes: *doctors }
-              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-details-forecast-areas.csv, attributes: *fast-food-restaurants }
-              - { source_file_name: berlin-points-of-interest-fire-stations-details-forecast-areas.csv, attributes: *fire-stations }
-              - { source_file_name: berlin-points-of-interest-fitness-centers-details-forecast-areas.csv, attributes: *fitness-centers }
-              - { source_file_name: berlin-points-of-interest-food-courts-details-forecast-areas.csv, attributes: *food-courts }
-              - { source_file_name: berlin-points-of-interest-grocery-stores-details-forecast-areas.csv, attributes: *grocery-stores }
-              - { source_file_name: berlin-points-of-interest-hospitals-details-forecast-areas.csv, attributes: *hospitals }
-              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-details-forecast-areas.csv, attributes: *ice-cream-parlours }
-              - { source_file_name: berlin-points-of-interest-kindergartens-details-forecast-areas.csv, attributes: *kindergartens }
-              - { source_file_name: berlin-points-of-interest-libraries-details-forecast-areas.csv, attributes: *libraries }
-              - { source_file_name: berlin-points-of-interest-marketplaces-details-forecast-areas.csv, attributes: *marketplaces }
-              - { source_file_name: berlin-points-of-interest-museums-details-forecast-areas.csv, attributes: *museums }
-              - { source_file_name: berlin-points-of-interest-nightclubs-details-forecast-areas.csv, attributes: *nightclubs }
-              - { source_file_name: berlin-points-of-interest-offices-details-forecast-areas.csv, attributes: *offices }
-              - { source_file_name: berlin-points-of-interest-parks-details-forecast-areas.csv, attributes: *parks }
-              - { source_file_name: berlin-points-of-interest-pharmacies-details-forecast-areas.csv, attributes: *pharmacies }
-              - { source_file_name: berlin-points-of-interest-places-of-worship-details-forecast-areas.csv, attributes: *places-of-worship }
-              - { source_file_name: berlin-points-of-interest-playgrounds-details-forecast-areas.csv, attributes: *playgrounds }
-              - { source_file_name: berlin-points-of-interest-police-stations-details-forecast-areas.csv, attributes: *police-stations }
-              - { source_file_name: berlin-points-of-interest-post-offices-details-forecast-areas.csv, attributes: *post-offices }
-              - { source_file_name: berlin-points-of-interest-pubs-details-forecast-areas.csv, attributes: *pubs }
-              - { source_file_name: berlin-points-of-interest-restaurants-details-forecast-areas.csv, attributes: *restaurants }
-              - { source_file_name: berlin-points-of-interest-sbahn-stops-details-forecast-areas.csv, attributes: *sbahn-stops }
-              - { source_file_name: berlin-points-of-interest-schools-details-forecast-areas.csv, attributes: *schools }
-              - { source_file_name: berlin-points-of-interest-sport-centers-details-forecast-areas.csv, attributes: *sport-centers }
-              - { source_file_name: berlin-points-of-interest-supermarkets-details-forecast-areas.csv, attributes: *supermarkets }
-              - { source_file_name: berlin-points-of-interest-theaters-details-forecast-areas.csv, attributes: *theaters }
-              - { source_file_name: berlin-points-of-interest-tram-stops-details-forecast-areas.csv, attributes: *tram-stops }
-              - { source_file_name: berlin-points-of-interest-ubahn-stops-details-forecast-areas.csv, attributes: *ubahn-stops }
-              - { source_file_name: berlin-points-of-interest-universities-details-forecast-areas.csv, attributes: *universities }
+              - { source_file_name: berlin-points-of-interest-art-galleries-forecast-areas.csv, attributes: *art-galleries }
+              - { source_file_name: berlin-points-of-interest-bars-forecast-areas.csv, attributes: *bars }
+              - { source_file_name: berlin-points-of-interest-beer-gardens-forecast-areas.csv, attributes: *beer-gardens }
+              - { source_file_name: berlin-points-of-interest-bicycle-rentals-forecast-areas.csv, attributes: *bicycle-rentals }
+              - { source_file_name: berlin-points-of-interest-bus-stops-forecast-areas.csv, attributes: *bus-stops }
+              - { source_file_name: berlin-points-of-interest-cafes-forecast-areas.csv, attributes: *cafes }
+              - { source_file_name: berlin-points-of-interest-car-sharing-stations-forecast-areas.csv, attributes: *car-sharing-stations }
+              - { source_file_name: berlin-points-of-interest-childcare-forecast-areas.csv, attributes: *childcare }
+              - { source_file_name: berlin-points-of-interest-cinemas-forecast-areas.csv, attributes: *cinemas }
+              - { source_file_name: berlin-points-of-interest-clinics-forecast-areas.csv, attributes: *clinics }
+              - { source_file_name: berlin-points-of-interest-community-centers-forecast-areas.csv, attributes: *community-centers }
+              - { source_file_name: berlin-points-of-interest-convenience-stores-forecast-areas.csv, attributes: *convenience-stores }
+              - { source_file_name: berlin-points-of-interest-coworking-spaces-forecast-areas.csv, attributes: *coworking-spaces }
+              - { source_file_name: berlin-points-of-interest-doctors-forecast-areas.csv, attributes: *doctors }
+              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-forecast-areas.csv, attributes: *fast-food-restaurants }
+              - { source_file_name: berlin-points-of-interest-fire-stations-forecast-areas.csv, attributes: *fire-stations }
+              - { source_file_name: berlin-points-of-interest-fitness-centers-forecast-areas.csv, attributes: *fitness-centers }
+              - { source_file_name: berlin-points-of-interest-food-courts-forecast-areas.csv, attributes: *food-courts }
+              - { source_file_name: berlin-points-of-interest-grocery-stores-forecast-areas.csv, attributes: *grocery-stores }
+              - { source_file_name: berlin-points-of-interest-hospitals-forecast-areas.csv, attributes: *hospitals }
+              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-forecast-areas.csv, attributes: *ice-cream-parlours }
+              - { source_file_name: berlin-points-of-interest-kindergartens-forecast-areas.csv, attributes: *kindergartens }
+              - { source_file_name: berlin-points-of-interest-libraries-forecast-areas.csv, attributes: *libraries }
+              - { source_file_name: berlin-points-of-interest-marketplaces-forecast-areas.csv, attributes: *marketplaces }
+              - { source_file_name: berlin-points-of-interest-museums-forecast-areas.csv, attributes: *museums }
+              - { source_file_name: berlin-points-of-interest-nightclubs-forecast-areas.csv, attributes: *nightclubs }
+              - { source_file_name: berlin-points-of-interest-offices-forecast-areas.csv, attributes: *offices }
+              - { source_file_name: berlin-points-of-interest-parks-forecast-areas.csv, attributes: *parks }
+              - { source_file_name: berlin-points-of-interest-pharmacies-forecast-areas.csv, attributes: *pharmacies }
+              - { source_file_name: berlin-points-of-interest-places-of-worship-forecast-areas.csv, attributes: *places-of-worship }
+              - { source_file_name: berlin-points-of-interest-playgrounds-forecast-areas.csv, attributes: *playgrounds }
+              - { source_file_name: berlin-points-of-interest-police-stations-forecast-areas.csv, attributes: *police-stations }
+              - { source_file_name: berlin-points-of-interest-post-offices-forecast-areas.csv, attributes: *post-offices }
+              - { source_file_name: berlin-points-of-interest-pubs-forecast-areas.csv, attributes: *pubs }
+              - { source_file_name: berlin-points-of-interest-restaurants-forecast-areas.csv, attributes: *restaurants }
+              - { source_file_name: berlin-points-of-interest-sbahn-stops-forecast-areas.csv, attributes: *sbahn-stops }
+              - { source_file_name: berlin-points-of-interest-schools-forecast-areas.csv, attributes: *schools }
+              - { source_file_name: berlin-points-of-interest-sport-centers-forecast-areas.csv, attributes: *sport-centers }
+              - { source_file_name: berlin-points-of-interest-supermarkets-forecast-areas.csv, attributes: *supermarkets }
+              - { source_file_name: berlin-points-of-interest-theaters-forecast-areas.csv, attributes: *theaters }
+              - { source_file_name: berlin-points-of-interest-tram-stops-forecast-areas.csv, attributes: *tram-stops }
+              - { source_file_name: berlin-points-of-interest-ubahn-stops-forecast-areas.csv, attributes: *ubahn-stops }
+              - { source_file_name: berlin-points-of-interest-universities-forecast-areas.csv, attributes: *universities }
           - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-09-district-regions.geojson
+            target_file_name: berlin-lor-points-of-interest-2025-11-district-regions.geojson
             population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-district-regions.csv
             source_files:
-              - { source_file_name: berlin-points-of-interest-art-galleries-details-district-regions.csv, attributes: *art-galleries }
-              - { source_file_name: berlin-points-of-interest-bars-details-district-regions.csv, attributes: *bars }
-              - { source_file_name: berlin-points-of-interest-beer-gardens-details-district-regions.csv, attributes: *beer-gardens }
-              - { source_file_name: berlin-points-of-interest-bicycle-rentals-details-district-regions.csv, attributes: *bicycle-rentals }
-              - { source_file_name: berlin-points-of-interest-bus-stops-details-district-regions.csv, attributes: *bus-stops }
-              - { source_file_name: berlin-points-of-interest-cafes-details-district-regions.csv, attributes: *cafes }
-              - { source_file_name: berlin-points-of-interest-car-sharing-stations-details-district-regions.csv, attributes: *car-sharing-stations }
-              - { source_file_name: berlin-points-of-interest-childcare-details-district-regions.csv, attributes: *childcare }
-              - { source_file_name: berlin-points-of-interest-cinemas-details-district-regions.csv, attributes: *cinemas }
-              - { source_file_name: berlin-points-of-interest-clinics-details-district-regions.csv, attributes: *clinics }
-              - { source_file_name: berlin-points-of-interest-community-centers-details-district-regions.csv, attributes: *community-centers }
-              - { source_file_name: berlin-points-of-interest-convenience-stores-details-district-regions.csv, attributes: *convenience-stores }
-              - { source_file_name: berlin-points-of-interest-coworking-spaces-details-district-regions.csv, attributes: *coworking-spaces }
-              - { source_file_name: berlin-points-of-interest-doctors-details-district-regions.csv, attributes: *doctors }
-              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-details-district-regions.csv, attributes: *fast-food-restaurants }
-              - { source_file_name: berlin-points-of-interest-fire-stations-details-district-regions.csv, attributes: *fire-stations }
-              - { source_file_name: berlin-points-of-interest-fitness-centers-details-district-regions.csv, attributes: *fitness-centers }
-              - { source_file_name: berlin-points-of-interest-food-courts-details-district-regions.csv, attributes: *food-courts }
-              - { source_file_name: berlin-points-of-interest-grocery-stores-details-district-regions.csv, attributes: *grocery-stores }
-              - { source_file_name: berlin-points-of-interest-hospitals-details-district-regions.csv, attributes: *hospitals }
-              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-details-district-regions.csv, attributes: *ice-cream-parlours }
-              - { source_file_name: berlin-points-of-interest-kindergartens-details-district-regions.csv, attributes: *kindergartens }
-              - { source_file_name: berlin-points-of-interest-libraries-details-district-regions.csv, attributes: *libraries }
-              - { source_file_name: berlin-points-of-interest-marketplaces-details-district-regions.csv, attributes: *marketplaces }
-              - { source_file_name: berlin-points-of-interest-museums-details-district-regions.csv, attributes: *museums }
-              - { source_file_name: berlin-points-of-interest-nightclubs-details-district-regions.csv, attributes: *nightclubs }
-              - { source_file_name: berlin-points-of-interest-offices-details-district-regions.csv, attributes: *offices }
-              - { source_file_name: berlin-points-of-interest-parks-details-district-regions.csv, attributes: *parks }
-              - { source_file_name: berlin-points-of-interest-pharmacies-details-district-regions.csv, attributes: *pharmacies }
-              - { source_file_name: berlin-points-of-interest-places-of-worship-details-district-regions.csv, attributes: *places-of-worship }
-              - { source_file_name: berlin-points-of-interest-playgrounds-details-district-regions.csv, attributes: *playgrounds }
-              - { source_file_name: berlin-points-of-interest-police-stations-details-district-regions.csv, attributes: *police-stations }
-              - { source_file_name: berlin-points-of-interest-post-offices-details-district-regions.csv, attributes: *post-offices }
-              - { source_file_name: berlin-points-of-interest-pubs-details-district-regions.csv, attributes: *pubs }
-              - { source_file_name: berlin-points-of-interest-restaurants-details-district-regions.csv, attributes: *restaurants }
-              - { source_file_name: berlin-points-of-interest-sbahn-stops-details-district-regions.csv, attributes: *sbahn-stops }
-              - { source_file_name: berlin-points-of-interest-schools-details-district-regions.csv, attributes: *schools }
-              - { source_file_name: berlin-points-of-interest-sport-centers-details-district-regions.csv, attributes: *sport-centers }
-              - { source_file_name: berlin-points-of-interest-supermarkets-details-district-regions.csv, attributes: *supermarkets }
-              - { source_file_name: berlin-points-of-interest-theaters-details-district-regions.csv, attributes: *theaters }
-              - { source_file_name: berlin-points-of-interest-tram-stops-details-district-regions.csv, attributes: *tram-stops }
-              - { source_file_name: berlin-points-of-interest-ubahn-stops-details-district-regions.csv, attributes: *ubahn-stops }
-              - { source_file_name: berlin-points-of-interest-universities-details-district-regions.csv, attributes: *universities }
+              - { source_file_name: berlin-points-of-interest-art-galleries-district-regions.csv, attributes: *art-galleries }
+              - { source_file_name: berlin-points-of-interest-bars-district-regions.csv, attributes: *bars }
+              - { source_file_name: berlin-points-of-interest-beer-gardens-district-regions.csv, attributes: *beer-gardens }
+              - { source_file_name: berlin-points-of-interest-bicycle-rentals-district-regions.csv, attributes: *bicycle-rentals }
+              - { source_file_name: berlin-points-of-interest-bus-stops-district-regions.csv, attributes: *bus-stops }
+              - { source_file_name: berlin-points-of-interest-cafes-district-regions.csv, attributes: *cafes }
+              - { source_file_name: berlin-points-of-interest-car-sharing-stations-district-regions.csv, attributes: *car-sharing-stations }
+              - { source_file_name: berlin-points-of-interest-childcare-district-regions.csv, attributes: *childcare }
+              - { source_file_name: berlin-points-of-interest-cinemas-district-regions.csv, attributes: *cinemas }
+              - { source_file_name: berlin-points-of-interest-clinics-district-regions.csv, attributes: *clinics }
+              - { source_file_name: berlin-points-of-interest-community-centers-district-regions.csv, attributes: *community-centers }
+              - { source_file_name: berlin-points-of-interest-convenience-stores-district-regions.csv, attributes: *convenience-stores }
+              - { source_file_name: berlin-points-of-interest-coworking-spaces-district-regions.csv, attributes: *coworking-spaces }
+              - { source_file_name: berlin-points-of-interest-doctors-district-regions.csv, attributes: *doctors }
+              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-district-regions.csv, attributes: *fast-food-restaurants }
+              - { source_file_name: berlin-points-of-interest-fire-stations-district-regions.csv, attributes: *fire-stations }
+              - { source_file_name: berlin-points-of-interest-fitness-centers-district-regions.csv, attributes: *fitness-centers }
+              - { source_file_name: berlin-points-of-interest-food-courts-district-regions.csv, attributes: *food-courts }
+              - { source_file_name: berlin-points-of-interest-grocery-stores-district-regions.csv, attributes: *grocery-stores }
+              - { source_file_name: berlin-points-of-interest-hospitals-district-regions.csv, attributes: *hospitals }
+              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-district-regions.csv, attributes: *ice-cream-parlours }
+              - { source_file_name: berlin-points-of-interest-kindergartens-district-regions.csv, attributes: *kindergartens }
+              - { source_file_name: berlin-points-of-interest-libraries-district-regions.csv, attributes: *libraries }
+              - { source_file_name: berlin-points-of-interest-marketplaces-district-regions.csv, attributes: *marketplaces }
+              - { source_file_name: berlin-points-of-interest-museums-district-regions.csv, attributes: *museums }
+              - { source_file_name: berlin-points-of-interest-nightclubs-district-regions.csv, attributes: *nightclubs }
+              - { source_file_name: berlin-points-of-interest-offices-district-regions.csv, attributes: *offices }
+              - { source_file_name: berlin-points-of-interest-parks-district-regions.csv, attributes: *parks }
+              - { source_file_name: berlin-points-of-interest-pharmacies-district-regions.csv, attributes: *pharmacies }
+              - { source_file_name: berlin-points-of-interest-places-of-worship-district-regions.csv, attributes: *places-of-worship }
+              - { source_file_name: berlin-points-of-interest-playgrounds-district-regions.csv, attributes: *playgrounds }
+              - { source_file_name: berlin-points-of-interest-police-stations-district-regions.csv, attributes: *police-stations }
+              - { source_file_name: berlin-points-of-interest-post-offices-district-regions.csv, attributes: *post-offices }
+              - { source_file_name: berlin-points-of-interest-pubs-district-regions.csv, attributes: *pubs }
+              - { source_file_name: berlin-points-of-interest-restaurants-district-regions.csv, attributes: *restaurants }
+              - { source_file_name: berlin-points-of-interest-sbahn-stops-district-regions.csv, attributes: *sbahn-stops }
+              - { source_file_name: berlin-points-of-interest-schools-district-regions.csv, attributes: *schools }
+              - { source_file_name: berlin-points-of-interest-sport-centers-district-regions.csv, attributes: *sport-centers }
+              - { source_file_name: berlin-points-of-interest-supermarkets-district-regions.csv, attributes: *supermarkets }
+              - { source_file_name: berlin-points-of-interest-theaters-district-regions.csv, attributes: *theaters }
+              - { source_file_name: berlin-points-of-interest-tram-stops-district-regions.csv, attributes: *tram-stops }
+              - { source_file_name: berlin-points-of-interest-ubahn-stops-district-regions.csv, attributes: *ubahn-stops }
+              - { source_file_name: berlin-points-of-interest-universities-district-regions.csv, attributes: *universities }
           - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-09-planning-areas.geojson
+            target_file_name: berlin-lor-points-of-interest-2025-11-planning-areas.geojson
             population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-planning-areas.csv
             source_files:
-              - { source_file_name: berlin-points-of-interest-art-galleries-details-planning-areas.csv, attributes: *art-galleries }
-              - { source_file_name: berlin-points-of-interest-bars-details-planning-areas.csv, attributes: *bars }
-              - { source_file_name: berlin-points-of-interest-beer-gardens-details-planning-areas.csv, attributes: *beer-gardens }
-              - { source_file_name: berlin-points-of-interest-bicycle-rentals-details-planning-areas.csv, attributes: *bicycle-rentals }
-              - { source_file_name: berlin-points-of-interest-bus-stops-details-planning-areas.csv, attributes: *bus-stops }
-              - { source_file_name: berlin-points-of-interest-cafes-details-planning-areas.csv, attributes: *cafes }
-              - { source_file_name: berlin-points-of-interest-car-sharing-stations-details-planning-areas.csv, attributes: *car-sharing-stations }
-              - { source_file_name: berlin-points-of-interest-childcare-details-planning-areas.csv, attributes: *childcare }
-              - { source_file_name: berlin-points-of-interest-cinemas-details-planning-areas.csv, attributes: *cinemas }
-              - { source_file_name: berlin-points-of-interest-clinics-details-planning-areas.csv, attributes: *clinics }
-              - { source_file_name: berlin-points-of-interest-community-centers-details-planning-areas.csv, attributes: *community-centers }
-              - { source_file_name: berlin-points-of-interest-convenience-stores-details-planning-areas.csv, attributes: *convenience-stores }
-              - { source_file_name: berlin-points-of-interest-coworking-spaces-details-planning-areas.csv, attributes: *coworking-spaces }
-              - { source_file_name: berlin-points-of-interest-doctors-details-planning-areas.csv, attributes: *doctors }
-              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-details-planning-areas.csv, attributes: *fast-food-restaurants }
-              - { source_file_name: berlin-points-of-interest-fire-stations-details-planning-areas.csv, attributes: *fire-stations }
-              - { source_file_name: berlin-points-of-interest-fitness-centers-details-planning-areas.csv, attributes: *fitness-centers }
-              - { source_file_name: berlin-points-of-interest-food-courts-details-planning-areas.csv, attributes: *food-courts }
-              - { source_file_name: berlin-points-of-interest-grocery-stores-details-planning-areas.csv, attributes: *grocery-stores }
-              - { source_file_name: berlin-points-of-interest-hospitals-details-planning-areas.csv, attributes: *hospitals }
-              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-details-planning-areas.csv, attributes: *ice-cream-parlours }
-              - { source_file_name: berlin-points-of-interest-kindergartens-details-planning-areas.csv, attributes: *kindergartens }
-              - { source_file_name: berlin-points-of-interest-libraries-details-planning-areas.csv, attributes: *libraries }
-              - { source_file_name: berlin-points-of-interest-marketplaces-details-planning-areas.csv, attributes: *marketplaces }
-              - { source_file_name: berlin-points-of-interest-museums-details-planning-areas.csv, attributes: *museums }
-              - { source_file_name: berlin-points-of-interest-nightclubs-details-planning-areas.csv, attributes: *nightclubs }
-              - { source_file_name: berlin-points-of-interest-offices-details-planning-areas.csv, attributes: *offices }
-              - { source_file_name: berlin-points-of-interest-parks-details-planning-areas.csv, attributes: *parks }
-              - { source_file_name: berlin-points-of-interest-pharmacies-details-planning-areas.csv, attributes: *pharmacies }
-              - { source_file_name: berlin-points-of-interest-places-of-worship-details-planning-areas.csv, attributes: *places-of-worship }
-              - { source_file_name: berlin-points-of-interest-playgrounds-details-planning-areas.csv, attributes: *playgrounds }
-              - { source_file_name: berlin-points-of-interest-police-stations-details-planning-areas.csv, attributes: *police-stations }
-              - { source_file_name: berlin-points-of-interest-post-offices-details-planning-areas.csv, attributes: *post-offices }
-              - { source_file_name: berlin-points-of-interest-pubs-details-planning-areas.csv, attributes: *pubs }
-              - { source_file_name: berlin-points-of-interest-restaurants-details-planning-areas.csv, attributes: *restaurants }
-              - { source_file_name: berlin-points-of-interest-sbahn-stops-details-planning-areas.csv, attributes: *sbahn-stops }
-              - { source_file_name: berlin-points-of-interest-schools-details-planning-areas.csv, attributes: *schools }
-              - { source_file_name: berlin-points-of-interest-sport-centers-details-planning-areas.csv, attributes: *sport-centers }
-              - { source_file_name: berlin-points-of-interest-supermarkets-details-planning-areas.csv, attributes: *supermarkets }
-              - { source_file_name: berlin-points-of-interest-theaters-details-planning-areas.csv, attributes: *theaters }
-              - { source_file_name: berlin-points-of-interest-tram-stops-details-planning-areas.csv, attributes: *tram-stops }
-              - { source_file_name: berlin-points-of-interest-ubahn-stops-details-planning-areas.csv, attributes: *ubahn-stops }
-              - { source_file_name: berlin-points-of-interest-universities-details-planning-areas.csv, attributes: *universities }
+              - { source_file_name: berlin-points-of-interest-art-galleries-planning-areas.csv, attributes: *art-galleries }
+              - { source_file_name: berlin-points-of-interest-bars-planning-areas.csv, attributes: *bars }
+              - { source_file_name: berlin-points-of-interest-beer-gardens-planning-areas.csv, attributes: *beer-gardens }
+              - { source_file_name: berlin-points-of-interest-bicycle-rentals-planning-areas.csv, attributes: *bicycle-rentals }
+              - { source_file_name: berlin-points-of-interest-bus-stops-planning-areas.csv, attributes: *bus-stops }
+              - { source_file_name: berlin-points-of-interest-cafes-planning-areas.csv, attributes: *cafes }
+              - { source_file_name: berlin-points-of-interest-car-sharing-stations-planning-areas.csv, attributes: *car-sharing-stations }
+              - { source_file_name: berlin-points-of-interest-childcare-planning-areas.csv, attributes: *childcare }
+              - { source_file_name: berlin-points-of-interest-cinemas-planning-areas.csv, attributes: *cinemas }
+              - { source_file_name: berlin-points-of-interest-clinics-planning-areas.csv, attributes: *clinics }
+              - { source_file_name: berlin-points-of-interest-community-centers-planning-areas.csv, attributes: *community-centers }
+              - { source_file_name: berlin-points-of-interest-convenience-stores-planning-areas.csv, attributes: *convenience-stores }
+              - { source_file_name: berlin-points-of-interest-coworking-spaces-planning-areas.csv, attributes: *coworking-spaces }
+              - { source_file_name: berlin-points-of-interest-doctors-planning-areas.csv, attributes: *doctors }
+              - { source_file_name: berlin-points-of-interest-fast-food-restaurants-planning-areas.csv, attributes: *fast-food-restaurants }
+              - { source_file_name: berlin-points-of-interest-fire-stations-planning-areas.csv, attributes: *fire-stations }
+              - { source_file_name: berlin-points-of-interest-fitness-centers-planning-areas.csv, attributes: *fitness-centers }
+              - { source_file_name: berlin-points-of-interest-food-courts-planning-areas.csv, attributes: *food-courts }
+              - { source_file_name: berlin-points-of-interest-grocery-stores-planning-areas.csv, attributes: *grocery-stores }
+              - { source_file_name: berlin-points-of-interest-hospitals-planning-areas.csv, attributes: *hospitals }
+              - { source_file_name: berlin-points-of-interest-ice-cream-parlours-planning-areas.csv, attributes: *ice-cream-parlours }
+              - { source_file_name: berlin-points-of-interest-kindergartens-planning-areas.csv, attributes: *kindergartens }
+              - { source_file_name: berlin-points-of-interest-libraries-planning-areas.csv, attributes: *libraries }
+              - { source_file_name: berlin-points-of-interest-marketplaces-planning-areas.csv, attributes: *marketplaces }
+              - { source_file_name: berlin-points-of-interest-museums-planning-areas.csv, attributes: *museums }
+              - { source_file_name: berlin-points-of-interest-nightclubs-planning-areas.csv, attributes: *nightclubs }
+              - { source_file_name: berlin-points-of-interest-offices-planning-areas.csv, attributes: *offices }
+              - { source_file_name: berlin-points-of-interest-parks-planning-areas.csv, attributes: *parks }
+              - { source_file_name: berlin-points-of-interest-pharmacies-planning-areas.csv, attributes: *pharmacies }
+              - { source_file_name: berlin-points-of-interest-places-of-worship-planning-areas.csv, attributes: *places-of-worship }
+              - { source_file_name: berlin-points-of-interest-playgrounds-planning-areas.csv, attributes: *playgrounds }
+              - { source_file_name: berlin-points-of-interest-police-stations-planning-areas.csv, attributes: *police-stations }
+              - { source_file_name: berlin-points-of-interest-post-offices-planning-areas.csv, attributes: *post-offices }
+              - { source_file_name: berlin-points-of-interest-pubs-planning-areas.csv, attributes: *pubs }
+              - { source_file_name: berlin-points-of-interest-restaurants-planning-areas.csv, attributes: *restaurants }
+              - { source_file_name: berlin-points-of-interest-sbahn-stops-planning-areas.csv, attributes: *sbahn-stops }
+              - { source_file_name: berlin-points-of-interest-schools-planning-areas.csv, attributes: *schools }
+              - { source_file_name: berlin-points-of-interest-sport-centers-planning-areas.csv, attributes: *sport-centers }
+              - { source_file_name: berlin-points-of-interest-supermarkets-planning-areas.csv, attributes: *supermarkets }
+              - { source_file_name: berlin-points-of-interest-theaters-planning-areas.csv, attributes: *theaters }
+              - { source_file_name: berlin-points-of-interest-tram-stops-planning-areas.csv, attributes: *tram-stops }
+              - { source_file_name: berlin-points-of-interest-ubahn-stops-planning-areas.csv, attributes: *ubahn-stops }
+              - { source_file_name: berlin-points-of-interest-universities-planning-areas.csv, attributes: *universities }
