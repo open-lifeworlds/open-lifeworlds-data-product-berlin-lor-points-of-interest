@@ -1,25 +1,25 @@
 ---
 dataProductDescriptor: data-product-descriptor
 info:
-  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-lor-points-of-interest:1.0
+  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-points-of-interest:1.0
   name: Berlin LOR Points of Interest
   version: '1.0'
   domain: domain
   owner:
     id: Open Lifeworlds
     name: Open Lifeworlds
-  id: berlin-lor-points-of-interest
+  id: berlin-points-of-interest
   entityType:
   displayName: Berlin LOR Points of Interest
-  description: Data product providing Berlin points-of-interest data on different LOR hierarchy levels
+  description: Data product providing Berlin points-of-interest data on different hierarchy levels
   contactPoints:
 interfaceComponents:
   outputPorts:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-points-of-interest-geojson
-      fullyQualifiedName: berlin-lor-points-of-interest-geojson
+      id: berlin-points-of-interest-geojson
+      fullyQualifiedName: berlin-points-of-interest-geojson
       entityType:
       name: ''
       version:
@@ -31,8 +31,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-points-of-interest-statistics
-      fullyQualifiedName: berlin-lor-points-of-interest-statistics
+      id: berlin-points-of-interest-statistics
+      fullyQualifiedName: berlin-points-of-interest-statistics
       entityType:
       name: ''
       version:
@@ -71,8 +71,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-population-source-aligned
-      fullyQualifiedName: berlin-lor-population-source-aligned
+      id: berlin-population-source-aligned
+      fullyQualifiedName: berlin-population-source-aligned
       entityType:
       name: ''
       version:

@@ -5,12 +5,12 @@
 
 ## Info
 
-* ID: berlin-lor-points-of-interest
-* fully qualified name: urn:dpds:openlifeworlds:dataproducts:berlin-lor-points-of-interest:1.0
+* ID: berlin-points-of-interest
+* fully qualified name: urn:dpds:openlifeworlds:dataproducts:berlin-points-of-interest:1.0
 * name: Berlin LOR Points of Interest
 * version: 1.0
 * display name: Berlin LOR Points of Interest
-* description: Data product providing Berlin points-of-interest data on different LOR hierarchy levels
+* description: Data product providing Berlin points-of-interest data on different hierarchy levels
 * domain: domain
 ### Owner
 
@@ -24,14 +24,14 @@
 * fully qualified name: berlin-lor-geodata
 #### berlin-points-of-interest-source-source-aligned
 * fully qualified name: berlin-points-of-interest-source-source-aligned
-#### berlin-lor-population-source-aligned
-* fully qualified name: berlin-lor-population-source-aligned
+#### berlin-population-source-aligned
+* fully qualified name: berlin-population-source-aligned
 
 ### Output Ports
-#### berlin-lor-points-of-interest-geojson
-* fully qualified name: berlin-lor-points-of-interest-geojson
-#### berlin-lor-points-of-interest-statistics
-* fully qualified name: berlin-lor-points-of-interest-statistics
+#### berlin-points-of-interest-geojson
+* fully qualified name: berlin-points-of-interest-geojson
+#### berlin-points-of-interest-statistics
+* fully qualified name: berlin-points-of-interest-statistics
 
 
 ---

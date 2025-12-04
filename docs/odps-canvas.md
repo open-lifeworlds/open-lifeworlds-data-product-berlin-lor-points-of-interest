@@ -7,15 +7,12 @@
 ### Basic Information
 
 * output file formats: geojson, .json
-* categories: timeseries
-* description: Data product providing Berlin points-of-interest data on different LOR hierarchy levels
+* description: Data product providing Berlin points-of-interest data on different hierarchy levels
 * logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
-* product ID: berlin-lor-points-of-interest
-* product series: Berlin Timeseries Series
+* product ID: berlin-points-of-interest
 * status: active
 * tags: berlin, points-of-interest
 * type: source-aligned
-* value proposition: Combining Berlin point-of-interest data and geodata
 * version: 1.0
 * visibility: public
 

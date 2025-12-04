@@ -6,7 +6,7 @@
     <img src="logo-with-text.png" alt="Logo" style="height: 80px; ">
   </a>
 
-  <h1 align="center">Berlin points of interest</h1>
+  <h1 align="center">Berlin Points of Interest</h1>
 
   <p align="center">
     Data product combining Berlin points-of-interest data and geodata

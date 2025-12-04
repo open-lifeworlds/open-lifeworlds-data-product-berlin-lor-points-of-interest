@@ -173,13 +173,13 @@ attribute_groups:
     - { name: universities_per_sqkm, numerator: points_of_interest, denominator_area_sqkm: true }
     - { name: universities_per_100k_inhabitant, numerator: points_of_interest, denominator_100k_inhabitants: True }
 input_port_groups:
-  - id: berlin-lor-points-of-interest
+  - id: berlin-points-of-interest
     input_ports:
       - id: berlin-points-of-interest-2025-11-csv
         files:
           - geojson_template_file_name: berlin-lor-city/berlin-lor-city.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-11-city.geojson
-            population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-city.csv
+            target_file_name: berlin-points-of-interest-2025-11-city.geojson
+            population_file_name: berlin-population-2024-02-csv/berlin-population-2024-02-t2-city.csv
             source_files:
               - { source_file_name: berlin-points-of-interest-art-galleries-city.csv, attributes: *art-galleries }
               - { source_file_name: berlin-points-of-interest-bars-city.csv, attributes: *bars }
@@ -225,8 +225,8 @@ input_port_groups:
               - { source_file_name: berlin-points-of-interest-ubahn-stops-city.csv, attributes: *ubahn-stops }
               - { source_file_name: berlin-points-of-interest-universities-city.csv, attributes: *universities }
           - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-11-districts.geojson
-            population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-districts.csv
+            target_file_name: berlin-points-of-interest-2025-11-districts.geojson
+            population_file_name: berlin-population-2024-02-csv/berlin-population-2024-02-t2-districts.csv
             source_files:
               - { source_file_name: berlin-points-of-interest-art-galleries-districts.csv, attributes: *art-galleries }
               - { source_file_name: berlin-points-of-interest-bars-districts.csv, attributes: *bars }
@@ -272,8 +272,8 @@ input_port_groups:
               - { source_file_name: berlin-points-of-interest-ubahn-stops-districts.csv, attributes: *ubahn-stops }
               - { source_file_name: berlin-points-of-interest-universities-districts.csv, attributes: *universities }
           - geojson_template_file_name: berlin-lor-forecast-areas-from-2021/berlin-lor-forecast-areas-from-2021.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-11-forecast-areas.geojson
-            population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-forecast-areas.csv
+            target_file_name: berlin-points-of-interest-2025-11-forecast-areas.geojson
+            population_file_name: berlin-population-2024-02-csv/berlin-population-2024-02-t2-forecast-areas.csv
             source_files:
               - { source_file_name: berlin-points-of-interest-art-galleries-forecast-areas.csv, attributes: *art-galleries }
               - { source_file_name: berlin-points-of-interest-bars-forecast-areas.csv, attributes: *bars }
@@ -319,8 +319,8 @@ input_port_groups:
               - { source_file_name: berlin-points-of-interest-ubahn-stops-forecast-areas.csv, attributes: *ubahn-stops }
               - { source_file_name: berlin-points-of-interest-universities-forecast-areas.csv, attributes: *universities }
           - geojson_template_file_name: berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-11-district-regions.geojson
-            population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-district-regions.csv
+            target_file_name: berlin-points-of-interest-2025-11-district-regions.geojson
+            population_file_name: berlin-population-2024-02-csv/berlin-population-2024-02-t2-district-regions.csv
             source_files:
               - { source_file_name: berlin-points-of-interest-art-galleries-district-regions.csv, attributes: *art-galleries }
               - { source_file_name: berlin-points-of-interest-bars-district-regions.csv, attributes: *bars }
@@ -366,8 +366,8 @@ input_port_groups:
               - { source_file_name: berlin-points-of-interest-ubahn-stops-district-regions.csv, attributes: *ubahn-stops }
               - { source_file_name: berlin-points-of-interest-universities-district-regions.csv, attributes: *universities }
           - geojson_template_file_name: berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
-            target_file_name: berlin-lor-points-of-interest-2025-11-planning-areas.geojson
-            population_file_name: berlin-lor-population-2024-02/berlin-lor-population-2024-02-t2-planning-areas.csv
+            target_file_name: berlin-points-of-interest-2025-11-planning-areas.geojson
+            population_file_name: berlin-population-2024-02-csv/berlin-population-2024-02-t2-planning-areas.csv
             source_files:
               - { source_file_name: berlin-points-of-interest-art-galleries-planning-areas.csv, attributes: *art-galleries }
               - { source_file_name: berlin-points-of-interest-bars-planning-areas.csv, attributes: *bars }
